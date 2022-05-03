@@ -14,7 +14,6 @@ defaultContentLanguage = "it"
 
 [taxonomies]
   category = 'categories'
-  materia = 'materie'
   tag = 'tags'
 
 [outputs]
