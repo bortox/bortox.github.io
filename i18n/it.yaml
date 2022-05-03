@@ -1,0 +1,55 @@
+article:
+  anchor_label: "Ancora"
+  date: "{{ .Date }}"
+  date_updated: "Ultimo aggiornamento: {{ .Date }}"
+  draft: "Bozza"
+  edit_title: "Modifica contenuto"
+  reading_time:
+    one: "{{ .Count }} minuto"
+    other: "{{ .Count }} minuti"
+  reading_time_title: "Tempo di lettura"
+  table_of_contents: "Tabella dei contenuti"
+  word_count:
+    one: "{{ .Count }} parola"
+    other: "{{ .Count }} parole"
+
+author:
+  byline_title: "Autore"
+
+code:
+  copy: "Copia"
+  copied: "Copiato"
+
+error:
+  404_title: "Pagina non trovata :confused:"
+  404_error: "Errore 404"
+  404_description: "Pare che la pagina appena richiesta non esista. <a href='/'>Torna su bortox.it</a>"
+
+footer:
+  dark_appearance: "Passa al tema scuro"
+  light_appearance: "Passa al tema chiaro"
+  powered_by: "Sito basato su {{ .Hugo }} &amp; {{ .Congo }}"
+
+list:
+  externalurl_title: "Collegamento ad un sito esterno"
+  no_articles: "Non c'è ancora nessun articolo qui."
+
+nav:
+  scroll_to_top_title: "Scorri in cima."
+  skip_to_main: "Raggiungi il contenuto principale"
+
+search:
+  open_button_title: "Cerca (/)"
+  close_button_title: "Chiudi (Esc)"
+  input_placeholder: "Query di ricerca"
+
+sharing:
+  email: "Invia via email"
+  facebook: "Condividi su Facebook"
+  linkedin: "Condividi su LinkedIn"
+  pinterest: "Pinna su Pinterest"
+  reddit: "Invia a Reddit"
+  twitter: "Twitta on Twitter"
+
+shortcode:
+  recent_articles: "Post recenti"

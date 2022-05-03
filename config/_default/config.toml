@@ -1,0 +1,21 @@
+# config/_default/config.toml
+
+baseURL = "https://bortox.it"
+#enableGitInfo = true
+
+defaultContentLanguage = "it"
+
+[languages]
+  [languages.it]
+    languageCode = "it"
+  [languages.en]
+    languageCode = "en"
+
+
+[taxonomies]
+  category = 'categories'
+  materia = 'materie'
+  tag = 'tags'
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
