@@ -1,6 +1,6 @@
 ---
 title: "Benvenuti su BBlog [TECH]"
-description: "This is a demo of the Congo theme for Hugo"
+description: "BBlog [TECH] si tratta di un blog che contiene articoli, guide ed appunti per migliorare l'esperienza d'uso di computer e smartphone."
 
 ---
 

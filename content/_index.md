@@ -1,6 +1,6 @@
 ---
 title: "Benvenuti su bortox.it :tada:"
-description: "This is a demo of the Congo theme for Hugo"
+description: "Sito web di Andrea Bortolotti contenente progetti scolastici su compiti ed appunti come articoli su computer e tecnologia."
 
 ---
 Il sito (la tana del Borto) si divide in due sezioni: 

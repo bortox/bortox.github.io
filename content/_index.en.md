@@ -1,6 +1,6 @@
 ---
 title: "Welcome on bortox.it :tada:"
-description: "This is a demo of the Congo theme for Hugo"
+description: "Andrea Bortolotti's website containing school projects on homework and notes as well as articles on computers and technology."
 
 ---
 
