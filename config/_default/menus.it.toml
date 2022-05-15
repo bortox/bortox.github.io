@@ -13,12 +13,22 @@
 [[main]]
   name = ":house:"
   pageRef = "/"
+  weight = 1
+
+[[main]]
+  name = ":man_technologist:"
+  pageRef = "article"
   weight = 10
 
 [[main]]
-  name = "Articoli"
-  pageRef = "article"
-  weight = 10
+  name = ":camera:"
+  url = "https://bortox.it/galleria"
+  weight = 11
+
+[[main]]
+  name = ":memo:"
+  url = "https://bortox.it/Compiti-scolastici"
+  weight = 12
 
 [[main]]
   name = "Categorie"
