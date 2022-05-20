@@ -29,7 +29,7 @@ showScrollToTop = true
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = true
-  editURL = "https://github.com/bortox/bortox.github.io/"
+  editURL = "https://github.com/bortox/bortox.github.io/tree/main/content"
   editAppendPath = true
   showHeadingAnchors = true
   showPagination = true
@@ -38,7 +38,7 @@ showScrollToTop = true
   showTableOfContents = true
   showTaxonomies = true
   showWordCount = true
-  
+
 
 [list]
   showBreadcrumbs = false
