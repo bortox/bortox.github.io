@@ -11,8 +11,6 @@ categories: ['tutorial', 'linux']
 editor: markdown
 ---
 
-## Introduzione
-
 OpenSuse è una distro che posso consigliare. Veloce e stabile, Europea ed anche facile da personalizzare grazie a YAST.
 
 Nei primi giorni d'uso però ho incontrato un problema: **non riuscivo ad installare Jekyll, il programma scritto in Ruby** che uso per compilare la maggior parte dei miei siti statici. <!--more-->
