@@ -63,3 +63,8 @@
   name = "Articoli"
   pageRef = "article"
   weight = 40
+
+[[footer]]
+  name = "Status :bar_chart:"
+  url = "https://status.bortox.it"
+  weight = 50
