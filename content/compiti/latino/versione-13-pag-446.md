@@ -1,8 +1,8 @@
 ---
 author: Andrea Bortolotti
-categories: latino versione
+categories: latino
 date: 2022-04-07 17:45:00
-description: 
+description: Traduzione della versione Una famiglia terribile a pagina 446 del libro il mio Latino. Pelops, qui Tantali et Dionae. 
 tags:
 - 13
 - 448

@@ -1,8 +1,8 @@
 ---
 author: Andrea Bortolotti
-categories: latino versione
+categories: latino
 date: 2022-04-14 17:45:00
-description: 
+description: Traduzione della seconda parte della versione una famiglia terribile, esercizio 16 pagina 448, Multis iam ab Oenomao.
 tags:
 - 16
 - 448
