@@ -14,7 +14,7 @@ tags:
 - temi
 - autore
 tipo: compiti
-title: Breve riassunto dell'epopea di Gilgamesh: storia, trama, temi trattati e datazione.
+title: "Breve riassunto dell'epopea di Gilgamesh riguardo storia, trama, temi trattati e datazione"
 ---
 
 ## Introduzione: cos'è l'epopea di Gilgamesh?
