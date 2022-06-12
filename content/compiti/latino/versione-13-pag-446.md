@@ -21,8 +21,6 @@ title: Versione 13 a pagina 446, una famiglia terribile (prima parte)
 
 > Tantalo non esitò a uccidere e a offrire come vivanda agli dèi il figlio Pelope, che fu resuscitato e dotato di una spalla d'avorio, in sostituzione di quella perduta. Enomao sfidava a una mor tale gara di quadrighe chiunque chiedesse la mano della bella figlia Ippodamia.
 
-[Vai alla traduzione di *Una famiglia terribile (II)* ]({{< ref "versione-16-pag-448" >}})
-
 ## Testo originale
 
 Pelops, qui Tantali et Diönae, Atlantis filiae, filius erat, cum esset in epulis deorum a Tantalo caesus ac sicut esca a ministris praebitus, bracchium eius Ceres, quae Proserpinae defectu compos sui non esset, consumpsit. Puero, a deorum numine vita recepta, cui cetera membra, ut fuerant, aptata rursus erant praeter umerum, lacertum eburneum eius partis loco Ceres adiunxit. Oenomaus, Martis et Asteropes Atlantis filiae filius, habuit in coniugio Euaretem, Acrisii filiam, ex qua procreavit Hippodamiam. Virginem, quae eximiae formae esset, pater nulli ("a nessuno") ideo dabat in coniugium, quod ei responsum fuit a genero mortem cavere. Itaque, cum multi eam peterent in coniugium, constituit simultatem ("una sfida che", + infinitiva) se ei daturum esse, qui secum quadrigis certasset victorque exstitisset (traduci con il cong. impf.). Victos necesse erat ei capite ("con la vita") solvere iniuriam. (da Igino)
