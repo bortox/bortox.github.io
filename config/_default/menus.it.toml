@@ -68,3 +68,8 @@
   name = "Status :bar_chart:"
   url = "https://status.bortox.it"
   weight = 50
+
+[[footer]]
+  name = "Informativa sulla privacy"
+  pageRef = "privacy"
+  weight = 60
