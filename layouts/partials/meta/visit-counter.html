@@ -1,0 +1,12 @@
+<span id="{{ .File.UniqueID }}" title="{{ i18n "article.visitTitle" }}">
+    {{- "🙈 visite" | markdownify | emojify -}}
+</span>
+<script>
+    var r = new XMLHttpRequest();
+    r.addEventListener('load', function() {
+        document.getElementById('{{ .File.UniqueID }}').innerText = JSON.parse(this.responseText).count_unique + ' visite'
+    })
+    r.open('GET', 'https://bortox.goatcounter.com/counter/' + encodeURIComponent({{ .RelPermalink }}) + '.json')
+    r.send()
+</script>
+{{- /* Trim EOF */ -}}
