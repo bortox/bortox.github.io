@@ -9,6 +9,7 @@ article:
     other: "{{ .Count }} min"
   reading_time_title: "Tempo di lettura"
   visit_title: "Numero di visualizzazioni"
+  visit_name: "visite"
   table_of_contents: "Tabella dei contenuti"
   word_count:
     one: "{{ .Count }} parola"

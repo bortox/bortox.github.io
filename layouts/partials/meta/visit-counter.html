@@ -4,7 +4,7 @@
 <script>
     var r = new XMLHttpRequest();
     r.addEventListener('load', function() {
-        document.getElementById('{{ .File.UniqueID }}').innerText = JSON.parse(this.responseText).count_unique + ' visite'
+        document.getElementById('{{ .File.UniqueID }}').innerText = JSON.parse(this.responseText).count_unique + ' ' + {{ i18n "article.visit_name" }}
     })
     r.open('GET', 'https://bortox.goatcounter.com/counter/' + encodeURIComponent({{ .RelPermalink }}) + '.json')
     r.send()
