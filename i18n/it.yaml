@@ -5,9 +5,10 @@ article:
   draft: "Bozza"
   edit_title: "Modifica contenuto"
   reading_time:
-    one: "{{ .Count }} minuto"
-    other: "{{ .Count }} minuti"
+    one: "{{ .Count }} min"
+    other: "{{ .Count }} min"
   reading_time_title: "Tempo di lettura"
+  visit_title: "Numero di visualizzazioni"
   table_of_contents: "Tabella dei contenuti"
   word_count:
     one: "{{ .Count }} parola"

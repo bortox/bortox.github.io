@@ -38,6 +38,7 @@ showScrollToTop = true
   showTableOfContents = true
   showTaxonomies = true
   showWordCount = true
+  showVisitCount = true
 
 
 [list]
