@@ -115,7 +115,7 @@ I added the lines before the line with `showEdit` since I wanted the visit count
     r.addEventListener('load', function() {
         document.getElementById('{{ .File.UniqueID }}').innerText = JSON.parse(this.responseText).count_unique + ' ' + {{ i18n "article.visit_name" }}
     })
-    r.open('GET', 'https://bortox.goatcounter.com/counter/' + encodeURIComponent({{ .RelPermalink }}) + '.json')
+    r.open('GET', 'https://bortox.goatcounter.com/counter/' + encodeURIComponent({{ .RelPermalink }}.replace(/(\/)?$/, '')) + '.json')
     r.send()
 </script>
 {{- /* Trim EOF */ -}}
@@ -126,6 +126,8 @@ Since this meta also apperead on category and tag pages, I couldn't use "stats" 
 So, I made use of Hugo's functionalities and set as id the {{ **.File.UniqueID** }} of every page, basically the MD5-checksum of the content file’s path. 
 
 I used .**RelPermalink** (the relative permanent link for the page) of every page to build the request to Goatcounter API.
+
+**Update**: I added `.replace(/(\/)?$/, '')` to .**RelPermalink** because Goatcounter was marking pages ending with a slash as [not found](https://bortox.goatcounter.com/counter/%2Fen%2Farticle%2Fadd-page-views-hugo-goatcounter%2F.json) and registering views for pages [without the last slash](https://bortox.goatcounter.com/counter/%2Fen%2Farticle%2Fadd-page-views-hugo-goatcounter.json).
 
 There is probably an easier way to do this with cleaner Javascript, if you have some ideas or have to point out that something is not correct, contact me at bortox at bortox dot it.
 <sub>I will add soon commenting functionality, but not with Disqus.</sub>
