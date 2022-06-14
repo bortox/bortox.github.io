@@ -20,9 +20,9 @@ Il mos maiorum, Catone il Censore: appunti per prepararsi sull'argomento a piace
 
 ## Cos’è il mos maiorum?
 
-Il costume degli antenati, ossia l’insieme di valori ,idee, credenze religiose ed usanze transmesse dalle generazioni precedenti compone il mos maiorum.
+Il costume degli antenati, ossia l’insieme di valori, idee, credenze religiose ed usanze transmesse dalle generazioni precedenti compone il mos maiorum.
 
-Roma dipende dal suo passato, dunque ogni cittadino ammira illustri exempla (modelli) del passsato, con anche una sorta di santini di illustri membri della propria familia (imagines maiorum) custoditi nelle case dei cittadini. 
+Roma dipende dal suo passato, dunque ogni cittadino ammira illustri *exempla* (modelli) del passato, con anche una sorta di santini raffiguranti illustri membri della propria *familia* (*imagines maiorum*) custoditi nelle case dei cittadini. 
 
 I **valori cardine** del mos maiorum sono cinque:
 * pietas, devozione verso dei, patria e famiglia
@@ -55,7 +55,7 @@ Il trattato De agri cultura del 160 a.C. è il testo di **prosa latina più anti
 
 #### Stile di scrittura
 
-Sotto forma spesso precettistica e sentenziosa, in una prosa semplice e arida, il trattato dà indicazioni sulle varie attività agricole, dal come tenere la casa alle ricette di cucina, dai lavori agricoli stagionali ai sacrifici agli dei, alla produzione dell'olio e del vino, alle malattie degli animali e delle piante.> [citazione PAG. 199 PUNTO 3 DE AGRI CULTURA]
+Sotto forma spesso precettistica e sentenziosa, in una prosa semplice e arida, il trattato dà indicazioni sulle varie attività agricole, dal come tenere la casa alle ricette di cucina, dai lavori agricoli stagionali ai sacrifici agli dei, alla produzione dell'olio e del vino, alle malattie degli animali e delle piante.
 
 #### Il mestiere ideale
 
@@ -90,7 +90,7 @@ Un’opera storiografica di Catone - storico degli annnali, eventi che conteneva
 
 Si nota una narrazione concisa e scarna unita ad uno stile semplice e disadorno che tratta di tutti i popoli della Penisola italica appartenenti a Roma. 
 
-Suddivisione in libri:
+Periodi storici trattati da ogni libro:
 
 1. Fondazione di Roma
 2. Informazioni su storia delle città italiche
@@ -102,11 +102,19 @@ Suddivisione in libri:
 
 ## Carriera di Catone
 
-Catone dunque diventa un **censore** nel 195 a.C., dopo la legge del 339 che permette l’origine plebea dei detentori di questo ruolo. Catone per questo viene definito “homo novus”, ossia un individuo che ha avuto successo in politica senza appartenere ad una stirpe di politici o con una famiglia che ha una situazione finanziaria adeguata.
+Catone dunque diventa un **censore** nel 195 a.C., dopo la legge del 339 che permette l’origine plebea dei detentori di questo ruolo. 
+
+Catone per questo viene definito “homo novus”, ossia un individuo che ha avuto successo in politica senza appartenere ad una stirpe di politici o con una famiglia che ha una situazione finanziaria adeguata.
 
 ### Catone come oratore
 
-Dagli scritti di Catone, nelle sue Orazioni, si nota la sua tecnica, il suo carisma e la sua retorica. Si dice che Cicerone conoscesse 150 orazioni di Catone, né curò prima una redazione scritta, poi la pubblicazione. Catone - possiamo affermare - è il primo a portare la retorica Greca a Roma, con le sue orazioni e le sue riflessioni sulla retorica ed il tenere discorsi. Una celebre frase di Catone è “rem tene, verba sequntur”, ossia “possiedi la conoscenza dell’argomento, le parole seguiranno”. 
+Dagli scritti di Catone, nelle sue Orazioni, si nota la sua tecnica, il suo carisma e la sua retorica. 
+
+Si dice che Cicerone conoscesse 150 orazioni di Catone, né curò prima una redazione scritta, poi la pubblicazione. 
+
+Catone - possiamo affermare - è il primo a portare la retorica Greca a Roma, con le sue orazioni e le sue riflessioni sulla retorica ed il tenere discorsi. 
+
+Una celebre frase di Catone è “**rem tene, verba sequntur**”, ossia “possiedi la conoscenza dell’argomento, le parole seguiranno”. 
 
 ### Carthago delenda est
 
