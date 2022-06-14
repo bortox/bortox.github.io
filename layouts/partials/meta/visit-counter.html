@@ -1,7 +1,7 @@
 <span id="{{ .File.UniqueID }}" title="{{ i18n "article.visit_title" }}">
     {{- "🙈" | markdownify | emojify -}}
 </span>
-<script>
+<script async>
     var r = new XMLHttpRequest();
     r.addEventListener('load', function() {
         document.getElementById('{{ .File.UniqueID }}').innerText = JSON.parse(this.responseText).count_unique + ' ' + {{ i18n "article.visit_name" }}
