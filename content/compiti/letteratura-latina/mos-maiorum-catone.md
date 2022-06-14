@@ -2,7 +2,7 @@
 author: Andrea Bortolotti
 categories: letteratura-latina
 date: 2022-05-06 17:45:00
-lastmod:2022-06-14 14:45:00
+lastmod: 2022-06-14 14:45:00
 description: "Catone il Censore, il concetto di mos maiorum, l'uomo ideale, il vir bonus e la produzione letteraria: le Origines e il De Agri Cultura"
 tags:
 - catone
