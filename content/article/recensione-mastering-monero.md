@@ -7,7 +7,7 @@ lastmod: 2022-06-14 20:40:00Z
 tags:
 - monero
 editor: markdown
-categories: ['review', 'cryptocurrencies']
+categories: ['recensione', 'criptovalute']
 ---
 
 Il testo seguente contiene il copione per la mia recensione orale su un libro. Siccome non c'erano vincoli di scelta, ho scelto il PDF di Mastering Monero, libro del 2018 riguardante il network Monero. 
