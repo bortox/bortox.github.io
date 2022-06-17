@@ -48,7 +48,7 @@ On the free version you can add a - branded - visitor counter, in SVG/HTML/PNG f
     window.goatcounter.visit_count({append: 'body'})
 </script>
 <script data-goatcounter="https://MYCODE.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+        async src="//goat.bortox.it/count.js"></script>
 {{</ highlight >}}
 
 ### Visitor counter using JSON API
