@@ -2,7 +2,6 @@
 title: "Informativa sulla privacy di bortox.it"
 description: "Privacy Policy di bortox.it, servizi e dati personali raccolti sul sito."
 date: 2022-06-11 20:00:00
-lastmod: 2022-06-17 21:00:00
 showAuthor: false
 showEdit: false
 ---
@@ -49,7 +48,7 @@ Goatcounter è utilizzato per analizzare il comportamento dei visitatori del sit
 
 Goatcounter non raccoglie informazioni di identificazione personale, quindi non viene raccolto nulla legato al visitatore.
 
-Posizione del server: Francoforte, DE (Self-Hosted, lo stesso server che serve bortox.it)
+Posizione del server: Francoforte, DE
 
 ## Cusdis (opt-in)
 

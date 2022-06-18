@@ -24,7 +24,7 @@ In this tutorial I'll use the Goatcounter json api to get the current page views
     r.addEventListener('load', function() {
         document.querySelector('#stats').innerText = JSON.parse(this.responseText).count_unique
     })
-    r.open('GET', 'https://goat.bortox.it/counter/' + encodeURIComponent(location.pathname) + '.json')
+    r.open('GET', 'https://bortox.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
     r.send()
 </script>
 
@@ -37,7 +37,7 @@ GoatCounter is one of the services I use to gather analytics about my website; t
 {{< alert circle-info >}}
 To enable the visitor counter, open GoatCounter settings and check *Allow adding visitor counts on your website.*
 
-More info on GoatCounter's [Documentation](https://goat.bortox.it/help/visitor-counter)
+More info on GoatCounter's [Documentation](https://bortox.goatcounter.com/help/visitor-counter)
 {{< /alert >}}
 
 On the free version you can add a - branded - visitor counter, in SVG/HTML/PNG format, but (in my opinion) it is ugly and needs extra **css code** to work with dark and light theme, instead of a simple text string, obtainable via the **json api**.
@@ -48,7 +48,7 @@ On the free version you can add a - branded - visitor counter, in SVG/HTML/PNG f
     window.goatcounter.visit_count({append: 'body'})
 </script>
 <script data-goatcounter="https://MYCODE.goatcounter.com/count"
-        async src="//goat.bortox.it/count.js"></script>
+        async src="//gc.zgo.at/count.js"></script>
 {{</ highlight >}}
 
 ### Visitor counter using JSON API
@@ -60,7 +60,7 @@ Another way is to use the JSON API and request how many pageviews -<span id="sta
     r.addEventListener('load', function() {
         document.querySelector('#stats2').innerText = JSON.parse(this.responseText).count_unique
     })
-    r.open('GET', 'https://goat.bortox.it/counter/' + encodeURIComponent(location.pathname) + '.json')
+    r.open('GET', 'https://bortox.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
     r.send()
 </script>
 {{< highlight html >}}
@@ -115,7 +115,7 @@ I added the lines before the line with `showEdit` since I wanted the visit count
     r.addEventListener('load', function() {
         document.getElementById('{{ .File.UniqueID }}').innerText = JSON.parse(this.responseText).count_unique + ' ' + {{ i18n "article.visit_name" }}
     })
-    r.open('GET', 'https://goat.bortox.it/counter/' + encodeURIComponent({{ .RelPermalink }}.replace(/(\/)?$/, '')) + '.json')
+    r.open('GET', 'https://bortox.goatcounter.com/counter/' + encodeURIComponent({{ .RelPermalink }}.replace(/(\/)?$/, '')) + '.json')
     r.send()
 </script>
 {{- /* Trim EOF */ -}}
@@ -127,7 +127,7 @@ So, I made use of Hugo's functionalities and set as id the {{ **.File.UniqueID**
 
 I used .**RelPermalink** (the relative permanent link for the page) of every page to build the request to Goatcounter API.
 
-**Update**: I added `.replace(/(\/)?$/, '')` to .**RelPermalink** because Goatcounter was marking pages ending with a slash as [not found](https://goat.bortox.it/counter/%2Fen%2Farticle%2Fadd-page-views-hugo-goatcounter%2F.json) and registering views for pages [without the last slash](https://goat.bortox.it/counter/%2Fen%2Farticle%2Fadd-page-views-hugo-goatcounter.json).
+**Update**: I added `.replace(/(\/)?$/, '')` to .**RelPermalink** because Goatcounter was marking pages ending with a slash as [not found](https://bortox.goatcounter.com/counter/%2Fen%2Farticle%2Fadd-page-views-hugo-goatcounter%2F.json) and registering views for pages [without the last slash](https://bortox.goatcounter.com/counter/%2Fen%2Farticle%2Fadd-page-views-hugo-goatcounter.json).
 
 There is probably an easier way to do this with cleaner Javascript, if you have some ideas or have to point out that something is not correct, contact me at bortox at bortox dot it.
 <sub>I will add soon commenting functionality, but not with Disqus.</sub>
