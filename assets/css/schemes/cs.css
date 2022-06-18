@@ -1,0 +1,37 @@
+/* Compiti scolastici scheme */
+:root {
+  --color-neutral: 255, 255, 255;
+  /* Gray */
+  --color-neutral-50: 250, 250, 250;
+  --color-neutral-100: 244, 244, 245;
+  --color-neutral-200: 228, 228, 231;
+  --color-neutral-300: 212, 212, 216;
+  --color-neutral-400: 161, 161, 170;
+  --color-neutral-500: 113, 113, 122;
+  --color-neutral-600: 82, 82, 91;
+  --color-neutral-700: 63, 63, 70;
+  --color-neutral-800: 39, 39, 42;
+  --color-neutral-900: 24, 24, 27;
+    /*electric violet*/
+    --color-secondary-50: 226, 197, 252;
+    --color-secondary-100: 217, 177, 251;
+    --color-secondary-200: 198, 139, 249;
+    --color-secondary-300: 179, 100, 247;
+    --color-secondary-400: 160, 61, 245;
+    --color-secondary-500: 141, 22, 243;
+    --color-secondary-600: 111, 10, 199;
+    --color-secondary-700: 82, 8, 145;
+    --color-secondary-800: 52, 5, 92;
+    --color-secondary-900: 22, 2, 39;
+    /*hollywood cerise*/
+    --color-primary-500: 253, 244, 255;
+    --color-primary-100: 254, 235, 250;
+    --color-primary-200: 254, 215, 245;
+    --color-primary-300: 253, 175, 235;
+    --color-primary-400: 252, 136, 225;
+    --color-primary-500: 251, 96, 215;
+    --color-primary-600: 250, 56, 205;
+    --color-primary-700: 249, 16, 195;
+    --color-primary-800: 219, 6, 169;
+    --color-primary-900: 112, 26, 117;
+}
