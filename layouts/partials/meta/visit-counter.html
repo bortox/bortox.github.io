@@ -6,7 +6,7 @@
     r.addEventListener('load', function() {
         document.getElementById('{{ .File.UniqueID }}').innerText = JSON.parse(this.responseText).count_unique + ' ' + {{ i18n "article.visit_name" }}
     })
-    r.open('GET', 'https://bortox.goatcounter.com/counter/' + encodeURIComponent({{ .RelPermalink }}.replace(/(\/)?$/, '')) + '.json')
+    r.open('GET', 'https://contacapre.bortox.it/counter/' + encodeURIComponent({{ .RelPermalink }}.replace(/(\/)?$/, '')) + '.json')
     r.send()
 </script>
 {{- /* Trim EOF */ -}}
