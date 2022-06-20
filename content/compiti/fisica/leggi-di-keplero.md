@@ -124,7 +124,7 @@ Johannes Kepler, Giovanni Keplero, nasce nel 1571, a Weil der Stadt, presso Stoc
 
 In questo libro si nota un retaggio della visione platonica dell'universo, predominante anche grazie alla diffusione della religione cristiana, infatti Keplero immagina i pianeti con la forma di solidi platonici, contenuti ognuno in una propria "sfera" più la Terra: in totale sei pianeti per l'intero Sistema Solare.
 
-> “Mi sono proposto di dimostrare con questa operetta, o lettore, che Dio Ottimo Massimo, nella costruzione del mondo e nella disposizione dei cieli, guardò ai cinque corpi solidi regolari che tanto sono stati celebrati fino dal tempo di Pitagora e di Platone [...]
+> Mi sono proposto di dimostrare con questa operetta, o lettore, che Dio Ottimo Massimo, nella costruzione del mondo e nella disposizione dei cieli, guardò ai cinque corpi solidi regolari che tanto sono stati celebrati fino dal tempo di Pitagora e di Platone [...]
 
 - Keplero, Mysterium Cosmographicum
 
@@ -154,7 +154,7 @@ Keplero si trasferisce da Brahe anche per un interesse personale: Brahe aveva ra
 
 * Il 15 novembre 1630 Keplero muore; la sua tomba viene distrutta due anni dopo durante la guerra dei trent’anni.
 
-> “Un incarico come astrologo per tirare a campare e una madre accusata di stregoneria. Il vaiolo all’età di quattro anni, l’umile condizione sociale e una moglie facoltosa deceduta in preda alla pazzia. Il conflitto tra cattolici e protestanti, ...., diversi figli morti troppo presto. Non è stata facile la vita per Giovanni Keplero, come probabilmente non deve essere stato facile seguire con pervicacia lo studio scientifico proprio quando la scienza appena nata metteva in discussione saperi e autorità millenarie e allo stesso tempo tutto sembrava mettersi di traverso nel privato. Questa esistenza tribolata emerge riga dopo riga nei suoi lavori che «tratteggiano, in modo spesso passionale, le vicende quotidiane, la storia del tormentato mondo in cui vive, oltre all’evoluzione del pensiero scientifico»,
+> Un incarico come astrologo per tirare a campare e una madre accusata di stregoneria. Il vaiolo all’età di quattro anni, l’umile condizione sociale e una moglie facoltosa deceduta in preda alla pazzia. Il conflitto tra cattolici e protestanti, ...., diversi figli morti troppo presto. Non è stata facile la vita per Giovanni Keplero, come probabilmente non deve essere stato facile seguire con pervicacia lo studio scientifico proprio quando la scienza appena nata metteva in discussione saperi e autorità millenarie e allo stesso tempo tutto sembrava mettersi di traverso nel privato. Questa esistenza tribolata emerge riga dopo riga nei suoi lavori che «tratteggiano, in modo spesso passionale, le vicende quotidiane, la storia del tormentato mondo in cui vive, oltre all’evoluzione del pensiero scientifico».
 
 - A.M. Lombardi I grandi della Scienza
 
