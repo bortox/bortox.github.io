@@ -5,6 +5,8 @@ categories:
 tags:
 - Avogadro
 - mole
+date: 2021-10-14 12:29:00
+lastmod: 2022-06-20 14:45:00
 description: Cos'è una mole? Quante particelle sono contenute in una mole?
 ---
 
