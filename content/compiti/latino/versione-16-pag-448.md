@@ -22,6 +22,8 @@ title: Versione 16 a pagina 448, una famiglia terribile (seconda parte)
 
 >  Anche Pelope fu protagonista di efferatezze: innamorato della crudele Ippodamia, non esitò a un patto scellerato per vincere la gara con Enomao, quindi eliminò Mirtilo.
 
+<!--more-->
+
 [Vai alla traduzione di *Una famiglia terribile (I)* ]({{< ref "versione-13-pag-446" >}})
 
 ## Testo latino originale

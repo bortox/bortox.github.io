@@ -15,7 +15,13 @@ title: Versione 41 pagina 360, l'uccisione di Cesare
 
 **Traduzione** del testo latino dal libro _Il Mio Latino_
 
-I congiurati circondarono Cesare mentre stava a sedere e subito Tillio Cimbro , che era fra gli autori di quel crimine , si avvicinò a lui quasi per chiedere qualcosa e prese la sua toga; dopo Casca lo ferisce un po’ sul collo. Cesare ferì con uno stilo il braccio afferrato di Casca , ma fu frenato da un’altro colpo. Quando vide la sua morte vicina , il dittatore avvolse ( coprì ) la testa con la toga e fu trafitto da ventitré colpi , emesso un gemito soltanto. Tuttavia disse - così alcuni autori tramandano -quando Marco Bruto entrò : “ Anche tu , Bruto , figlio mio ! ". Quando tutti quanti fuggono , il corpo morto giace per qualche tempo , finché posto su una lettiga , con il braccio sospeso , tre schiavi portarono via il signore . C’era stata per i congiurati l’intenzione di gettare il corpo nel Tevere e sequestrare i suoi beni , ma a causa della paura del console Marco Antonio e maestro equestre Lepido rinunciarono.
+I congiurati circondarono Cesare mentre stava a sedere e subito Tillio Cimbro , che era fra gli autori di quel crimine , si avvicinò a lui quasi per chiedere qualcosa e prese la sua toga; dopo Casca lo ferisce un po’ sul collo. <!--more-->
+
+Cesare ferì con uno stilo il braccio afferrato di Casca, ma fu frenato da un’altro colpo. Quando vide la sua morte vicina , il dittatore avvolse ( coprì ) la testa con la toga e fu trafitto da ventitré colpi, emesso un gemito soltanto. Tuttavia disse - così alcuni autori tramandano - quando Marco Bruto entrò: “Anche tu , Bruto , figlio mio !".
+
+Quando tutti quanti fuggono, il corpo morto giace per qualche tempo, finché posto su una lettiga, con il braccio sospeso, tre schiavi portarono via il signore.
+
+C’era stata per i congiurati l’intenzione di gettare il corpo nel Tevere e sequestrare i suoi beni, ma a causa della paura del console Marco Antonio e maestro equestre Lepido rinunciarono.
 
 
 ## Paradigmi verbali
