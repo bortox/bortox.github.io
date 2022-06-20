@@ -16,6 +16,8 @@ Dimostro che velocità di un oggetto e distanza dello stesso dal fuoco sono inve
 
 <!--more-->
 
+{{< katex >}}
+
 ![Rapporto tra velocità e distanza](scuola/fisica/keplero/rapporto-velocita-distanza.jpg  "Raffigurazione di spostamenti al perielio ed all'afelio")
 
 Considero due spostamenti sull'ellisse, \\(\Delta X_1\\) e \\(\Delta X_2\\).
