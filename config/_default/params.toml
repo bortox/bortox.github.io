@@ -24,7 +24,7 @@ showScrollToTop = true
 [article]
   sharingLinks = ["facebook", "twitter", "reddit", "email"]
   showDate = true
-  showDateUpdated = false
+  showDateUpdated = true
   showAuthor = true
   showBreadcrumbs = true
   showDraftLabel = true
