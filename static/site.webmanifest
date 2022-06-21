@@ -20,7 +20,8 @@
       }
     ],
     "theme_color": "#8A2BE2",
-    "background_color": "#8A2BE2",
+    "background_color": "#27272a",
+    "description": "BBlog di bortox.it, contiene appunti, compiti ed articoli.",
     "display": "fullscreen",
     "start_url": "/"
   }
