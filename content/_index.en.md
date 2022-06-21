@@ -17,7 +17,7 @@ I want to make this website multilingual (Italian and English) but it will take 
 
 ### Photo :camera:
 
-The **personal section** contains a [collection of :camera:](https://bortox.it/galleria) photos taken by me. Photography has always interested me, and I've had several compact cameras since primary schools.
+The **personal section** contains a <a target="_blank" href="https://bortox.it/galleria"> collection of 📷</a> photos taken by me. Photography has always interested me, and I've had several compact cameras since primary schools.
 
 ### Blog 💻
 
@@ -28,7 +28,7 @@ The [computer blog (:it:,:uk:)](article) instead contains guides and notes to im
 
 ### Homework and school notes :memo:
 
-The school section contains the site [Compiti Scolastici (:it:)](https://bortox.it/Compiti-scolastici), a growing collection of all the notes I took in high school although I update it less lately because I have less time. 
+The school section contains the site <a target="_blank" href="https://bortox.it/Compiti-scolastici">Compiti scolastici (🇮🇹)</a>, a growing collection of all the notes I took in high school although I update it less lately because I have less time. 
 
 I'm migrating all the content from a previous custom jekyll theme to this one, so **the english content will be soon available** in the english version of bortox.it. 
 
@@ -39,7 +39,7 @@ If you'd like to contribute - code, knowledge or money - to Compiti Scolastici y
 
 ### Latin Paradigm Finder
 
-[:mag: Trovaparadigmi GUI (:it:)](https://bortox.it/trovaparadigmi) is a Windows program written in Python to quickly and easily compile a complete list of paradigms in a version of Latin.
+<a target="_blank" href="https://bortox.it/trovaparadigmi">🔍 Trovaparadigmi GUI (🇮🇹)</a> is a Windows program written in Python to quickly and easily compile a complete list of paradigms in a version of Latin.
 
 I wrote the program initially for myself, then made some improvements and distributed an .exe file to my classmates, with the aim of _providing everyone with a more or less accurate option to quickly find the paradigms of an entire Latin version, and save them in a text document_.
 
