@@ -3,10 +3,20 @@
     if('serviceWorker' in navigator) {
 
         /**
+         * Register Service Worker
+         */
+        navigator.serviceWorker
+            .register('/sw.js', { scope: '/' })
+            .then(() => {
+                console.log('Service Worker Registered');
+            });
+
+        
+        /**
          * Define if <link rel='next|prev|prefetch'> should
          * be preloaded when accessing this page
          */
-        const PREFETCH = true;
+         const PREFETCH = true;
 
         /**
          * Define which link-rel's should be preloaded if enabled.
@@ -19,46 +29,23 @@
         function prefetchCache() {
             if(navigator.serviceWorker.controller) {
 
-                let links = document.querySelectorAll(
-                    PREFETCH_LINK_RELS.map((rel) => {
-                        return 'link[rel='+rel+']';
-                    }).join(',')
-                );
-
-                if(links.length > 0) {
-                    Array.from(links)
-                        .map((link) => {
-                            let href = link.getAttribute('href');
-                            navigator.serviceWorker.controller.postMessage({
-                                action : 'cache',
-                                url : href,
-                            });
-                        });
+                var arr = [], l = document.links;
+                for(var i=0; i<l.length; i++) {
+                arr.push(l[i].href);
                 }
-
-
+                arr.forEach(element => navigator.serviceWorker.controller.postMessage({
+                    action : 'cache',
+                    url : element,
+                }));
             }
         }
-
-        /**
-         * Register Service Worker
-         */
-        navigator.serviceWorker
-            .register('/sw.js', { scope: '/' })
-            .then(() => {
-                console.log('Service Worker Registered');
-            });
-
         /**
          * Wait if ServiceWorker is ready
          */
-        navigator.serviceWorker
+         navigator.serviceWorker
             .ready
             .then(() => {
-                if(PREFETCH) {
-                    prefetchCache();
-                }
+                prefetchCache();
             });
-
-    }
+}
 </script>
