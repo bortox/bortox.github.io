@@ -10,7 +10,7 @@ article:
   reading_time_title: "Reading time"
   table_of_contents: "Table of Contents"
   visit_title: "Page views"
-  visit_name: "visits"
+  visit_name: ":eyes:"
   word_count:
     one: "{{ .Count }} word"
     other: "{{ .Count }} words"
