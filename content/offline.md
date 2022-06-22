@@ -41,3 +41,5 @@ if (navigator && navigator.serviceWorker) {
     });
 }
 </script>
+
+Buona navigazione!
