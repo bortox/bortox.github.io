@@ -1,7 +1,6 @@
 # config/_default/config.toml
 
 baseURL = "https://bortox.it/"
-cacheVersion = "1.09"
 #enableGitInfo = true
 
 defaultContentLanguage = "it"
