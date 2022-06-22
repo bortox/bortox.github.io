@@ -22,12 +22,12 @@
 
 [[main]]
   name = ":camera:"
-  url = "https://bortox.it/galleria"
+  url = "https://bortox.it/galleria/"
   weight = 11
 
 [[main]]
   name = ":memo:"
-  url = "https://bortox.it/Compiti-scolastici"
+  url = "https://bortox.it/Compiti-scolastici/"
   weight = 12
 
 [[main]]
