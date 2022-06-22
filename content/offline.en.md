@@ -28,7 +28,7 @@ These pages are available for one hour on your device. Each page weighs about 0.
 <script>
 var root = document.getElementById("cached");
 if (navigator && navigator.serviceWorker) {
-    caches.open('content-v1.12').then(function (cache) {
+    caches.open('content-v1.13').then(function (cache) {
         cache.keys().then(function (keys) {
             root.innerHTML =
                 '<ul>' +
