@@ -2,6 +2,7 @@
 title : Sei offline
 description : Offline
 date: 2022-06-21
+showVisitCount: false
 ---
 
 Nessun accesso ad internet. 
@@ -20,7 +21,7 @@ Ogni volta che visiti una pagina, un _service worker_ copia per un'ora sul dispo
 ## Pagine usufruibili offline:
 
 {{< badge >}}
-Queste pagine sono disponibili per un'ora sul tuo dispositivo. Ogni pagina pesa circa 0.05 MB, ed il massimo immagazzinabile è 50MB, circa 1000 pagine visitate in un'ora. Questo accade per via di un service worker, sia Chrome che Mozilla consigliano di aggiungerne uno sul proprio sito web.
+Queste pagine sono disponibili per un'ora sul tuo dispositivo. Ogni pagina pesa circa 0.05 MB, ed il massimo immagazzinabile è 50MB, circa 1000 pagine visitate in un'ora. Questo accade per via di un service worker, sia Google che Mozilla consigliano di aggiungerne uno sul proprio sito web.
 {{</ badge >}}
 
 <div id="cached">Nessuna pagina salvata.</div>
@@ -42,4 +43,4 @@ if (navigator && navigator.serviceWorker) {
 }
 </script>
 
-Buona navigazione!
+Buona navigazione offline!

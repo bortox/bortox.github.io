@@ -1,4 +1,4 @@
-const CACHE_VERSION = 1.09;
+const CACHE_VERSION = 1.10;
 
 const BASE_CACHE_FILES = [
     '/css/main.bundle.min.edef841c223151f1f25365ad6f2251dad4f0ac5b6711d3580f4644cf629476877a33890afa744cc5a53e75edc1f2c3d408f607f5d2f8f77a136210f31bb13fdb.css',
@@ -11,31 +11,15 @@ const BASE_CACHE_FILES = [
 ];
 
 const OFFLINE_CACHE_FILES = [
-    '/css/main.bundle.min.edef841c223151f1f25365ad6f2251dad4f0ac5b6711d3580f4644cf629476877a33890afa744cc5a53e75edc1f2c3d408f607f5d2f8f77a136210f31bb13fdb.css',
-    '/js/main.bundle.min.ae2ecb995505e39b73a72ec79bb2caee18a60721c58721805c701f2991d05e448c16d6843591b5b1ce459e8db4fc493891f1d0ac37be9ec8f9bcca812680b493.js',
-    '/js/appearance.min.12e98742cd283574d030a7fe55f29597df4ee214f7ff7075b4d19a64d046a602753c715295550be7899b661619cec89c679049d36c624681671a8013c1249896.js',
-    '/favicon-32x32.png',
-    '/sw.js',
-    '/categories/',
-    '/tags/',
-    '/article/',
-    '/compiti/',
-    '/compiti/italiano/musica-d-oggi-priva-qualit%C3%A0-testo-argomentativo/',
-    '/compiti/fisica/leggi-di-keplero/',
-    '/compiti/letteratura-italiana/analisi-deh-violetta/',
     '/offline/'
 ];
 
 const NOT_FOUND_CACHE_FILES = [
-    '/css/main.bundle.min.edef841c223151f1f25365ad6f2251dad4f0ac5b6711d3580f4644cf629476877a33890afa744cc5a53e75edc1f2c3d408f607f5d2f8f77a136210f31bb13fdb.css',
-    '/js/appearance.min.12e98742cd283574d030a7fe55f29597df4ee214f7ff7075b4d19a64d046a602753c715295550be7899b661619cec89c679049d36c624681671a8013c1249896.js',
-    '/js/main.bundle.min.ae2ecb995505e39b73a72ec79bb2caee18a60721c58721805c701f2991d05e448c16d6843591b5b1ce459e8db4fc493891f1d0ac37be9ec8f9bcca812680b493.js',
-    '/sw.js',
-    '/offline/',
+    '/404/',
 ];
 
 const OFFLINE_PAGE = '/offline/';
-const NOT_FOUND_PAGE = '/offline/';
+const NOT_FOUND_PAGE = '/404/';
 
 const CACHE_VERSIONS = {
     assets: 'assets-v' + CACHE_VERSION,
