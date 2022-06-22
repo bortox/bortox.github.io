@@ -27,7 +27,7 @@ Queste pagine sono disponibili per un'ora sul tuo dispositivo. Ogni pagina pesa 
 <script>
 var root = document.getElementById("cached");
 if (navigator && navigator.serviceWorker) {
-    caches.open('content-v1.08').then(function (cache) {
+    caches.open('content-v1.09').then(function (cache) {
         cache.keys().then(function (keys) {
             root.innerHTML =
                 '<ul>' +
