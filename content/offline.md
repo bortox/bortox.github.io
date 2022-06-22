@@ -4,16 +4,40 @@ description : Offline
 date: 2022-06-21
 ---
 
-Sei offline. Siccome bortox.it è una PWA (Progressive Web App) in parte è navigabile anche offline. 
+Nessun accesso ad internet. 
 
-Se ti va di leggere qualcosa, alcune pagine sono scaricate offline di default. 
+## Come funziona bortox.it offline
 
-## :it: Alcune pagine disponibili in **Italiano**:
+Siccome bortox.it è una PWA (Progressive Web App) in parte è navigabile anche offline, siccome ogni pagina che visiti viene mantenuta in memoria per 3600 secondi, ossia un'ora.
 
-* Compiti Scolastici
-    * [ La musica d'oggi è priva di qualità? Testo argomentativo ](/compiti/italiano/musica-d-oggi-priva-qualità-testo-argomentativo/) Questo testo confronta l'**analogico** con il **digitale** nella musica, attraverso un'analisi dell'**evoluzione del pop** in Italia dagli anni 90' ad oggi ed infine interpretando citazioni di brani di **due nuovi artisti**.
+![Bortox.it come PWA](/pwa.png)
 
-    * [Tre leggi di Keplero, storia, utilizzi ed ellissi](/compiti/fisica/leggi-di-keplero/)
-    Questo articolo contiene un **excursus storico** sulla vita di Keplero, assieme all'enunciazione delle celebri tre leggi. Spazia su diverse materie: matematica, fisica, filosofia e storia.
+Ogni volta che visiti una pagina, un _service worker_ copia per un'ora sul dispositivo:
 
-    * [Parafrasi ed analisi della ballata "Deh, Violetta](/compiti/letteratura-italiana/analisi-deh-violetta/) Assieme ad un mio compagno abbiamo compiuto una breve analisi della ballata dantesca "Deh, Violetta".
+* la pagina stessa
+* le pagine collegate a quella pagina
+
+## Pagine usufruibili offline:
+
+{{< badge >}}
+Queste pagine sono disponibili per un'ora sul tuo dispositivo. Ogni pagina pesa circa 0.05 MB, ed il massimo immagazzinabile è 50MB, circa 1000 pagine visitate in un'ora. Questo accade per via di un service worker, sia Chrome che Mozilla consigliano di aggiungerne uno sul proprio sito web.
+{{</ badge >}}
+
+<div id="cached">Nessuna pagina salvata.</div>
+<script>
+var root = document.getElementById("cached");
+if (navigator && navigator.serviceWorker) {
+    caches.open('content-v1.08').then(function (cache) {
+        cache.keys().then(function (keys) {
+            root.innerHTML =
+                '<ul>' +
+                    keys.map(function(key) {
+                        if (key.url.includes(".html") || key.url.endsWith('/'))  {
+                            return '<li><a href="' + key.url + '">' + key.url + '</a></li>';
+                        }
+                    }).join('') +
+                '</ul>';
+        });
+    });
+}
+</script>
