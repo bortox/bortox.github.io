@@ -31,7 +31,9 @@
 
                 var arr = [], l = document.links;
                 for(var i=0; i<l.length; i++) {
-                arr.push(l[i].href);
+                    if (l[i].rel === "prefetch" || l[i].href.startsWith("{{ .Page.Site.BaseURL }}")) {
+                        arr.push(l[i].href);
+                    }
                 }
                 arr.forEach(element => navigator.serviceWorker.controller.postMessage({
                     action : 'cache',
