@@ -1,5 +1,5 @@
 {
-    "name": "BBlog di bortox.it",
+    "name": "BBlog & Compiti di bortox.it",
     "short_name": "bortox",
     "icons": [
       {
@@ -22,6 +22,24 @@
     "theme_color": "#8A2BE2",
     "background_color": "#27272a",
     "description": "BBlog di bortox.it, contiene appunti, compiti ed articoli.",
-    "display": "fullscreen",
-    "start_url": "/"
+    "display": "standalone",
+    "start_url": "/",
+    "shortcuts" : [
+        {
+          "name": "Compiti Scolastici",
+          "url": "/Compiti-scolastici/",
+          "description": "Compiti ed appunti scolastici"
+        },
+        {
+          "name": "BBlog",
+          "url": "/article/",
+          "description": "Blog personale sulla tecnologia"
+        },
+        {
+          "name": "Compiti",
+          "url": "/compiti/",
+          "description": "Nuovo design di compiti ed appunti scolastici"
+        }
+      ]
+    
   }
