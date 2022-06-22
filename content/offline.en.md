@@ -1,5 +1,5 @@
 ---
-title : Sei offline
+title : You are offline
 description : Offline
 date: 2022-06-21
 showVisitCount: false
@@ -28,12 +28,12 @@ These pages are available for one hour on your device. Each page weighs about 0.
 <script>
 var root = document.getElementById("cached");
 if (navigator && navigator.serviceWorker) {
-    caches.open('content-v1.11').then(function (cache) {
+    caches.open('content-v1.12').then(function (cache) {
         cache.keys().then(function (keys) {
             root.innerHTML =
                 '<ul>' +
                     keys.map(function(key) {
-                        if (key.url.includes(".html") || key.url.endsWith('/'))  {
+                        if ((key.url.includes(".html") || key.url.endsWith('/'))&& key.url.startsWith('https://bortox.it/'))  {
                             return '<li><a href="' + key.url + '">' + key.url + '</a></li>';
                         }
                     }).join('') +
