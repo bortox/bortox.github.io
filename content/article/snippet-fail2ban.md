@@ -64,8 +64,9 @@ ignoreregex =
 
 In `failregex` sta la regex che trova le linee contenenti le autenticazioni fallite, tutti gli IP trovati con in `ignoreregex` saranno ignorati
 
+{{< alert >}}
 >**NON** cambiare `common.conf`, bensì crea un file `common.local` per applicare modifiche locali. 
-{.is-warning}
+{{< /alert >}}
 
 ### Controllare se il filtro trova tentativi d'accesso
 
@@ -98,11 +99,13 @@ filter = wallabag2
 logpath = /var/www/wallabag2/var/logs/prod.log
 maxretry = 5 
 ```
+{{< badge >}}
+Tutti i file per configurare le jail hanno un percorso come `jail.d/nome-file.conf`. 
+{{< /badge >}}
 
-> Tutte i file per configurare le jail hanno un percorso come `jail.d/nome-file.conf`. 
-
-> In un file `.conf` possono essere configurate più jail, ogni jail viene definita dalla riga `[nome-jail]`, in questo caso `[wallabag2]`
-{.is-info}
+{{< alert >}}
+In un file `.conf` possono essere configurate più jail, ogni jail viene definita dalla riga `[nome-jail]`, in questo caso `[wallabag2]`
+{{< /alert >}}
 
 - `enabled`, ovviamente, attiva il filtro.
 - `port`, corrisponde alle porte su cui l'indirizzo IP sarà bloccato.
@@ -117,8 +120,8 @@ maxretry = 5
 
 Come si può vedere, le impostazioni di jail predefinite, stanno in `/etc/fail2ban/jail.conf/`. Come vediamo dalle righe presenti all'inizio del file
 
+
 > Provide customizations in a jail.local file or a jail.d/customisation.local.
-{.is-warning}
 
 Per applicare i nostri cambiamenti, creiamo il file  `jail.d/customisation.local`; meglio non toccare `/etc/fail2ban/jail.conf/`, sia perché potrebbe cambiare dopo un aggiornamento sia perché nel caso di un errore nella nostra configurazione, basterà -nello scenario peggiore- eliminare `customisation.local` dunque tornare alle impostazioni predefinite contenute in `jail.conf`.
 
