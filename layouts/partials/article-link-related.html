@@ -1,0 +1,87 @@
+<article>
+    <h3 class="flex items-center mt-2 text-m font-semibold">
+      {{ with .Params.externalUrl }}
+        <a
+          class="decoration-primary-500 hover:underline hover:underline-offset-2 text-neutral-800 dark:text-neutral"
+          href="{{ . }}"
+          target="_blank"
+          rel="external"
+          >{{ $.Title | emojify }}</a
+        >
+        <span
+          class="-mt-2 text-xs cursor-default text-neutral-400 dark:text-neutral-500"
+          title="{{ i18n "list.externalurl_title" }}"
+        >
+          &#8599;
+        </span>
+      {{ else }}
+        <a
+          class="decoration-primary-500 hover:underline hover:underline-offset-2 text-neutral-800 dark:text-neutral"
+          rel="prefetch" href="{{ .RelPermalink }}"
+          >{{ .Title | emojify }}</a
+        >
+      {{ end }}
+      {{ if and .Draft .Site.Params.article.showDraftLabel }}
+        <div class="ltr:ml-2 rtl:mr-2">
+          {{ partial "badge.html" (i18n "article.draft" | emojify) }}
+        </div>
+      {{ end }}
+      {{ if templates.Exists "partials/extend-article-link.html" }}
+        {{ partial "extend-article-link.html" . }}
+      {{ end }}
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      {{/* Determine the correct context and scope */}}
+      {{/* This allows for different logic depending on where the partial is called */}}
+      {{ $context := . }}
+      {{ $scope := default nil }}
+
+      {{ if (reflect.IsMap . ) }}
+        {{ $context = .context }}
+        {{ $scope = cond (not .scope) nil .scope }}
+      {{ end }}
+
+      {{ with $context }}
+        {{ $meta := newScratch }}
+
+        {{/* Gather partials for this context */}}
+        {{ if .Params.showDate | default (.Site.Params.article.showDate | default true) }}
+          {{ $meta.Add "partials" (slice (partial "meta/date.html" .Date)) }}
+        {{ end }}
+
+        {{ if and (.Params.showDateUpdated | default (.Site.Params.article.showDateUpdated | default false)) (ne .Date .Lastmod) }}
+          {{ $meta.Add "partials" (slice (partial "meta/date-updated.html" .Lastmod)) }}
+        {{ end }}
+
+        {{ if and (.Params.showWordCount | default (.Site.Params.article.showWordCount | default false)) (ne .WordCount 0) }}
+          {{ $meta.Add "partials" (slice (partial "meta/word-count.html" .)) }}
+        {{ end }}
+
+        {{ if and (.Params.showReadingTime | default (.Site.Params.article.showReadingTime | default true)) (ne .ReadingTime 0) }}
+          {{ $meta.Add "partials" (slice (partial "meta/reading-time.html" .)) }}
+        {{ end }}
+        
+        {{ if and (eq $scope "single") (.Params.showEdit | default (.Site.Params.article.showEdit | default false)) }}
+          {{ $meta.Add "partials" (slice (partial "meta/edit.html" .)) }}
+        {{ end }}
+        <div class="flex flex-row flex-wrap items-center">
+          {{/* Output partials */}}
+          {{ with ($meta.Get "partials") }}
+            {{ delimit . "<span class=\"px-2 text-primary-500\">&middot;</span>" }}
+          {{ end }}
+          {{/* Output description */}}
+          
+          {{/* Output draft label */}}
+          {{ if and (eq $scope "single") (and .Draft .Site.Params.article.showDraftLabel) }}
+            <span class="pl-2">{{ partial "badge.html" (i18n "article.draft" | emojify) }}</span>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+    {{ if .Params.showSummary | default (.Site.Params.list.showSummary | default false) }}
+      <div class="py-1 prose dark:prose-invert ">
+        {{ .Summary | emojify }}
+      </div>
+    {{ end }}
+  </article>
+  
