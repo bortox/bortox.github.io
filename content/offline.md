@@ -1,11 +1,13 @@
 ---
-title : Sei offline
+title : Sei offline, controlla la connessione ad internet.
 description : Offline
 date: 2022-06-21
 showVisitCount: false
 ---
 
-Nessun accesso ad internet. 
+* :mobile_phone_off: Sei offline. Controlla la tua connessione ad internet.
+
+* bortox.it **funziona anche offline**. 
 
 ## Come funziona bortox.it offline
 
@@ -24,7 +26,7 @@ Ogni volta che visiti una pagina, un _service worker_ copia per un'ora sul dispo
 Queste pagine sono disponibili per un'ora sul tuo dispositivo. Ogni pagina pesa circa 0.05 MB, ed il massimo immagazzinabile è 50MB, circa 1000 pagine visitate in un'ora. Questo accade per via di un service worker, sia Google che Mozilla consigliano di aggiungerne uno sul proprio sito web.
 {{</ badge >}}
 
-<div id="cached">Nessuna pagina salvata.</div>
+<div id="cached">Nessuna pagina salvata :sad:</div>
 <script>
 var root = document.getElementById("cached");
 if (navigator && navigator.serviceWorker) {

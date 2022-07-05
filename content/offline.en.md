@@ -1,11 +1,13 @@
 ---
-title : You are offline
+title : You are offline. Check your internet connection.
 description : Offline
 date: 2022-06-21
 showVisitCount: false
 ---
 
-No internet connection available. 
+* :mobile_phone_off: You are offline. Check the connection.
+
+* bortox.it **works also offline**. 
 
 ## How does bortox.it work offline?
 
