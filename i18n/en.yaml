@@ -15,6 +15,7 @@ article:
     one: "{{ .Count }} word"
     other: "{{ .Count }} words"
   related: "Related posts"
+  share: "Share"
 
 author:
   byline_title: "Author"

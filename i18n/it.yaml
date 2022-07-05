@@ -15,6 +15,7 @@ article:
     one: "{{ .Count }} parola"
     other: "{{ .Count }} parole"
   related: "Altri post correlati"
+  share: Condividi
 
 author:
   byline_title: "Autore"
