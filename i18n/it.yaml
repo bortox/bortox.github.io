@@ -14,6 +14,7 @@ article:
   word_count:
     one: "{{ .Count }} parola"
     other: "{{ .Count }} parole"
+  related: "Altri post correlati"
 
 author:
   byline_title: "Autore"
