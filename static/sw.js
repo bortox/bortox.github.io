@@ -34,6 +34,7 @@ const MAX_TTL = {
     html: 3600,
     json: 86400,
     js: 86400,
+    svg: 604800,
     css: 604800,
 };
 
