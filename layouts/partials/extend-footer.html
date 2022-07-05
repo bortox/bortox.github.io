@@ -31,7 +31,7 @@
 
                 var arr = [], l = document.links;
                 for(var i=0; i<l.length; i++) {
-                    if (l[i].rel === "prefetch" || l[i].href.startsWith("{{ .Page.Site.BaseURL }}")) {
+                    if (l[i].rel === "prefetch") {
                         arr.push(l[i].href);
                     }
                 }
