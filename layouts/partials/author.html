@@ -1,17 +1,5 @@
 
-<button onclick="condividipagina('{{ .Title }}', '{{ .Page.Description | truncate 140 }}', '{{ .Page.Permalink }}', 'Condividi ora!')" class="mb-2 px-1 py-[1px] border rounded-md border-neutral-200 dark:border-neutral-600 hover:border-primary-300 hover:text-primary-700 dark:hover:border-primary-600 dark:hover:text-primary-400">{{ i18n "article.share" }} <i>{{ .Title | truncate 40 }}</i> {{ ":v:" | emojify}} </button>
-<script defer>
-function condividipagina() {
-  shareMenu.share();
-  _paq.push(['trackEvent', 'Share', 'Share webpage', '{{ .Title }}']);
-  window.goatcounter.count({
-      path: 'share',
-      title: 'Share menu',
-      event: true,
-  });
-}
-document.getElementById("condividipagina").addEventListener("click", condividipagina);
-</script>
+<button share_title="{{ .Title }}" share_description="{{ .Page.Description | truncate 140 }}" share_permalink="{{ .Page.Permalink }}" share_dialogue="Condividi ora!" class="sharebtn mb-2 px-1 py-[1px] border rounded-md border-neutral-200 dark:border-neutral-600 hover:border-primary-300 hover:text-primary-700 dark:hover:border-primary-600 dark:hover:text-primary-400">{{ i18n "article.share" }} <i>{{ .Title | truncate 40 }}</i> {{ ":v:" | emojify}} </button>
 {{ if .Params.showAuthor | default (.Site.Params.article.showAuthor | default true) }}
   <div class="flex">
     {{ with .Site.Author.image }}

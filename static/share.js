@@ -33,3 +33,11 @@ function condividipagina(titolo, descrizione, permalink, testocondividi) {
     document.body.appendChild(share_script);
     share_script.addEventListener('load', run_share, false);
 }
+
+const btns = document.querySelectorAll('button[class^=sharebtn]')
+
+btns.forEach(btn => {
+   btn.addEventListener('click', event => {
+        condividipagina( event.target.share_title, event.target.share_description, event.target.share_permalink, event.target.share_dialogue );
+   });
+});

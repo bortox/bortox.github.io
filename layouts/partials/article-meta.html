@@ -63,8 +63,8 @@
           {{ end }}
         {{ end }}
       {{ end }}
-      <button onlick="condividipagina('{{ .Title }}', '{{ .Page.Description | truncate 140 }}', '{{ .Page.Permalink }}', 'Condividi ora!')"
-      class="px-1 py-[1px] border rounded-md border-neutral-200 dark:border-neutral-600 hover:border-primary-300 hover:text-primary-700 dark:hover:border-primary-600 dark:hover:text-primary-400"
+      <button share_title="{{ .Title }}" share_description="{{ .Page.Description | truncate 140 }}" share_permalink="{{ .Page.Permalink }}" share_dialogue="Condividi ora!"
+      class="sharebtn px-1 py-[1px] border rounded-md border-neutral-200 dark:border-neutral-600 hover:border-primary-300 hover:text-primary-700 dark:hover:border-primary-600 dark:hover:text-primary-400"
       >{{ ":v:" | emojify }} {{ i18n "article.share" }} {{ ":v:" | emojify }} </a>
     </div>
   {{ end }}
