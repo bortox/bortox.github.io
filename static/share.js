@@ -1,9 +1,9 @@
-function run_share(titolo,descrizione,permalink,testocondividi) {
+function run_share(evt) {
     var n = document.createElement("share-menu");
-    n.setAttribute("title",titolo);
-    n.setAttribute("text", descrizione);
-    n.setAttribute("url", permalink);
-    n.setAttribute("dialog-title", testocondividi);
+    n.setAttribute("title",evt.currentTarget.titolo);
+    n.setAttribute("text", evt.currentTarget.descrizione);
+    n.setAttribute("url", evt.currentTarget.permalink);
+    n.setAttribute("dialog-title", evt.currentTarget.testocondividi);
     n.setAttribute("id", "shareMenu");
     document.body.appendChild(n);
     shareMenu.share();
@@ -20,14 +20,16 @@ function condividipagina(titolo, descrizione, permalink, testocondividi) {
         document.getElementById("shareMenu").remove();
     }
     if (document.contains(document.getElementById("share-script"))) {
-        run_share(titolo, descrizione, permalink, testocondividi);
-    }   else {
-        var share_script = document.createElement('script');
-        share_script.type = 'module';
-        share_script.id = 'share-script'
-        share_script.src = 'https://bortox.it/Compiti-scolastici/js/share-menu.min.js';
-        document.body.appendChild(share_script);
-        share_script.addEventListener('load', run_share(titolo, descrizione, permalink, testocondividi);
+        document.getElementById("share-script").remove()
     }
-    
+    var share_script = document.createElement('script');
+    share_script.type = 'module';
+    share_script.id = 'share-script'
+    share_script.src = 'https://bortox.it/Compiti-scolastici/js/share-menu.min.js';
+    share_script.titolo = titolo
+    share_script.descrizione = descrizione
+    share_script.permalink = permalink
+    share_script.testocondividi = testocondividi
+    document.body.appendChild(share_script);
+    share_script.addEventListener('load', run_share, false);
 }
