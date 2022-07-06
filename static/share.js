@@ -19,6 +19,8 @@ function condividipagina(titolo, descrizione, permalink, testocondividi) {
             title: 'Share menu',
             event: true,
         });
+        share_script.remove();
+        n.remove();
     });
     
 }
