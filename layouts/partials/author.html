@@ -1,7 +1,5 @@
 
-<button id='condividipagina' class="mb-2 px-1 py-[1px] border rounded-md border-neutral-200 dark:border-neutral-600 hover:border-primary-300 hover:text-primary-700 dark:hover:border-primary-600 dark:hover:text-primary-400">{{ i18n "article.share" }} <i>{{ .Title | truncate 40 }}</i> {{ ":v:" | emojify}} </button>
-<script defer src="/Compiti-scolastici/js/share-menu.min.js" type="module"></script>
-<share-menu id="shareMenu" title='{{ .Title }}' text='{{ .Page.Description | truncate 140 }}' url='{{ .Page.Permalink }}' dialog-title='Condividi ora!' ></share-menu>
+<button onclick="condividipagina('{{ .Title }}', '{{ .Page.Description | truncate 140 }}', '{{ .Page.Permalink }}', 'Condividi ora!')" class="mb-2 px-1 py-[1px] border rounded-md border-neutral-200 dark:border-neutral-600 hover:border-primary-300 hover:text-primary-700 dark:hover:border-primary-600 dark:hover:text-primary-400">{{ i18n "article.share" }} <i>{{ .Title | truncate 40 }}</i> {{ ":v:" | emojify}} </button>
 <script defer>
 function condividipagina() {
   shareMenu.share();
