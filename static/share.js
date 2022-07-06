@@ -38,6 +38,6 @@ const btns = document.querySelectorAll('button[class^=sharebtn]')
 
 btns.forEach(btn => {
    btn.addEventListener('click', event => {
-        condividipagina( event.target.share_title, event.target.share_description, event.target.share_permalink, event.target.share_dialogue );
+        condividipagina( event.currentTarget.share_title, event.currentTarget.share_description, event.currentTarget.share_permalink, event.currentTarget.share_dialogue );
    });
 });
