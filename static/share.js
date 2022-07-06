@@ -1,9 +1,16 @@
 function condividipagina(titolo, descrizione, permalink, testocondividi) {
-    var share_script = document.createElement('script');
-    share_script.type = 'module';
-    share_script.id = 'share-script'
-    share_script.src = 'https://bortox.it/Compiti-scolastici/js/share-menu.min.js';
-    document.body.appendChild(share_script);
+    if (document.contains(document.getElementById("shareMenu"))) {
+        document.getElementById("shareMenu").remove();
+    }
+    if (document.contains(document.getElementById("share-script"))) {
+        var share_script = document.getElementById("share-script");
+    }   else {
+        var share_script = document.createElement('script');
+        share_script.type = 'module';
+        share_script.id = 'share-script'
+        share_script.src = 'https://bortox.it/Compiti-scolastici/js/share-menu.min.js';
+        document.body.appendChild(share_script);
+    }
     share_script.addEventListener('load', function() {
         var n = document.createElement("share-menu");
         n.setAttribute("title",titolo);
@@ -19,8 +26,6 @@ function condividipagina(titolo, descrizione, permalink, testocondividi) {
             title: 'Share menu',
             event: true,
         });
-        share_script.remove();
-        n.remove();
     });
     
 }
