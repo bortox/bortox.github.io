@@ -27,7 +27,7 @@ function condividipagina(titolo, descrizione, permalink, testocondividi) {
         share_script.id = 'share-script'
         share_script.src = 'https://bortox.it/Compiti-scolastici/js/share-menu.min.js';
         document.body.appendChild(share_script);
-        share_script.addEventListener('load', run_share(titolo, descrizione, permalink, testocondividi)
+        share_script.addEventListener('load', run_share(titolo, descrizione, permalink, testocondividi);
     }
     
 }
