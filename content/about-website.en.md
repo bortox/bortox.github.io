@@ -48,13 +48,13 @@ A new addition to the school section is [PCTO Environmental Monitoring (:it:)](h
 
 ## Eco-sustainability :deciduous_tree:
 
-A visit to bortox.it produces just **0.04** grams of CO<sub>2</sub> - lighter than 96% of sites tested - and the server from which the site is served uses sustainable energy!
+A visit to bortox.it produces just **0.06** grams of CO<sub>2</sub> - cleaner than 96% of sites tested - and the server uses sustainable energy!
 
 <div id="wcb" class="carbonbadge"></div>
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
 
-In a year with ~120 000 visits bortox.it produces just ~6kg of CO<sub>2</sub> :balance_scale:
-, the equivalent of 3.2kg of pasta :spaghetti: or 50km by car :oncoming_automobile:.
+In a year with ~120 000 visits bortox.it produces just ~9kg of CO<sub>2</sub> :balance_scale:
+, the equivalent of 4.8kg of pasta :spaghetti: or 75km by car :oncoming_automobile:.
 
 As soon as I have enough money, I will adopt a tree for the sake of the environment and the people but also to offset CO<sub>2</sub> emissions.
 

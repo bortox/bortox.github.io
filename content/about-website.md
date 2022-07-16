@@ -45,13 +45,13 @@ Una nuova aggiunta alla sezione scolastica è invece [PCTO Monitoraggio Ambienta
 
 ## Ecosostenibilità :deciduous_tree:
 
-Una visita a bortox.it produce appena **0.04** grammi di CO<sub>2</sub> - più leggero del 96% dei siti testati - ed il server dal quale viene servito il sito utilizza energia sostenibile!
+Una visita a bortox.it produce appena **0.06** grammi di CO<sub>2</sub> - più leggero del 95% dei siti testati - ed il server dal quale viene servito il sito utilizza energia sostenibile!
 
 <div id="wcb" class="carbonbadge"></div>
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
 
-In un anno con ~120 000 visite bortox.it produce appena ~6kg di CO<sub>2</sub> :balance_scale:
-, l'equivalente di 3.2kg di pasta :spaghetti: oppure di 50km in auto :oncoming_automobile:.
+In un anno con ~120 000 visite bortox.it produce appena ~9kg di CO<sub>2</sub> :balance_scale:
+, l'equivalente di 4.8kg di pasta :spaghetti: oppure di 75km in auto :oncoming_automobile:.
 
 Appena avrò abbastanza soldi, adotterò un albero per il bene dell'ambiente e della popolazione ma anche per compensare le emissioni di CO<sub>2</sub>
 
