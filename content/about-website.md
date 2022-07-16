@@ -1,7 +1,7 @@
 ---
 title: "Informazioni su bortox.it"
-description: "Com'è diviso il sito."
-
+description: "How the site is divided, bortox.it's commitments to sustainability and visitor data privacy."
+date: 2022-07-16
 ---
 
 ## Mappa del sito

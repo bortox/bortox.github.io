@@ -1,7 +1,7 @@
 ---
 title: "About bortox.it :tada:"
-description: "Andrea Bortolotti's website containing school projects on homework and notes as well as articles on computers and technology."
-
+description: "Website map, bortox.it's"
+date: 2022-07-16
 ---
 
 
