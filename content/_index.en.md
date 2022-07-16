@@ -14,4 +14,4 @@ Quick links:
 
 ---
 
-To know more about the website (the lair of the Borto) and on how it works, [click here]({{< ref "/about-website" >}}).
+To find out more about the website (the lair of the Borto) and how it works, [click here]({{< ref "/about-website" >}}).
