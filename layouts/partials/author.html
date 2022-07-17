@@ -1,18 +1,24 @@
 
 <button share_title="{{ .Title }}" share_description="{{ .Page.Description | truncate 140 }}" share_permalink="{{ .Page.Permalink }}" share_dialogue="Condividi '{{ .Title | truncate 40 }}'" class="sharebtn mb-2 px-1 py-[1px] border rounded-md border-neutral-200 dark:border-neutral-600 hover:border-primary-300 hover:text-primary-700 dark:hover:border-primary-600 dark:hover:text-primary-400">{{ i18n "article.share" }} <i>{{ .Title | truncate 40 }}</i> {{ ":v:" | emojify}} </button>
 {{ if .Params.showAuthor | default (.Site.Params.article.showAuthor | default true) }}
-  <div class="flex">
+  <div class="flex mt-6">
     {{ with .Site.Author.image }}
       {{ $authorImage := resources.Get . }}
       {{ if $authorImage }}
         {{ $authorImage := $authorImage.Fill "192x192" }}
-        <img
+        <picture>
+        {{ with $authorImage }}
+          {{ with .Resize (printf "%dx%d webp" .Width .Height) }}
+          <source type="image/webp" srcset="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+          {{ end }}
+        {{ end }}
+          <img 
           class="w-24 h-24 !mt-0 !mb-0 ltr:mr-4 rtl:ml-4 rounded-full"
           width="96"
           height="96"
           alt="{{ $.Site.Author.name | default "Author" }}"
-          src="{{ $authorImage.RelPermalink }}"
-        />
+          src="{{ $authorImage.RelPermalink }}">
+        </picture>
       {{ end }}
     {{ end }}
     <div class="place-self-center">
