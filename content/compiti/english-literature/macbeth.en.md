@@ -2,6 +2,7 @@
 date: 2022-02-05 10:13:00
 title: Brief summary of Shakespeare's Macbeth
 description: Brief summary of the tragedy Macbeth written by Shakespeare. Players and setting explained, every act in the plot written in a few lines.
+category: english-literature
 ---
 
 Shakespeare's main source for the tragedy Macbeth was Raphael Holinshed's Chronicles of England, Scotland and Ireland.

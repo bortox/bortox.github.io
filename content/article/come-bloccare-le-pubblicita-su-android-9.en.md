@@ -28,7 +28,7 @@ The default DNS resolver server communicates via http, so your requests can be s
 
 In order to communicate with an HTTPS server, i.e. with encrypted requests between you and the server, you need to fiddle around a bit, but fortunately from Android 9 onwards it has become very simple: just enable the **Private DNS** option in the settings.
 
-How to enable private DNS in Android settings](../tutorialaldnsprivato.png "How to enable private DNS in Android settings")
+How to enable private DNS in Android settings](/blog/tutorialaldnsprivato.png "How to enable private DNS in Android settings")
 
 Here's how to do it:
 

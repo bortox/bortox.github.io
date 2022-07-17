@@ -85,7 +85,7 @@ This **works**, but only in this page. If I have a list of pages in Hugo and wan
 
 ### Add visit-counter meta to article-meta
 
-![Article meta](../article-meta.png "This is the article meta, containing page date, word count, reading time and visitor count.")
+![Article meta](/blog/article-meta.png "This is the article meta, containing page date, word count, reading time and visitor count.")
 
 
 I copied the original `/layouts/partials/article-meta.html` file from the hugo Congo theme that I am using and added the following lines.

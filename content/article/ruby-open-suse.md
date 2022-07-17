@@ -15,7 +15,7 @@ OpenSuse è una distro che posso consigliare. Veloce e stabile, Europea ed anche
 
 Nei primi giorni d'uso però ho incontrato un problema: **non riuscivo ad installare Jekyll, il programma scritto in Ruby** che uso per compilare la maggior parte dei miei siti statici. <!--more-->
 
-![opensuse-jekyll-ruby.png](../opensuse-jekyll-ruby.png "Immagine dell'articolo: il camaleonte di OpenSuse si confronta con le gemme di Ruby tra cui Jekyll")
+![opensuse-jekyll-ruby.png](/blog/opensuse-jekyll-ruby.png "Immagine dell'articolo: il camaleonte di OpenSuse si confronta con le gemme di Ruby tra cui Jekyll")
 
 Ruby 2.7 -preinstallato- viene utilizzato anche da YaST ed altri programmi di sistema e per qualche motivo la versione distribuita con OpenSuse non andava molto d'accordo con l'installazione di Jekyll e Bundler.
 

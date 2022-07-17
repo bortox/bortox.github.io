@@ -1,0 +1,43 @@
+{{ $url := urls.Parse .Destination }}
+{{ $altText := .Text }}
+{{ $caption := .Title }}
+{{ if findRE "^https?" $url.Scheme }}
+  <figure>
+    <img class="my-0 rounded-md" src="{{ $url.String }}" alt="{{ $altText }}" loading="lazy" decoding="async" />
+    {{ with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+  </figure>
+{{ else }}
+  {{ $resource := "" }}
+  {{ if $.Page.Resources.GetMatch ($url.String) }}
+    {{ $resource = $.Page.Resources.GetMatch ($url.String) }}
+  {{ else if resources.GetMatch ($url.String) }}
+    {{ $resource = resources.Get ($url.String) }}
+  {{ end }}
+  {{ with $resource }}
+    <figure>
+      <picture>
+        <source type="image/webp" srcset="{{ (.Resize "330x webp").RelPermalink }} 330w" media="(max-width: 330px)">
+        <source type="image/webp" srcset="{{ (.Resize "660x webp").RelPermalink }} 660w" media="(max-width: 660px)">
+        <source type="image/webp" srcset="{{ (.Resize "1024x webp").RelPermalink }} 1024w" media="(max-width: 1024px)">
+        <source type="image/webp" srcset="{{ (.Resize "1320x webp").RelPermalink }} 2x" media="(min-width: 1024px)">
+        <img 
+        loading="lazy"
+        decoding="async"
+        class="my-0 rounded-md"
+        srcset="
+          {{ (.Resize "330x q90").RelPermalink }} 330w,
+          {{ (.Resize "660x q90").RelPermalink }} 660w,
+          {{ (.Resize "1024x q90").RelPermalink }} 1024w,
+          {{ (.Resize "1320x q90").RelPermalink }} 2x"
+        src="{{ (.Resize "660x q90").RelPermalink }}"
+        alt="{{ $altText }}"/>          
+        </picture>
+      {{ with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+    </figure>
+  {{ else }}
+    <figure>
+      <img class="my-0 rounded-md" src="{{ $url.String }}" alt="{{ $altText }}" loading="lazy" decoding="async" />
+      {{ with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+    </figure>
+  {{ end }}
+{{ end }}

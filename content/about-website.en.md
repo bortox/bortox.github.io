@@ -19,7 +19,7 @@ The **personal section** contains a [collection of :camera:](https://bortox.it/g
 
 #### Blog 💻
 
-The [computer blog (:it:,:uk:)](article) instead contains guides and notes to improve the experience of using various Linux 💻 and Android 📱 distros. I use Arch, btw_.
+The [computer blog (:it:,:uk:)]({{< ref "/article" >}}) instead contains guides and notes to improve the experience of using various Linux 💻 and Android 📱 distros. I use Arch, btw_.
 
 ---
 ### :school_satchel: School

@@ -151,7 +151,7 @@ Attenzione, però: se è la prima volta deve **memorizzare i cookies** di access
 
 ### Schermata di analytics
 
-![Twitch Channel Points Miner Analytics](../analytics-twitch-channel-points-miner.png)
+![Twitch Channel Points Miner Analytics](/blog/analytics-twitch-channel-points-miner.png)
 
 Per mostrare un'interessante schermata con le statistiche dei punti guadagnati ed anche per quale ragione (watch_streak, raid...) potete aggiungere la funzione
 

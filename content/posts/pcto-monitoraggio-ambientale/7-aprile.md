@@ -48,7 +48,7 @@ $$
 $$
 {{< /badge >}}
 
-![Alt text](../anomalia-temperatura-globale.png "Andamento dell'anomalia di temperatura dal 1880 al 2020")
+![Alt text](/scuola/pcto/cnr/anomalia-temperatura-globale.png "Andamento dell'anomalia di temperatura dal 1880 al 2020")
 
 Dopo aver **confermato** l'esistenza del cambiamento climatico come riscaldamento globale, introduciamo meglio **come studiare il clima**
 
@@ -63,7 +63,7 @@ Spettro elettromagnetico|Insieme di tutte le lunghezze d'onda che compongono la 
 Frequenza di un'onda [Hz] | Numero di cicli della forma d'onda al secondo
 Lunghezza d'Onda [m]|Ampiezza di un ciclo della forma d'onda (distanza tra due punte dell'onda)
 
-![Rappresentazione grafica di un'onda](../frequenza-onde.gif "Rappresentazione grafica di un'onda e della sua frequenza in Hertz")
+![Rappresentazione grafica di un'onda](/scuola/pcto/cnr/frequenza-onde.gif "Rappresentazione grafica di un'onda e della sua frequenza in Hertz")
 
 {{< alert >}}
 **Ogni corpo emette una radiazione elettromagnetica che dipende dalla sua temperatura**, descritta dalla legge di Planck nel caso ideale di un *corpo nero*.
@@ -153,7 +153,7 @@ Un aumento di gas serra aumenta il valore del **forcing radiativo** perché una 
 
 Per via degli effetti combinati di **effetto serra**, **nuvole** e **riflessione terrestre**, il bilancio radiativo tra atmosfera e Terra apparentemente non ha entrate ed uscite uguali. 
 
-![Bilancio Energetico Terrestre](../bilancio-energetico.png "Bilancio energetico tra superficie terrestre, atmosfera e spazio")
+![Bilancio Energetico Terrestre](/scuola/pcto/cnr/bilancio-energetico.png "Bilancio energetico tra superficie terrestre, atmosfera e spazio")
 
 In realtà il bilancio coincide, ad esempio tramite l'emissione di calore latente dalla Terra e la convezione entrate ed uscite si equivalgono.
 
@@ -161,7 +161,7 @@ La temperatura media della Terra, grazie soprattutto all'effetto serra, è di **
 
 
 
-![Emissione atmosferica terrestre](../emissione-atmosferica-gas.png "Emissione di radiazioni dall'atmosfera terrestre verso lo spazio")
+![Emissione atmosferica terrestre](/scuola/pcto/cnr/emissione-atmosferica-gas.png "Emissione di radiazioni dall'atmosfera terrestre verso lo spazio")
 
 In verde viene evidenziata l'emissione radiativa ideale di un corpo nero a 15 C° di temperatura, in rosso le misurazioni effettuate dal CNR attraverso FIRMOS in Germania. 
 
@@ -188,20 +188,20 @@ Per comprendere il potenziale d'inquinamento di un gas serra dobbiamo considerar
 Si tratta di una riduzione ciclica dello strato di Ozono - utile per noi terrestri perché blocca le radiazioni ultraviolette - che si verifica principalmente in primavera, sopra le regioni polari. 
 
 
-![Andamento di CFC e HCFC in atmosfera](../cfc-hcfc.png "Presenza di CFC ed HCFC nell'atmosfera terrestre")
+![Andamento di CFC e HCFC in atmosfera](/scuola/pcto/cnr/cfc-hcfc.png "Presenza di CFC ed HCFC nell'atmosfera terrestre")
 
 
 Gli alocarburi (CFC) erano i principali responsabili del buco nell'Ozono. 
 
 I CFC erano utilizzati largamente nelle bombolette spray, nei solventi ed in alcuni collanti. Nel 1987 il _Protocollo di Montreal_ ha fissato il progressivo abbandono di CFC, sostituiti presto da HCFC, non dannosi per l'ozono.
 
-![Riduzione del buco nell'Ozono](../buco-ozono.png "Conseguente riduzione nel buco nell'Ozono nell'Antartide in seguito all'abbandono di CFC")
+![Riduzione del buco nell'Ozono](/scuola/pcto/cnr/buco-ozono.png "Conseguente riduzione nel buco nell'Ozono nell'Antartide in seguito all'abbandono di CFC")
 
 ### Previsioni ed analisi sul riscaldamento globale 
 
 Comunque sia, adesso abbiamo un grosso problema: la concentrazione della \\(CO_2\\) è ai **massimi storici** da 800 000 anni fa.
 
-![Andamento della concentrazione di CO2 in atmosfera](../andamento-co2.png "Andamento della concentrazione di CO2 in atmosfera")
+![Andamento della concentrazione di CO2 in atmosfera](/scuola/pcto/cnr/andamento-co2.png "Andamento della concentrazione di CO2 in atmosfera")
 
 La misurazione è stata effettuata attraverso  carotaggi di strati di ghiaccio antichi. 
 
@@ -241,7 +241,7 @@ L'unico modo per valutare un modello matematico - una sorta di previsione scient
 
 Nel 2017, a bordo dell'aereo stratosferico sovietico **M55 Geopyhsica**, capace di raggiungere i 22km di altezza e dunque la stratosfera, è stato montato **COLD**, per misurare la concentrazione del monossido di carbonio.
 
-![Modello climatico sugli spostamenti di CO in atmosfera a confronto con misure sperimentali](../modello-co.png "Concentrazione di CO registrata dall'aereo (in basso) a confronto con modello atmosferico sulla provenienza di CO (in alto)")
+![Modello climatico sugli spostamenti di CO in atmosfera a confronto con misure sperimentali](/scuola/pcto/cnr/modello-co.png "Concentrazione di CO registrata dall'aereo (in basso) a confronto con modello atmosferico sulla provenienza di CO (in alto)")
 
 Nel seguente grafico vediamo che quando la concentrazione di CO misurata da COLD a bordo di M55 si alza, il modello atmosferico del CNR prevede la maggioranza dell'aria (in rosso) proveniente dal sud della Cina, area altamente industrializzata.
 

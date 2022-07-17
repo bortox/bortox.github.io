@@ -11,6 +11,11 @@ defaultContentLanguage = "it"
   [languages.en]
     languageCode = "en"
 
+[imaging]
+  anchor = 'Smart'
+  hint = 'photo'
+  quality = 90
+  resampleFilter = 'MitchellNetravali'
 
 [taxonomies]
   category = 'categories'

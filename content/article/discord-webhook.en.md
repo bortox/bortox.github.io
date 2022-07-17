@@ -15,7 +15,7 @@ In this article I will expose the fastest method to create a Discord webhook, th
 
 <!--more-->
 
-![discord-webhook-python-guida.png](../discord-webhook-python-guida.png)
+![discord-webhook-python-guida.png](/blog/discord-webhook-python-guida.png)
 
 ## What is a Webhook?
 
@@ -25,11 +25,11 @@ Explained simply without using technical jargon, a webhook is a link from the we
 
 To create a Webhook just open Discord, go into the settings of a channel of your choice, and then click on *Create Webhook*.
 
-![Create a webhook](../creare-webhook.png)
+![Create a webhook](/blog/creare-webhook.png)
 
 Let's start with the **customization** of the bot's avatar, that is the one that will have all the messages sent by this webhook on Discord, so let's change **name** and **image**.
 
-![Message sent with a webhook](../inviare-messaggio-webhook.png)
+![Message sent with a webhook](/blog/inviare-messaggio-webhook.png)
 
 In the example above,result of how I customized my first Webhook, the name &egrave; **Classviva Tasks** and the logo &egrave; that of **Classviva**, like the unofficial bot of the same name on Telegram, @ClasseVivaIT\_Bot.
 

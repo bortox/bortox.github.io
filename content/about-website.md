@@ -19,7 +19,7 @@ La **sezione personale** contiene una [collezione di foto :camera:](https://bort
 
 #### Blog 💻
 
-Il [blog sull'informatica (:it:,:uk:)]({{< ref "article" >}}) contiene invece guide ed appunti per migliorare l’esperienza d’uso di varie distro Linux 💻 e di Android 📱. _I use Arch, btw_.
+Il [blog sull'informatica (:it:,:uk:)]({{< ref "/article" >}}) contiene invece guide ed appunti per migliorare l’esperienza d’uso di varie distro Linux 💻 e di Android 📱. _I use Arch, btw_.
 
 ---
 ### :school_satchel: Scuola

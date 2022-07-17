@@ -28,7 +28,7 @@ Il server DNS risolutore preimpostato comunica via http, quindi le vostre richie
 
 Per comunicare con un server HTTPS, dunque con richieste criptate tra voi ed il server, serve smanettare un po', fortunatamente da Android 9 in poi è diventato molto semplice: basta attivare l'opzione **DNS privato** nelle impostazioni.
 
-![Come attivare il DNS privato nelle impostazioni Android](../tutorialdnsprivato.png "Come attivare il DNS privato nelle impostazioni Android")
+![Come attivare il DNS privato nelle impostazioni Android](/blog/tutorialdnsprivato.png "Come attivare il DNS privato nelle impostazioni Android")
 
 Ecco come fare:
 

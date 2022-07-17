@@ -29,7 +29,7 @@ sfruttando una scheda grafica sufficientemente potente.
 * Shaders di Anime4k
 
 
-![Confronto delle scene di Neon Genesis Evangelion con shaders anime4k attivi e disattivi](../confronto-upscale.jpg "Confronto delle scene di Neon Genesis Evangelion con shaders anime4k attivi e disattivi")
+![Confronto delle scene di Neon Genesis Evangelion con shaders anime4k attivi e disattivi](/blog/confronto-upscale.jpg "Confronto delle scene di Neon Genesis Evangelion con shaders anime4k attivi e disattivi")
 
 ## Come installare MPV e Anime4K
 
