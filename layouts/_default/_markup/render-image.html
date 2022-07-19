@@ -24,6 +24,8 @@
         loading="lazy"
         decoding="async"
         class="my-0 rounded-md"
+        width="{{ .Width }}"
+        height="{{ .Height }}"
         srcset="
           {{ (.Resize "330x q90").RelPermalink }} 330w,
           {{ (.Resize "660x q90").RelPermalink }} 660w,
