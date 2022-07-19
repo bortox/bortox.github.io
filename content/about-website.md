@@ -83,7 +83,7 @@ Le uniche informazioni memorizzate sul dispositivo di un visitatore del sito web
 
 Più informazioni a riguardo nella [Informativa sulla privacy]({{< ref "/privacy" >}})
 
-## Ognuno può collaborare
+## Ognuno può collaborare :busts_in_silhouette:
 
 Ognuno può vedere il codice sorgente del sito web e creare un [_pull request_](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) dopo aver eseguito un _fork_. 
 

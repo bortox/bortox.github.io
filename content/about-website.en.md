@@ -87,7 +87,7 @@ The only information stored on a visitor's device by the bortox.it website are t
 
 More information about privacy in the [Privacy Policy]({{< ref "/privacy" >}})
 
-## Everyone can collaborate
+## Everyone can collaborate :busts_in_silhouette:
 
 Everyone can see the source code of the website and create a [_pull request_](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) after _forking_ the code.
 
