@@ -1,16 +1,11 @@
 ---
-title: "Benvenuti su bortox.it :tada:"
-description: "Sito web di Andrea Bortolotti contenente progetti scolastici su compiti ed appunti come articoli su computer e tecnologia."
+title: "Welcome on bortox.it :tada:"
+description: "Andrea Bortolotti's website containing blog and school homework pages."
 showTableOfContents: true
 ---
-
-Quick links:
+* :large_blue_circle: [Start here  (:it:,:uk:) ]({{< ref "/about-website" >}}), else open one of the following pages:
 
 * :neutral_face: <a target="_blank" href="https://bortox.it/galleria/"> photo gallery 📷</a>
 * :neutral_face: [blog (:it:,:uk:)]({{< ref "/article" >}})
 * :school_satchel: <a target="_blank" href="https://bortox.it/Compiti-scolastici/">Compiti e appunti scolastici (🇮🇹)</a>
 * :school_satchel: <a target="_blank" href="https://bortox.it/trovaparadigmi/">🔍 Latin Paradigm Finder GUI (🇮🇹)</a>
-
-{{< alert "circle-info" >}}
-To find out more about the website (the lair of the Borto) and how it works, [click here]({{< ref "/about-website" >}}).
-{{</ alert >}}
