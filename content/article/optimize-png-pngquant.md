@@ -2,7 +2,10 @@
 title : Comprimere e ottimizzare immagini png con pngquant
 description : Optimize and reduce size of png images with little to no loss using pngquant.
 date: 2022-07-19
-showVisitCount: false
+tags:
+- optimization
+- image
+categories: ['tutorial', 'linux']
 ---
 
 Navigando su F-droid - uno store di app open-source - ho scoperto l'app Atomize. Tale app ha lo scopo di **ridurre la taglia di un'immagine in formato png**, spesso fino al 70%.

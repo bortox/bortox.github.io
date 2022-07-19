@@ -1,8 +1,13 @@
 ---
 title : Convert jekyll blog images to avif and webp
 description : How to convert the images of a jekyll blog to avif and webp formats
-date: 2022-07-19
-showVisitCount: false
+date: 2022-07-20
+tags:
+- optimization
+- image
+- avif
+- webp
+categories: ['tutorial', 'github']
 ---
 
 I have a blog with over 100 articles, mainly [School assignments](https://bortox.it/Compiti-scolastici), where I also convert images to the recent .avif and .webp formats. 
@@ -13,7 +18,7 @@ Why did I do it? Mainly for three reasons:
 
 * The score of some pages with many images on PageSpeed was sometimes less than 90/100 and it mildly infuriated me, because the website average is 98/99 out of 100.
 * After enabling webp conversion on my Hugo blog I noticed a better loading speed and savings on bandwidth and image size. It's better for who uses the website too!
-* This [article about the _obesity crisis_](https://idlewords.com/talks/website_obesity.html) of the web convinced me to reduce the page size of bortox.it. Images were the biggest problem.
+* This [article about the _obesity crisis_ (:gb:)](https://idlewords.com/talks/website_obesity.htm) of the web convinced me to reduce the page size of bortox.it. Images were the biggest problem.
 
 ## How to convert images to webp and avif on Jekyll
 
@@ -150,7 +155,7 @@ jobs:
 
 This is the build file that works for the setup just shown, just create a token with permission to write to the repos (write to the _gh-pages_ branch) and add the imagemagick and libvips installation to the pre_build_commands.
 
-## Speed up build time by removing converted images from .gitignore
+## Speed up local build time by removing converted images from .gitignore
 
 {{< badge >}}
 This does not work with GitHub pages

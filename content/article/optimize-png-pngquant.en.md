@@ -2,7 +2,10 @@
 title : Optimize png images with pngquant
 description : Optimize and reduce size of png images with little to no loss using pngquant.
 date: 2022-07-19
-showVisitCount: false
+tags:
+- optimization
+- image
+categories: ['tutorial', 'linux']
 ---
 
 
