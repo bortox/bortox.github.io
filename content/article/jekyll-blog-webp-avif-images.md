@@ -46,7 +46,7 @@ Successivamente il modulo viene installato, ma adesso c'è bisogno di **configur
 Per configurare il modulo Jekyll Picture Tag basta creare il file `_data/picture.yml`. 
 
 Per prima cosa, nel file bisogna specificare le _media query_ impostate sul sito. 
-```ruby
+```yaml
 media_queries:
     mobile: 'max-width: 600px'
     laptop: 'max-width: 800px'
@@ -54,7 +54,7 @@ media_queries:
 ```
 Nel mio sito, un dispositivo viene considerato uno smartphone se lo schermo ha meno di 600 pixel di larghezza, un laptop con meno di 800px e qualcos'altro se ha più di 800 pixel di larghezza. Successivamente ho cambiato alcuni parametri di default:
 
-```ruby
+```yaml
 formats: [avif, webp, original] # Order matters!
     format_quality:
       jpg: 80
@@ -76,7 +76,7 @@ Per ulteriore personalizzazione di questo file, consiglio di riferirsi alla [**d
 
 Aggiungendo questi parametri al file picture.yml si può influenzare il tempo di build.
 
-```ruby
+```yaml
 image_options:
       avif:
         compression: av1
