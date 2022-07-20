@@ -1,7 +1,8 @@
 ---
 title : Convert jekyll blog images to avif and webp
 description : How to convert the images of a jekyll blog to avif and webp formats
-date: 2022-07-20
+date: 2022-07-20 00:24:00Z
+lastmod: 2022-07-20 11:24:00Z
 tags:
 - optimization
 - image
@@ -10,7 +11,7 @@ tags:
 categories: ['tutorial', 'github']
 ---
 
-I have a blog with over 100 articles, mainly [School assignments](https://bortox.it/Compiti-scolastici), where I also convert images to the recent .avif and .webp formats. 
+I have a blog with over 100 articles, mainly [Compiti Scolastici (:it: School assignments)](https://bortox.it/Compiti-scolastici), where I also convert images to the recent .avif and .webp formats. 
 
 ## Why convert images to modern formats?
 
@@ -67,11 +68,17 @@ formats: [avif, webp, original] # Order matters!
 
     widths: [200, 400, 800, 1200, 1600] # Image widths, in pixels.
 ```
-I set support for conversion to avif, webp and jpeg files, and different qualities for the formats, probably too high. 
+I set support for conversion to avif, webp and the original format of files, and different qualities for each format.
+
+### How to choose the quality of converted images?
+
+Normally **75** is a good number for the quality of converted images and is used by default by **Hugo**, the framework for building static sites like this one from Google. On the official site of the conversion to .**avif** (https://avif.io/) the default is **70**, evaluating these parameters I would recommend keeping in the 70 to 80 range for image quality.
+
+For further customisation of picture.yml, I recommend referring to the **documentation** of Jekyll Picture Tag, available at https://rbuchberger.github.io/jekyll_picture_tag/
 
 ### Increase build time in exchange for smaller images
 
-``ruby
+```ruby
 image_options:
       avif:
         compression: av1
@@ -82,25 +89,25 @@ image_options:
         effort: 5 # Up to 6 from 0, 4=default
 ```
 
-With these options the effort of image conversion increases to over 100%, for savings of 5-10%. Avif takes like 10 times the time of webp conversion and webp takes longer than png. If you build locally and as written below, you remove the JPT converted images folder from the .gitignore it can be an effective idea.
+With these options the effort of image conversion increases to over 100%, for savings of 5-10%. Avif takes like 10 times the time of webp conversion and webp takes longer than png. 
 
+If you build locally and as written below and you remove the JPT converted images folder from the .gitignore it can be an effective idea for better compression, else the build times are too high and leave the default.
 
-### How to choose the quality of converted images?
-
-Normally **75** is a good number for the quality of converted images and is used by default by **Hugo**, the framework for building static sites like this one from Google. On the official site of the conversion to .**avif** (https://avif.io/) the default is **70**, evaluating these parameters I would recommend keeping in the 70 to 80 range for image quality.
-
-For further customisation of this file, I recommend referring to the **documentation** of Jekyll Picture Tag, available at https://rbuchberger.github.io/jekyll_picture_tag/
+More informations in [JPT Documentation (:gb:)](https://rbuchberger.github.io/jekyll_picture_tag/users/presets/image_quality.html) and on [libvips API Documentation (:gb:)](https://www.libvips.org/API/current/VipsForeignSave.html#vips-heifsave) on image compression options.
 
 ## Testing Jekyll Picture Tag
 
-As the name implies, Jekyll Picture Tag is a **tag liquid**, so it is added to pages in Markdown more or less like this {% _tag_ %}). 
+As the name implies, Jekyll Picture Tag is a **tag liquid**, so it is added to pages in Markdown more or less like this {% _tag_ %}. 
 
 ### Regex to convert Markdown Images in Jekyll Picture Tags
 
 If you use VSCodium like I do, or any tool that supports regex, this is a great command for converting `![Alt text](/data/image.png)` images into picture tags `{% picture /data/image --alt Alt text %}`.
 
-Find: `!\[(.*?)\]\((.*?)\)\)`
-Replace: `{% picture $2 --alt $1 %}`
+```java
+Find: !\[(.*?)\]\((.*?)\)\)
+Replace: {% picture $2 --alt $1 %}
+```
+
 
 {{< alert >}}
 If you have a picture that uses liquid code like I do, e.g. ` ![Picture of test tubes]({{ "/data/img/chemistry/lss/acids-and-bases/provetteac.jpg" | relative_url }})` you have to **remove it**, because Jekyll Picture Tag needs a path to an existing file from the project root. The exemplary result should be `{% picture /data/img/chemistry/lss/acids-and-bases/provetteac.jpg --alt Picture of test tubes %}`. With some find & replace you get there.
@@ -114,7 +121,7 @@ On Ubuntu, just install libvips-tools. On Alpine the package is called _vips_, o
 
 ## Using Jekyll Picture Tag with Github Actions
 
-Fortunately this time help is [in the documentation](https://rbuchberger.github.io/jekyll_picture_tag/users/deployment.html?highlight=svg#github-pages) but it's no good. Since the system is Ubuntu, the repos don't yet have the version that supports **avif**, so we'll use an Arch-based system, whose repos get updates very quickly.
+Fortunately this time help is [in the documentation](https://rbuchberger.github.io/jekyll_picture_tag/users/deployment.html?highlight=svg#github-pages) but it's no good. Since the system is Ubuntu, the repos don't yet have the lipvips version that supports **avif** - as of 2022/07/20 -, so we'll use an Arch-based system, whose repos get updates very quickly.
 
 ```yaml
 name: Build and Deploy to Github Pages
@@ -153,7 +160,7 @@ jobs:
           actor: '' # Default is the GITHUB_ACTOR
 ```
 
-This is the build file that works for the setup just shown, just create a token with permission to write to the repos (write to the _gh-pages_ branch) and add the imagemagick and libvips installation to the pre_build_commands.
+This is the build file that works for the setup just shown, just create a token with permission to write to the repos (specifically to the _gh-pages_ branch), set the branch on which a push will enable the action (in my case, _master_)  and add the imagemagick and libvips installation to the pre_build_commands (_pacman -S --noconfirm libvips imagemagick_).
 
 ## Speed up local build time by removing converted images from .gitignore
 
@@ -161,7 +168,7 @@ This is the build file that works for the setup just shown, just create a token 
 This does not work with GitHub pages
 {{</ badge >}}
 
-If you have limited build time, because Jekyll Picture Tag recognises when an image has already been converted, you can add the _site/generated folder to git where the converted images are located in different formats to avoid reconverting them each time.
+If you want to speed up local build time, since Jekyll Picture Tag recognises when an image has already been converted, you can add the `_site/generated` (where the converted images are located in different formats) folder to git to avoid reconverting them each time.
 
 ```bash
 # Cache built images by Jekyll Picture Tag in _site/generated

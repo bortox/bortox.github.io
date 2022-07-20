@@ -2,6 +2,7 @@
 title : Convertire le immagini di un blog Jekyll in avif e webp
 description : Optimize and reduce size of png images with little to no loss using pngquant.
 date: 2022-07-19
+lastmod: 2022-07-20 11:26:00Z
 tags:
 - optimization
 - image
@@ -63,7 +64,13 @@ formats: [avif, webp, original] # Order matters!
 
     widths: [200, 400, 800, 1200, 1600] # Image widths, in pixels.
 ```
-Ho impostato il supporto per la conversione in file avif, webp e jpeg, e diverse qualità per i formati, probabilmente troppo alte. 
+Ho impostato il supporto per la conversione in file avif, webp ed il formato originale delle immagini, con diverse qualità per ogni formato. 
+
+### Come scegliere la qualità delle immagini convertite?
+
+Normalmente **75** è un buon numero per la qualità delle immagini convertite ed è utilizzato come default da **Hugo**, il framework per costruire siti statici come questo di Google. Sul sito ufficiale della conversione in .**avif** (https://avif.io/) il default è **70**, valutando questi parametri consiglierei di tenersi su un range da 70 ad 80 per la qualità delle immagini.
+
+Per ulteriore personalizzazione di questo file, consiglio di riferirsi alla [**documentazione** di Jekyll Picture Tag](https://rbuchberger.github.io/jekyll_picture_tag/)
 
 ### Aumentare il tempo di build in cambio di immagini più piccole
 
@@ -73,31 +80,34 @@ Aggiungendo questi parametri al file picture.yml si può influenzare il tempo di
 image_options:
       avif:
         compression: av1
-        effort: 9 # Fino a 9 da 0, 9=veloce. 6 è il valore predefinito
+        effort: 7 # Fino a 9 da 0, 9=veloce. 6 è il valore predefinito
       png:
         compression: 9 # Livello di compressione da 0 a 9, 9=lento.
       webp:
-        effort: 6 # Livello di compressione da 0 a 6, 6=lento, 4=predefinito.
+        effort: 5 # Livello di compressione da 0 a 6, 6=lento, 4=predefinito.
 ```
 
-Con queste opzioni l'effort della conversione delle immagini aumenta oltre il 100%, per risparmi del 5-10%. Notare che la conversione in .avif con effort pari a nove richiede come circa 5-10 immagini in webp a livello 6. Se come scritto sotto rimuovete la cartella delle immagini convertite da JPT dal .gitignore eseguendo le build in locale può essere un'idea efficace per una migliore compressione, altrimenti è troppo lento: circa 30minuti per ogni build con le GitHub Actions.
+Con queste opzioni l'effort della conversione delle immagini aumenta oltre il 100%, per risparmi del 5-10%. 
 
+Notare che la conversione in .avif con effort pari a nove richiede come circa 5-10 immagini in webp a livello 6. Se come scritto sotto rimuovete la cartella delle immagini convertite da JPT dal .gitignore eseguendo le build in locale può essere un'idea efficace per una migliore compressione, altrimenti è troppo lento: circa 30minuti per ogni build con le GitHub Actions.
 
-### Come scegliere la qualità delle immagini convertite?
-
-Normalmente **75** è un buon numero per la qualità delle immagini convertite ed è utilizzato come default da **Hugo**, il framework per costruire siti statici come questo di Google. Sul sito ufficiale della conversione in .**avif** (https://avif.io/) il default è **70**, valutando questi parametri consiglierei di tenersi su un range da 70 ad 80 per la qualità delle immagini.
-
-Per ulteriore personalizzazione di questo file, consiglio di riferirsi alla **documentazione** di Jekyll Picture Tag, disponibile su https://rbuchberger.github.io/jekyll_picture_tag/
+Più informazioni sulla [documentazione di JPT (:gb:)](https://rbuchberger.github.io/jekyll_picture_tag/users/presets/image_quality.html) e sui [parametri di libvips (:gb:)](https://www.libvips.org/API/current/VipsForeignSave.html#vips-heifsave) sulle opzioni di elaborazione in diversi formati.
 
 ## Test di Jekyll Picture Tag
 
-Come dice il nome, Jekyll Picture Tag è un **tag liquid**, quindi viene aggiunto nelle pagine in Markdown più o meno così {% _tag_ %}). Se utilizzate VSCodium come me o qualsiasi strumento che supporti le regex, questo è un'ottimo comando per convertire le immagini `![Alt text](/data/immagine.png)` in picture tag `{% picture /data/immagine --alt Alt text %}`
+Come dice il nome, Jekyll Picture Tag è un **tag liquid**, quindi viene aggiunto nelle pagine in Markdown più o meno così {% _tag_ %}. Se utilizzate VSCodium come me o qualsiasi strumento che supporti le regex, questo è un'ottimo comando per convertire le immagini `![Alt text](/data/immagine.png)` in picture tag `{% picture /data/immagine --alt Alt text %}`
 
-Find: `!\[(.*?)\]\((.*?)\)`
-Replace: `{% picture $2 --alt $1 %}`
+### Regex per convertire immagini markdown in Jekyll Picture Tags
+
+Se utilizzate VSCodium come me, o qualsiasi strumento che supporti le regex, il sottostante è un ottimo comando per convertire le immagini `![Alt text](/data/image.png)` in tag immagine `{% picture /data/image --alt Alt text %}`.
+
+```java
+Find: !\[(.*?)\]\((.*?)\)\)
+Replace: {% picture $2 --alt $1 %}
+```
 
 {{< alert >}}
-Se avete un'immagine che sfrutta codice liquid come me, ad esempio ` ![Foto delle provette]({{ "/data/img/chimica/lss/acidi-e-basi/provetteac.jpg" | relative_url }})` dovete **toglierlo**, perché Jekyll Picture Tag ha bisogno di un path che porti ad un file esistente dalla root del progetto. Il risultato esemplare dovrebbe essere `{% picture /data/img/chimica/lss/acidi-e-basi/provetteac.jpg --alt Foto delle provette %}`. Con qualche find & replace ci si arriva.
+Se avete un'immagine che sfrutta codice liquid come me, ad esempio ` ![Foto delle provette]({{ "/data/img/chimica/lss/acidi-e-basi/provetteac.jpg" | relative_url }})` dovete **toglierlo**, perché Jekyll Picture Tag ha bisogno di un path che porti ad un file relativo alla root del progetto. Il risultato esemplare dovrebbe essere `{% picture /data/img/chimica/lss/acidi-e-basi/provetteac.jpg --alt Foto delle provette %}`. Con qualche find & replace ci si arriva.
 {{</ alert >}}
 
 
@@ -148,7 +158,7 @@ jobs:
           actor: ''                  # Default is the GITHUB_ACTOR
 ```
 
-Questo è il file di build che funziona per il setup appena mostrato, basta creare un token con il permesso di scrivere nelle repo (scrive sul branch _gh-pages_) ed aggiungere ai pre_build_commands l'installazione di imagemagick e libvips.
+Questo è il file di build che funziona per il setup appena mostrato, basta creare un token con il permesso di scrivere nelle repo (scrive sul branch _gh-pages_) specificare il branch sul quale l'azione verrà eseguita ad ogni push (nel mio caso _master_) ed aggiungere ai pre_build_commands l'**installazione** con pacman di imagemagick e libvips.
 
 ## Velocizzare il tempo di build locale rimuovendo da .gitignore le immagini convertite
 
@@ -156,7 +166,7 @@ Questo è il file di build che funziona per il setup appena mostrato, basta crea
 Questo non funziona con GitHub pages :(
 {{</ badge >}}
 
-Se avete dei minuti di build limitati, siccome Jekyll Picture Tag riconosce quando un'immagine è gia stata convertita, potete aggiungere a git la cartella _site/generated dove si trovano le immagini convertite in formati diversi per evitare di riconvertirle ogni volta.
+Se si vuole accelerare il tempo di compilazione locale, dato che Jekyll Picture Tag riconosce quando un'immagine è già stata convertita, si può aggiungere a git la cartella `_site/generated` (dove si trovano le immagini convertite in diversi formati), per evitare di riconvertirle ogni volta.
 
 ```bash
 # Cache built images by Jekyll Picture Tag in _site/generated
