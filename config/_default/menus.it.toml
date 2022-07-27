@@ -73,3 +73,8 @@
   name = "Informativa sulla privacy"
   pageRef = "privacy"
   weight = 60
+
+[[footer]]
+  name = "Supporta bortox.it :moneybag:"
+  url = "https://bortox.it/contribuisci-cs/"
+  weight = 45
