@@ -23,3 +23,4 @@ defaultContentLanguage = "it"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
+timeout = 60000

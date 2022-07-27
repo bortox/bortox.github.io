@@ -49,16 +49,16 @@ To configure the Jekyll Picture Tag module, create the file `_data/picture.yml`.
 
 First, in the file you must specify the _media queries_ set on the site. 
 
-```ruby
+```yaml
 media_queries:
-    mobile: 'max-width: 600px
+    mobile: 'max-width: 600px'
     laptop: 'max-width: 800px'
     wide: 'min-width: 801px'
 ```
 
 On my site, a device is considered a smartphone if the screen is less than 600 pixels wide, a laptop less than 800px and something else if it is more than 800 pixels wide. I then changed some default parameters:
 
-```ruby
+```yaml
 formats: [avif, webp, original] # Order matters!
     format_quality:
       jpg: 80
@@ -78,7 +78,7 @@ For further customisation of picture.yml, I recommend referring to the **documen
 
 ### Increase build time in exchange for smaller images
 
-```ruby
+```yaml
 image_options:
       avif:
         compression: av1
