@@ -1,168 +1,165 @@
 {
-    "name": "BBlog & Compiti di bortox.it",
-    "short_name": "bortox",
-    "icons": [
+  "name": "BBlog & Compiti di bortox.it",
+  "short_name": "bortox",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#8A2BE2",
+  "background_color": "#27272a",
+  "description": "BBlog di bortox.it, contiene appunti, compiti ed articoli.",
+  "display": "standalone",
+  "start_url": "/",
+  "shortcuts" : [
       {
-        "src": "/android-chrome-192x192.png",
-        "sizes": "192x192",
-        "type": "image/png"
+        "name": "Compiti Scolastici",
+        "url": "/Compiti-scolastici/",
+        "description": "Compiti ed appunti scolastici"
       },
       {
-        "src": "/apple-touch-icon.png",
-        "sizes": "180x180",
-        "type": "image/png"
+        "name": "BBlog",
+        "url": "/article/",
+        "description": "Blog personale sulla tecnologia"
       },
       {
-        "src": "/android-chrome-512x512.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "any maskable"
+        "name": "Compiti",
+        "url": "/compiti/",
+        "description": "Nuovo design di compiti ed appunti scolastici"
       }
     ],
-    "theme_color": "#8A2BE2",
-    "background_color": "#27272a",
-    "description": "BBlog di bortox.it, contiene appunti, compiti ed articoli.",
-    "display": "standalone",
-    "start_url": "/",
-    "shortcuts" : [
-        {
-          "name": "Compiti Scolastici",
-          "url": "/Compiti-scolastici/",
-          "description": "Compiti ed appunti scolastici"
-        },
-        {
-          "name": "BBlog",
-          "url": "/article/",
-          "description": "Blog personale sulla tecnologia"
-        },
-        {
-          "name": "Compiti",
-          "url": "/compiti/",
-          "description": "Nuovo design di compiti ed appunti scolastici"
-        }
-      ]
-      "screenshots" : [
-        {
-          "src": "screenshots/android/1.webp",
-          "sizes": "1334x750",
-          "type": "image/webp",
-          "platform": "android",
-          "label": "Schermata di benvenuto su bortox.it, tema scuro"
-        },
-        {
-          "src": "screenshots/android/2.webp",
-          "sizes": "1334x750",
-          "type": "image/webp",
-          "platform": "android",
-          "label": "Schermata di benvenuto su bortox.it, tema chiaro"
-        },
-        {
-          "src": "screenshots/android/3.webp",
-          "sizes": "1334x750",
-          "type": "image/webp",
-          "platform": "android",
-          "label": "Menù di Compiti e Appunti Scolastici, tema scuro"
-        },
-        {
-          "src": "screenshots/android/4.webp",
-          "sizes": "1334x750",
-          "type": "image/webp",
-          "platform": "android",
-          "label": "Menù di Compiti e Appunti Scolastici, tema chiaro"
-        },
-        {
-          "src": "screenshots/android/5.webp",
-          "sizes": "1334x750",
-          "type": "image/webp",
-          "platform": "android",
-          "label": "Post dal blog informatico di bortox.it, tema scuro"
-        },
-        {
-          "src": "screenshots/android/6.webp",
-          "sizes": "1334x750",
-          "type": "image/webp",
-          "platform": "android",
-          "label": "Post dal blog informatico di bortox.it, tema chiaro"
-        },
-        {
-          "src": "screenshots/android/7.webp",
-          "sizes": "1334x750",
-          "type": "image/webp",
-          "platform": "android",
-          "label": "Versione su Compiti e Appunti Scolastici, tema chiaro"
-        },
-        {
-          "src": "screenshots/android/8.webp",
-          "sizes": "1334x750",
-          "type": "image/webp",
-          "platform": "android",
-          "label": "Versione su Compiti e Appunti Scolastici, tema scuro"
-        },
-        {
-          "src": "screenshots/android/9.webp",
-          "sizes": "1334x750",
-          "type": "image/webp",
-          "platform": "android",
-          "label": "Schermata della galleria di foto di Andrea Bortolotti"
-        },
-        {
-          "src": "screenshots/desktop/1.webp",
-          "sizes": "2560x1600",
-          "type": "image/webp",
-          "platform": "wide",
-          "label": "Schermata di benvenuto su bortox.it, tema chiaro"
-        },
-        {
-          "src": "screenshots/desktop/2.webp",
-          "sizes": "2560x1600",
-          "type": "image/webp",
-          "platform": "wide",
-          "label": "Schermata di benvenuto su bortox.it, tema scuro"
-        },
-        {
-          "src": "screenshots/desktop/3.webp",
-          "sizes": "2560x1600",
-          "type": "image/webp",
-          "platform": "wide",
-          "label": "Menù di Compiti e Appunti Scolastici, tema chiaro"
-        },
-        {
-          "src": "screenshots/desktop/4.webp",
-          "sizes": "2560x1600",
-          "type": "image/webp",
-          "platform": "wide",
-          "label": "Menù di Compiti e Appunti Scolastici, tema scuro"
-        },
-        {
-          "src": "screenshots/desktop/5.webp",
-          "sizes": "2560x1600",
-          "type": "image/webp",
-          "platform": "wide",
-          "label": "Post dal blog informatico di bortox.it, tema chiaro"
-        },
-        {
-          "src": "screenshots/desktop/6.webp",
-          "sizes": "2560x1600",
-          "type": "image/webp",
-          "platform": "wide",
-          "label": "Post dal blog informatico di bortox.it, tema scuro"
-        },
-        {
-          "src": "screenshots/desktop/7.webp",
-          "sizes": "2560x1600",
-          "type": "image/webp",
-          "platform": "wide",
-          "label": "Versione su Compiti e Appunti Scolastici, tema scuro"
-        },
-        {
-          "src": "screenshots/desktop/8.webp",
-          "sizes": "2560x1600",
-          "type": "image/webp",
-          "platform": "wide",
-          "label": "Versione su Compiti e Appunti Scolastici, tema chiaro"
-        },
-      ]
-
-      
-    
-  }
+  "screenshots" : [
+    {
+      "src": "screenshots/android/1.webp",
+      "sizes": "1334x750",
+      "type": "image/webp",
+      "platform": "android",
+      "label": "Schermata di benvenuto su bortox.it, tema scuro"
+    },
+    {
+      "src": "screenshots/android/2.webp",
+      "sizes": "1334x750",
+      "type": "image/webp",
+      "platform": "android",
+      "label": "Schermata di benvenuto su bortox.it, tema chiaro"
+    },
+    {
+      "src": "screenshots/android/3.webp",
+      "sizes": "1334x750",
+      "type": "image/webp",
+      "platform": "android",
+      "label": "Menù di Compiti e Appunti Scolastici, tema scuro"
+    },
+    {
+      "src": "screenshots/android/4.webp",
+      "sizes": "1334x750",
+      "type": "image/webp",
+      "platform": "android",
+      "label": "Menù di Compiti e Appunti Scolastici, tema chiaro"
+    },
+    {
+      "src": "screenshots/android/5.webp",
+      "sizes": "1334x750",
+      "type": "image/webp",
+      "platform": "android",
+      "label": "Post dal blog informatico di bortox.it, tema scuro"
+    },
+    {
+      "src": "screenshots/android/6.webp",
+      "sizes": "1334x750",
+      "type": "image/webp",
+      "platform": "android",
+      "label": "Post dal blog informatico di bortox.it, tema chiaro"
+    },
+    {
+      "src": "screenshots/android/7.webp",
+      "sizes": "1334x750",
+      "type": "image/webp",
+      "platform": "android",
+      "label": "Versione su Compiti e Appunti Scolastici, tema chiaro"
+    },
+    {
+      "src": "screenshots/android/8.webp",
+      "sizes": "1334x750",
+      "type": "image/webp",
+      "platform": "android",
+      "label": "Versione su Compiti e Appunti Scolastici, tema scuro"
+    },
+    {
+      "src": "screenshots/android/9.webp",
+      "sizes": "1334x750",
+      "type": "image/webp",
+      "platform": "android",
+      "label": "Schermata della galleria di foto di Andrea Bortolotti"
+    },
+    {
+      "src": "screenshots/desktop/1.webp",
+      "sizes": "2560x1600",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Schermata di benvenuto su bortox.it, tema chiaro"
+    },
+    {
+      "src": "screenshots/desktop/2.webp",
+      "sizes": "2560x1600",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Schermata di benvenuto su bortox.it, tema scuro"
+    },
+    {
+      "src": "screenshots/desktop/3.webp",
+      "sizes": "2560x1600",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Menù di Compiti e Appunti Scolastici, tema chiaro"
+    },
+    {
+      "src": "screenshots/desktop/4.webp",
+      "sizes": "2560x1600",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Menù di Compiti e Appunti Scolastici, tema scuro"
+    },
+    {
+      "src": "screenshots/desktop/5.webp",
+      "sizes": "2560x1600",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Post dal blog informatico di bortox.it, tema chiaro"
+    },
+    {
+      "src": "screenshots/desktop/6.webp",
+      "sizes": "2560x1600",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Post dal blog informatico di bortox.it, tema scuro"
+    },
+    {
+      "src": "screenshots/desktop/7.webp",
+      "sizes": "2560x1600",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Versione su Compiti e Appunti Scolastici, tema scuro"
+    },
+    {
+      "src": "screenshots/desktop/8.webp",
+      "sizes": "2560x1600",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Versione su Compiti e Appunti Scolastici, tema chiaro"
+    }
+  ]
+}
