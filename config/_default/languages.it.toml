@@ -5,7 +5,7 @@ displayName = ":it:"
 isoCode = "it"
 weight = 1
 #logo = "logo.png"
-title = "BBlog di bortox"
+title = "bortox.it - blog "
 description = "Blog personale"
 copyright = "Contenuto sotto licenza: [ :link: CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0)"
 [author]

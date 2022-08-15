@@ -1,8 +1,8 @@
 ---
-title: "Welcome on BBlog [TECH]"
-description: "BBlog [TECH] is a blog containing articles, guides and notes to improve the user experience of computers and smartphones."
+title: "Welcome on BBlog"
+description: "BBlog is a blog containing articles, guides and notes to - sometimes - improve the user experience of computers and smartphones."
 
 ---
 
-Articles, guides and notes to improve the user experience of :computer: :iphone:.
+Articles, guides and notes often about :computer:/:iphone:.  
 
