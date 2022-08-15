@@ -41,5 +41,128 @@
           "description": "Nuovo design di compiti ed appunti scolastici"
         }
       ]
+      "screenshots" : [
+        {
+          "src": "screenshots/android/1.webp",
+          "sizes": "1334x750",
+          "type": "image/webp",
+          "platform": "wide",
+          "label": "Schermata di benvenuto su bortox.it, tema scuro"
+        },
+        {
+          "src": "screenshots/android/2.webp",
+          "sizes": "1334x750",
+          "type": "image/webp",
+          "platform": "wide",
+          "label": "Schermata di benvenuto su bortox.it, tema chiaro"
+        },
+        {
+          "src": "screenshots/android/3.webp",
+          "sizes": "1334x750",
+          "type": "image/webp",
+          "platform": "wide",
+          "label": "Menù di Compiti e Appunti Scolastici, tema scuro"
+        },
+        {
+          "src": "screenshots/android/4.webp",
+          "sizes": "1334x750",
+          "type": "image/webp",
+          "platform": "wide",
+          "label": "Menù di Compiti e Appunti Scolastici, tema chiaro"
+        },
+        {
+          "src": "screenshots/android/5.webp",
+          "sizes": "1334x750",
+          "type": "image/webp",
+          "platform": "wide",
+          "label": "Post dal blog informatico di bortox.it, tema scuro"
+        },
+        {
+          "src": "screenshots/android/6.webp",
+          "sizes": "1334x750",
+          "type": "image/webp",
+          "platform": "wide",
+          "label": "Post dal blog informatico di bortox.it, tema chiaro"
+        },
+        {
+          "src": "screenshots/android/7.webp",
+          "sizes": "1334x750",
+          "type": "image/webp",
+          "platform": "wide",
+          "label": "Versione su Compiti e Appunti Scolastici, tema chiaro"
+        },
+        {
+          "src": "screenshots/android/8.webp",
+          "sizes": "1334x750",
+          "type": "image/webp",
+          "platform": "wide",
+          "label": "Versione su Compiti e Appunti Scolastici, tema scuro"
+        },
+        {
+          "src": "screenshots/android/9.webp",
+          "sizes": "1334x750",
+          "type": "image/webp",
+          "platform": "android",
+          "label": "Schermata della galleria di foto di Andrea Bortolotti"
+        },
+        {
+          "src": "screenshots/desktop/1.webp",
+          "sizes": "2560x1600",
+          "type": "image/webp",
+          "platform": "wide",
+          "label": "Schermata di benvenuto su bortox.it, tema chiaro"
+        },
+        {
+          "src": "screenshots/desktop/2.webp",
+          "sizes": "2560x1600",
+          "type": "image/webp",
+          "platform": "wide",
+          "label": "Schermata di benvenuto su bortox.it, tema scuro"
+        },
+        {
+          "src": "screenshots/desktop/3.webp",
+          "sizes": "2560x1600",
+          "type": "image/webp",
+          "platform": "wide",
+          "label": "Menù di Compiti e Appunti Scolastici, tema chiaro"
+        },
+        {
+          "src": "screenshots/desktop/4.webp",
+          "sizes": "2560x1600",
+          "type": "image/webp",
+          "platform": "wide",
+          "label": "Menù di Compiti e Appunti Scolastici, tema scuro"
+        },
+        {
+          "src": "screenshots/desktop/5.webp",
+          "sizes": "2560x1600",
+          "type": "image/webp",
+          "platform": "wide",
+          "label": "Post dal blog informatico di bortox.it, tema chiaro"
+        },
+        {
+          "src": "screenshots/desktop/6.webp",
+          "sizes": "2560x1600",
+          "type": "image/webp",
+          "platform": "wide",
+          "label": "Post dal blog informatico di bortox.it, tema scuro"
+        },
+        {
+          "src": "screenshots/desktop/7.webp",
+          "sizes": "2560x1600",
+          "type": "image/webp",
+          "platform": "wide",
+          "label": "Versione su Compiti e Appunti Scolastici, tema scuro"
+        },
+        {
+          "src": "screenshots/desktop/8.webp",
+          "sizes": "2560x1600",
+          "type": "image/webp",
+          "platform": "wide",
+          "label": "Versione su Compiti e Appunti Scolastici, tema chiaro"
+        },
+      ]
+
+      
     
   }
