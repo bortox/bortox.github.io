@@ -9,3 +9,4 @@ showTableOfContents: true
 * :neutral_face: [blog (:it:,:uk:)]({{< ref "/article" >}})
 * :school_satchel: <a target="_blank" href="https://bortox.it/Compiti-scolastici/">Compiti e appunti scolastici (🇮🇹)</a>
 * :school_satchel: <a target="_blank" href="https://bortox.it/trovaparadigmi/">🔍 Latin Paradigm Finder GUI (🇮🇹)</a>
+* :books: <a target="_blank" href="https://tldr.bortox.it/"> TLDR Pages (:computer:)</a>
