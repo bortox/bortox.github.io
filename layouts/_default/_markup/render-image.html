@@ -16,13 +16,19 @@
   {{ with $resource }}
     <figure>
       <picture>
-        {{- $logo := (resources.Get "logo500st.png") }}
-        {{- $size := math.Round (mul $resource.Height 0.3) }}
-        {{- $size := cond (ge $size 80) ($size) (80.0) }}
-        {{- $logo := $logo.Resize (printf "%.0fx png" $size) }}
-        {{- $res := $resource.Filter (images.Overlay $logo (0) (sub $resource.Height $logo.Height) ) }}
+        {{ $data := newScratch }}
+        {{ $data.Set "src" $resource }}
+        {{ if gt $resource.Width 600 }}
+          {{- $logo := (resources.Get "logo500st.png") }}
+          {{- $size := math.Round (mul $resource.Height 0.3) }}
+          {{- $size := cond (ge $size 80) ($size) (80.0) }}
+          {{- $logo := $logo.Resize (printf "%.0fx png" $size) }}
+          {{- $res := $resource.Filter (images.Overlay $logo (0) (sub $resource.Height $logo.Height) ) }}
+          {{ $data.Set "src" $res }}
+        {{ end }}
+        {{ $res := $data.Get "src" }}
         {{ with $res }}
-        <source type="image/webp" srcset="{{ (.Resize "330x webp").RelPermalink }} 330w" media="(max-width: 330px)">
+        <source type="image/webp" srcset="{{ ($resource.Resize "330x webp").RelPermalink }} 330w" media="(max-width: 330px)">
         <source type="image/webp" srcset="{{ (.Resize "660x webp").RelPermalink }} 660w" media="(max-width: 660px)">
         <source type="image/webp" srcset="{{ (.Resize "1024x webp").RelPermalink }} 1024w" media="(max-width: 1024px)">
         <source type="image/webp" srcset="{{ (.Resize "1320x webp").RelPermalink }} 2x" media="(min-width: 1024px)">
@@ -33,7 +39,7 @@
         width="{{ .Width }}"
         height="{{ .Height }}"
         srcset="
-          {{ (.Resize "330x q90").RelPermalink }} 330w,
+          {{ ($resource.Resize "330x q90").RelPermalink }} 330w,
           {{ (.Resize "660x q90").RelPermalink }} 660w,
           {{ (.Resize "1024x q90").RelPermalink }} 1024w,
           {{ (.Resize "1320x q90").RelPermalink }} 2x"
