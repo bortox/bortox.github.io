@@ -1,13 +1,14 @@
 ---
-title : Convert jekyll blog images to avif and webp
-description : How to convert the images of a jekyll blog to avif and webp formats
+title : Convert jekyll blog images to avif and webp with jekyll picture tag
+description : How to convert the images of a jekyll blog to avif and webp formats using jekyll picture tag
 date: 2022-07-20 00:24:00Z
-lastmod: 2022-07-20 11:24:00Z
+lastmod: 2022-08-18 11:24:00Z
 tags:
 - optimization
 - image
 - avif
 - webp
+- jp2
 categories: ['tutorial', 'github']
 ---
 
@@ -117,9 +118,9 @@ If you have a picture that uses liquid code like I do, e.g. ` ![Picture of test 
 
 Jekyll Picture Tag uses [**libvips**](https://www.libvips.org/) to process pictures, along with **imagemagick**.
 
-On Ubuntu, just install libvips-tools. On Alpine the package is called _vips_, on Debian Buster with YunoHost (my previous setup) don't even think about it: a hell of a lot of dependencies like obsolete meson to compile and reinstall, libvips, imagemagick...
+On Ubuntu, just install libvips-tools. On Alpine the package is called _vips_, on Debian Buster with YunoHost (my previous setup) don't even think about it: a hell of a lot of dependencies like obsolete meson to compile and reinstall, libvips, imagemagick... However it was luckily easy to setup Github Actions!
 
-## Using Jekyll Picture Tag with Github Actions
+## How to use Jekyll Picture Tag with Github Actions
 
 Fortunately this time help is [in the documentation](https://rbuchberger.github.io/jekyll_picture_tag/users/deployment.html?highlight=svg#github-pages) but it's no good. Since the system is Ubuntu, the repos don't yet have the lipvips version that supports **avif** - as of 2022/07/20 -, so we'll use an Arch-based system, whose repos get updates very quickly.
 
@@ -149,7 +150,7 @@ jobs:
         with:
           provider: 'github'
           token: ${{ secrets.GH_TOKEN }} # It's your Personal Access Token(PAT)
-          pre_build_commands: pacman -S --noconfirm libvips imagemagick
+          pre_build_commands: pacman -S --noconfirm libvips imagemagick openjpeg2 libheif poppler libjxl libwebp libpng libjpeg-turbo
           repository: '' # Default is current repository
           branch: 'gh-pages' # Default is gh-pages for github provider
           jekyll_src: './' # Default is root directory
@@ -160,7 +161,19 @@ jobs:
           actor: '' # Default is the GITHUB_ACTOR
 ```
 
-This is the build file that works for the setup just shown, just create a token with permission to write to the repos (specifically to the _gh-pages_ branch), set the branch on which a push will enable the action (in my case, _master_)  and add the imagemagick and libvips installation to the pre_build_commands (_pacman -S --noconfirm libvips imagemagick_).
+This is the build file that works for the setup just shown, just create a token with permission to write to the repos (specifically to the _gh-pages_ branch), set the branch on which a push will enable the action (in my case, _master_)  and add the imagemagick libvips and libs to support different formats like libheif installation to the pre_build_commands (_pacman -S --noconfirm libvips imagemagick openjpeg2 libheif poppler libjxl libwebp libpng libjpeg-turbo_).
+
+All of those libraries in the pre_build_commands are required for different things:
+
+* libvips -> necessary
+* imagemagick -> necessary
+* openjpeg2 -> jp2 support, format for old apple devices instead of webp
+* libheif -> avif support, modern format
+* poppler -> svg support
+* libjxl -> jpegxl support, royalty-free format sometimes better than webp/avif. In 2022, soon to be supported in most browsers.
+* libwebp -> webp support, Google image format, good compression
+* libpng -> png support
+* libjpeg-turbo -> jpeg support 
 
 ## Speed up local build time by removing converted images from .gitignore
 

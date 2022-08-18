@@ -1,6 +1,6 @@
 ---
-title : Convertire le immagini di un blog Jekyll in avif e webp
-description : Optimize and reduce size of png images with little to no loss using pngquant.
+title : Convertire le immagini di un blog Jekyll in avif e webp con jekyll picture tag
+description : Converti ed ottimizza le immagini di un blog jekyll in avif webp e jpeg2000 con jekyll picture tag
 date: 2022-07-19
 lastmod: 2022-07-20 11:26:00Z
 tags:
@@ -8,6 +8,7 @@ tags:
 - image
 - avif
 - webp
+- jp2
 categories: ['tutorial', 'github']
 ---
 
@@ -147,7 +148,7 @@ jobs:
         with:
           provider: 'github'
           token: ${{ secrets.GH_TOKEN }} # It's your Personal Access Token(PAT)
-          pre_build_commands: pacman -S --noconfirm libvips imagemagick
+          pre_build_commands: pacman -S --noconfirm libvips imagemagick openjpeg2 libheif poppler libjxl libwebp libpng libjpeg-turbo
           repository: ''             # Default is current repository
           branch: 'gh-pages'         # Default is gh-pages for github provider
           jekyll_src: './'           # Default is root directory
@@ -158,7 +159,21 @@ jobs:
           actor: ''                  # Default is the GITHUB_ACTOR
 ```
 
-Questo è il file di build che funziona per il setup appena mostrato, basta creare un token con il permesso di scrivere nelle repo (scrive sul branch _gh-pages_) specificare il branch sul quale l'azione verrà eseguita ad ogni push (nel mio caso _master_) ed aggiungere ai pre_build_commands l'**installazione** con pacman di imagemagick e libvips.
+Questo è il file di build che funziona per il setup appena mostrato, basta creare un token con il permesso di scrivere nelle repo (scrive sul branch _gh-pages_) specificare il branch sul quale l'azione verrà eseguita ad ogni push (nel mio caso _master_) ed aggiungere ai pre_build_commands l'**installazione** con pacman di imagemagick e libvips oltre alle altre librerie necessarie per il supporto di formati specifici.
+
+Tutte le librerie presenti nei comandi pre_build sono necessarie per diverse cose:
+
+* libvips -> necessaria
+* imagemagick -> necessaria
+* openjpeg2 -> supporto jp2, formato per i vecchi dispositivi apple al posto del webp
+* libheif -> supporto avif, formato moderno
+* poppler -> supporto svg
+* libjxl -> supporto jpegxl, formato royalty-free a volte migliore di webp/avif. Nel 2022, presto sarà supportato dalla maggior parte dei browser.
+* libwebp -> supporto webp, formato immagine di Google, buona compressione.
+* libpng -> supporto png
+* libjpeg-turbo -> supporto jpeg 
+
+Tradotto con www.DeepL.com/Translator (versione gratuita)
 
 ## Velocizzare il tempo di build locale rimuovendo da .gitignore le immagini convertite
 
