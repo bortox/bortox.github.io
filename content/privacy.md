@@ -18,7 +18,7 @@ Se ritenete che il modo in cui trattiamo i vostri dati personali con bortox.it v
 
 * Il sito utilizza Matomo Analytics e Goatcounter per ottenere statistiche sulle pagine più visitate, servizi conformi al GDPR che anonimizzano ogni singola visita e non memorizzano informazioni personali.
 
-* Il sito utilizza Cusdis (opt-in) per offrire la possibilità di lasciare commenti nella sezione *Compiti e Appunti Scolastici*. 
+* Il sito utilizza Telegram Comments (opt-in) per offrire la possibilità di lasciare commenti nella sezione *Compiti e Appunti Scolastici*. 
 
 ## Matomo Analytics (opt-out)
 
@@ -50,19 +50,17 @@ Goatcounter non raccoglie informazioni di identificazione personale, quindi non 
 
 Posizione del server: Francoforte, DE
 
-## Cusdis (opt-in)
+## Telegram Comments (opt-in)
 
-Cusdis è un servizio Open Source per commentare le pagine di Schoolwork, quindi solo le pagine che iniziano con bortox.it/Compiti-scolastici/*.
+Telegram Comments è un servizio di Telegram per commentare le pagine di Compiti Scolastici, quindi solo le pagine che iniziano con bortox.it/Compiti-scolastici/*.
 
-Cusdis è opt-in, il che significa che su ogni pagina web è disabilitato, ma se viene premuto il pulsante "Lascia un commento" il codice Javascript di Cusdis viene eseguito. Ciò è evidenziato dal testo sopra il pulsante: 
+Telegram Comments è opt-in, il che significa che su ogni pagina web è disabilitato, ma se viene premuto il pulsante "Commenta con Telegram" il codice Javascript di Telegram Comments viene eseguito. Ciò è evidenziato dal testo sotto il pulsante: 
 
->Cliccando il pulsante sottostante si aprirà la sezione dei commenti, con uno sfondo azzurro. Cliccando sul pulsante "Lascia un commento", accetti la [privacy policy](https://cusdis.com/privacy-policy) di cusdis.
+>Cliccando il pulsante soprastante potrai commentare questo post con il tuo account Telegram. Cliccando il bottone "Commenta via Telegram", accetti la [politica sulla privacy](https://Telegram.org/privacy) di Telegram.
 
-Cusdis raccoglie il vostro Nickname e il vostro Commento, opzionalmente potete anche collegare un indirizzo e-mail al vostro Nickname. 
+Telegram Comments raccoglie informazioni di identificazione personale (testo del commento collegato al vostro account Telegram, il commento viene pubblicato in un canale Telegram pubblico).
 
-Cusdis raccoglie informazioni di identificazione personale (email, testo del commento, nickname del commento).
-
-Poiché bortox.it tratta i dati personali su Cusdis sotto esplicito consenso dell'utente, potete esercitare i seguenti diritti:
+Poiché bortox.it tratta i dati personali su Telegram sotto esplicito consenso dell'utente, potete esercitare i seguenti diritti:
 
 * Diritto di accesso: potete chiederci in qualsiasi momento di accedere ai vostri dati personali.
 

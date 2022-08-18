@@ -17,7 +17,7 @@ If you think that the way we process your personal data with bortox.it is infrin
 
 * The website uses Matomo Analytics and Goatcounter to get stats about the most visited pages, GDPR-compliant services which anonymize every single visit and do not store personal information.
 
-* The website uses Cusdis (opt-in) to offer the possibility of leaving comments on the *Compiti e Appunti Scolastici* section. 
+* The website uses Telegram (opt-in) to offer the possibility of leaving comments on the *Compiti e Appunti Scolastici* section. 
 
 ## Matomo Analytics (opt-out)
 
@@ -49,19 +49,17 @@ Goatcounter does not collect personally identifiable information so there is not
 
 Server Location: Frankfurt, DE
 
-## Cusdis (opt-in)
+## Telegram Comments (opt-in)
 
-Cusdis is an Open Source service for commenting on Schoolwork pages, so only on pages starting with bortox.it/Compiti-scolastici/*.
+Telegram Comments is the Telegram service for commenting on Schoolwork pages, so only on pages starting with bortox.it/Compiti-scolastici/*.
 
-Cusdis is opt-in, which means that on every webpage it is disabled, but if the 'Leave a Comment' (translated from Italian to English) button is pressed the Cusdis Javascript code will be executed. This is evidenced by the text above the button (translated from Italian to English): 
+Telegram Comments is opt-in, which means that on every webpage it is disabled, but if the 'Comment with Telegram' (translated from Italian to English) button is pressed the Telegram Comments Javascript code will be executed. This is evidenced by the text below the button (translated from Italian to English): 
 
->Clicking the button below will open the comments section, with a light blue background. By clicking the "Leave a Comment" button, you accept the [privacy policy](https://cusdis.com/privacy-policy) of cusdis.
+>By clicking the button above you can comment on this post with your Telegram account. By clicking the "Comment via Telegram" button, you accept Telegram's [privacy policy](https://Telegram.org/privacy). 
 
-Cusdis collects your Nickname and your Comment, optionally you can also link an Email address to your Nickname. 
+Telegram collects personally identifiable information (your comment linked to your Telegram account gets published on a Telegram public channel).
 
-Cusdis collects personally identifiable information (email, comment text, comment nickname).
-
-As bortox.it is processing personal data on explicit consent for Cusdis, you can exercise the following rights:
+As bortox.it is processing personal data on explicit consent for Telegram, you can exercise the following rights:
 
 * Right of access: you can ask us at any time to access your personal data.
 
