@@ -17,7 +17,7 @@ If you think that the way we process your personal data with bortox.it is infrin
 
 * The website uses Matomo Analytics and Goatcounter to get stats about the most visited pages, GDPR-compliant services which anonymize every single visit and do not store personal information.
 
-* The website uses Telegram (opt-in) to offer the possibility of leaving comments on the *Compiti e Appunti Scolastici* section. 
+* The website uses Telegram Comments (opt-in) to offer the possibility of leaving comments on the *Compiti e Appunti Scolastici* section. 
 
 ## Matomo Analytics (opt-out)
 
