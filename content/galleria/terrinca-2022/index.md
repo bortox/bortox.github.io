@@ -70,5 +70,3 @@ Riguardo a dove mangiare nel cuore del paese, oltre all'imponente statua della M
 Levigliani è un'altro paesino piccolo vicino a Terrinca, distante solo 5 minuti in macchina e 20 a piedi. 
 
 L'Osteria di Levigliani ha del cibo dignitoso - consiglio i piatti di carne, molto buoni - ma soprattutto una vista sulle montagne degna di nota e spesso ospita delle "serate musicali".
-
-<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="2quoGpt8" data-limit="15" data-color="8A2BE2" data-dislikes="1" data-colorful="1"></script>
