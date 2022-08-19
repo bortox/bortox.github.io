@@ -1,9 +1,23 @@
 
 <button share_title="{{ .Title }}" share_description="{{ .Page.Description | truncate 140 }}" share_permalink="{{ .Page.Permalink }}" share_dialogue="Condividi '{{ .Title | truncate 40 }}'" class="sharebtn mb-2 px-1 py-[1px] border rounded-md border-neutral-200 dark:border-neutral-600 hover:border-primary-300 hover:text-primary-700 dark:hover:border-primary-600 dark:hover:text-primary-400">{{ i18n "article.share" }} <i>{{ .Title | truncate 40 }}</i> {{ ":v:" | emojify}} </button>
-<div id="isso-thread"></div>
-<script async defer src="https://commenti.bortox.it/js/embed.min.js" data-isso="https://commenti.bortox.it"></script>
+<script src="https://giscus.app/client.js"
+        data-repo="bortox/bortox.github.io"
+        data-repo-id="R_kgDOHRi0nA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOHRi0nM4CQ7A6"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="it"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
 {{ if .Params.showAuthor | default (.Site.Params.article.showAuthor | default true) }}
-  <div class="flex mt-6">
+  <div class="flex mt-12">
     {{ with .Site.Author.image }}
       {{ $authorImage := resources.Get . }}
       {{ if $authorImage }}
