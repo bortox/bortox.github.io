@@ -16,6 +16,7 @@ article:
     other: "{{ .Count }} words"
   related: "Related posts"
   share: "Share"
+  langname: en
 
 author:
   byline_title: "Author"
