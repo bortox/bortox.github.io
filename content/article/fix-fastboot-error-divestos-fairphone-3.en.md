@@ -9,14 +9,15 @@ tags:
 categories: ['android', 'tutorial']
 ---
 
-Following the instructions on the DivestOS official website, after rebooting to the unlocked bootloader one should do 
+Following the instructions on the DivestOS official website, after rebooting to the unlocked bootloader one should do:
 
 > If fastboot.zip available: $ fastboot update divested-version-date-dos-device-fastboot.zip
 > If recovery.img available: $ fastboot flash recovery divested-version-date-dos-device-recovery.img
 
-I downloaded both files to install in the fastboot way, but with my Fairphone 3 it didn't work
+I downloaded both files to install DivestOS the fastboot way, but with my Fairphone 3 it didn't work
 
 When trying to do `fastboot update divested-19.1-20220808-dos-FP3-fastboot.zip` 
+```shell
 --------------------------------------------
 Bootloader Version...: 
 Baseband Version.....: 
@@ -28,10 +29,10 @@ Setting current slot to 'b'                        OKAY [  0.020s]
 extracting boot.img (64 MB) to disk... took 0.901s
 archive does not contain 'boot.sig'
 fastboot: error: boot partition is smaller than boot image
-
+```
 ## How to fix fastboot: error: boot partition is smaller than boot image
 
-According to [the developer answer in this community forum](https://forum.f-droid.org/t/divestos-long-term-device-support-with-enhanced-privacy-and-security/10105/759) 
+According to [the DivestOS developer answer in this community forum](https://forum.f-droid.org/t/divestos-long-term-device-support-with-enhanced-privacy-and-security/10105/759) 
 
 > the fastboot update method is recommended for initial installation, it doesn’t actually seem to work on all devices it is supposed to.
 
@@ -44,11 +45,12 @@ So, that's how to install DivestOS on the Fairphone. The Fastboot update is the 
 
 If you have already [unlocked the bootloader](https://support.fairphone.com/hc/en-us/articles/360048646311-FP3-Manage-the-bootloader) and the fastboot commands don't work, you can install DivestOS in this way:
 
-You can try these commands but they probably won't work, however the ROM can be installed following the steps in the list.
+You can try the commands to install DivestOS in fastboot anyway but they don't work on every device. 
 
+> If fastboot.zip available: $ fastboot update divested-version-date-dos-device-fastboot.zip
+> If recovery.img available: $ fastboot flash recovery divested-version-date-dos-device-recovery.img
 
-If fastboot.zip available: $ fastboot update divested-version-date-dos-device-fastboot.zip
-If recovery.img available: $ fastboot flash recovery divested-version-date-dos-device-recovery.img
+However the ROM can be installed also **following the steps in the list**, which I first did on my FP3 and then wrote about those here.
 
 * Reboot to recovery (use volume buttons to navigate if on or key combination if off)
 * Fairphone doesn't have firmware enabled so: `$ adb sideload copy-partitions-device.zip` (in my case `copy-partitions-fp3-release.zip`, the signature verification will fail)
