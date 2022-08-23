@@ -1,6 +1,6 @@
 ---
 title: "Fix fastboot error boot partition is smaller than boot image when installing DivestOS on Fairphone"
-description: Questa è una recensione del servizio di CDN ed Object-storage Exoscale. 
+description: How to fix the errror in fastboot boot partition is smaller than boot image when installing DivestOS on Fairphone
 published: true
 date: 2021-10-16T14:47:00Z
 tags:

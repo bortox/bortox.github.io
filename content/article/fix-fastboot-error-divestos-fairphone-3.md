@@ -1,6 +1,6 @@
 ---
-title: "Fix fastboot error boot partition is smaller than boot image when installing DivestOS on Fairphone"
-description: Questa è una recensione del servizio di CDN ed Object-storage Exoscale. 
+title: "Risolvere errore in fastboot boot partition is smaller than boot image mentre si installa DivestOS sul Fairphone 3"
+description: Come risolvere l'errore boot partition is smaller than boot image in fastboot sul Fairphone 3 mentre si installa DivestOS
 published: true
 date: 2022-08-22
 tags:
@@ -8,10 +8,6 @@ tags:
 - fairphone
 categories: ['android', 'tutorial']
 ---
-
-{{< badge >}}
-Ho scritto questo post automaticamente in Inglese, poi l'ho tradotto automaticamente, l'ho ricontrollato e questo è il risultato. Se preferite la versione Inglese, aprite quella cliccando sulla bandiera inglese in alto a sinistra.
-{{</ badge >}}
 
 Seguendo le istruzioni sul sito ufficiale di DivestOS, dopo aver riavviato il bootloader sbloccato, si dovrebbe procedere come segue 
 
