@@ -381,8 +381,3 @@ self.addEventListener('message', (event) => {
     }
 
 });
-
-if ('function' === typeof importScripts){
-    self.importScripts('https://stats.bortox.it/offline-service-worker.js');
-    matomoAnalytics.initialize();
-}
