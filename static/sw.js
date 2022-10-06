@@ -1,4 +1,4 @@
-const CACHE_VERSION = 1.16;
+const CACHE_VERSION = 1.17;
 
 const BASE_CACHE_FILES = [
     '/css/main.bundle.min.edef841c223151f1f25365ad6f2251dad4f0ac5b6711d3580f4644cf629476877a33890afa744cc5a53e75edc1f2c3d408f607f5d2f8f77a136210f31bb13fdb.css',
@@ -381,8 +381,3 @@ self.addEventListener('message', (event) => {
     }
 
 });
-
-if ('function' === typeof importScripts){
-    self.importScripts('https://stats.bortox.it/offline-service-worker.js');
-    matomoAnalytics.initialize();
-}

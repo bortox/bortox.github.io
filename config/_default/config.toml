@@ -4,6 +4,7 @@ baseURL = "https://bortox.it/"
 #enableGitInfo = true
 theme = ["github.com/jpanther/congo/v2", "hugo-shortcode-gallery"]
 defaultContentLanguage = "it"
+timeout = 600000
 
 [languages]
   [languages.it]
@@ -23,7 +24,6 @@ defaultContentLanguage = "it"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
-timeout = 600000
 
 [imaging.exif]
     includeFields = ".*"

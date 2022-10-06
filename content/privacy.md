@@ -12,33 +12,13 @@ bortox.it non effettua alcuna profilazione
 
 Se ritenete che il modo in cui trattiamo i vostri dati personali con bortox.it violi la legge, avete il diritto di presentare un reclamo a un'autorità di controllo.
 
+Posizione del server: USA (Fastly hosting con Github Pages)
+
 ## Servizi di terze parti utilizzati in loco
 
 * Cookie: Il sito **non memorizza cookie** sui dispositivi dei visitatori.
 
-* Il sito utilizza Matomo Analytics e Goatcounter per ottenere statistiche sulle pagine più visitate, servizi conformi al GDPR che anonimizzano ogni singola visita e non memorizzano informazioni personali.
-
-* Il sito utilizza Telegram Comments (opt-in) per offrire la possibilità di lasciare commenti nella sezione *Compiti e Appunti Scolastici*. 
-
-## Matomo Analytics (opt-out)
-
-[**Informativa sulla privacy di Matomo Analytics**](https://matomo.org/privacy)
-
-[Matomo Analytics non necessita di un cookie banner](https://matomo.org/faq/new-to-piwik/how-do-i-use-matomo-analytics-without-consent-or-cookie-banner/).
-
-Matomo viene utilizzato per analizzare il comportamento dei visitatori del sito web e individuare potenziali insidie: pagine non trovate, problemi di indicizzazione nei motori di ricerca, quali sono i contenuti più apprezzati... Una volta elaborati i dati (numero di visitatori che raggiungono le pagine non trovate, che visualizzano solo una pagina...), Matomo genera rapporti per i proprietari del sito web che possono intervenire, ad esempio modificando il layout delle pagine, pubblicando nuovi contenuti... ecc.
-
-Matomo non raccoglie informazioni di identificazione personale, quindi non viene raccolto nulla legato al visitatore.
-
-Posizione del server: Francoforte, DE (Self-Hosted, lo stesso server che serve bortox.it)
-
-### Rifiutare il monitoraggio di Matomo Analytics (opt-out)
-
-Potete scegliere di impedire a bortox.it di aggregare e analizzare le azioni che compite su bortox.it.
-
-Questo **protegge la vostra privacy**, ma impedisce al proprietario di imparare dalle vostre azioni e di creare un'esperienza migliore per voi e per gli altri utenti, sapendo quali pagine visitate maggiormente. 
-
-[Richiedere l'opt-out cliccando su questo link](https://stats.bortox.it/index.php?module=CoreAdminHome&action=optOut&language=it)
+* Il sito utilizza Goatcounter per ottenere statistiche sulle pagine più visitate, servizi conformi al GDPR che anonimizzano ogni singola visita e non memorizzano informazioni personali.
 
 ## GoatCounter
 
@@ -49,23 +29,3 @@ Goatcounter è utilizzato per analizzare il comportamento dei visitatori del sit
 Goatcounter non raccoglie informazioni di identificazione personale, quindi non viene raccolto nulla legato al visitatore.
 
 Posizione del server: Francoforte, DE
-
-## Telegram Comments (opt-in)
-
-Telegram Comments è un servizio di Telegram per commentare le pagine di Compiti Scolastici, quindi solo le pagine che iniziano con bortox.it/Compiti-scolastici/*.
-
-Telegram Comments è opt-in, il che significa che su ogni pagina web è disabilitato, ma se viene premuto il pulsante "Commenta con Telegram" il codice Javascript di Telegram Comments viene eseguito. Ciò è evidenziato dal testo sotto il pulsante: 
-
->Cliccando il pulsante soprastante potrai commentare questo post con il tuo account Telegram. Cliccando il bottone "Commenta via Telegram", accetti la [politica sulla privacy](https://Telegram.org/privacy) di Telegram.
-
-Telegram Comments raccoglie informazioni di identificazione personale (testo del commento collegato al vostro account Telegram, il commento viene pubblicato in un canale Telegram pubblico).
-
-Poiché bortox.it tratta i dati personali su Telegram sotto esplicito consenso dell'utente, potete esercitare i seguenti diritti:
-
-* Diritto di accesso: potete chiederci in qualsiasi momento di accedere ai vostri dati personali.
-
-* Diritto alla cancellazione: potete chiederci in qualsiasi momento di cancellare tutti i dati personali che stiamo elaborando su di voi.
-
-* Diritto alla portabilità: potete chiederci in qualsiasi momento una copia di tutti i dati personali che stiamo elaborando su di voi nel conto Cusdis.
-
-* Diritto di revoca del consenso: potete revocare il vostro consenso in qualsiasi momento ricaricando la pagina web, il consenso non viene memorizzato tra i caricamenti della pagina.
