@@ -36,7 +36,7 @@ Trivia rappresenta tre elementi: *la Luna, la caccia e gli Inferi, Artemide, so
 
 > Non appena a lei (aferesi: profusa est diventa profusast) fu posta la benda che raccoglieva i virginei capelli e allo stesso modo cadevano dall'una e dall'altra parte delle guance si accorse del tristo padre che stava davanti all'altare e (si accorse) che i ministri accanto a lui nascondevano la spada e dalla loro espressione (vide) che i cittadini versavano  lacrime, si dirigeva a terra piegata sulle ginocchia muta per la paura.  
 
-**Analisi dei verbi e dei termini**  
+### Analisi dei verbi e dei termini
 
 Donaverat diventa donarat nella sua forma sincopata, dunque si tratta di un piùccheperfetto.  
 
@@ -44,11 +44,10 @@ QUOD potrebbe essere una causale, un avverbio oppure un pronome relativo però c
 
 Adesso ci aspettiamo un accusativo ed un dativo invertiti, ossia "al re il nome di padre" invece che "al padre il nome di re", dunque anche se Agamennone era suo padre e lei fosse la prima figlie questo non le aveva concesso alcun beneficio né alcuna grazia per poter evitare la morte in nome della religione.  
 
-**Traduzione**  
 
 > Non poteva (quibat) giovare (prodesse - salvare dal sacrificio) alla misera ragazza in tale circostanza il fatto che aveva dato per prima al re il nome di padre.  
 
-**Analisi dei verbi e dei termini**  
+### Analisi dei verbi e dei termini 
 
 Sublata (participio perfetto, sollevare)  
 
@@ -68,7 +67,7 @@ L'imeneo è il campo con il quale venivano accompagnate le nozze, dunque Ifigeni
 
 > Infatti sollevata dalle mani degli uomini fu condotta all'altare non per poter essere accompagnata dal luminoso imeneo concluso il solenne rito degli antichi.  
 
-**Traduzione dei termini**  
+### Traduzione dei termini 
 
 Impuramente casta - questo è un ossimoro che vuol dire "pura ma impura"quindi che lei è casta per essere giovane e perché muore giovane, dunque è pura non per suo merito ma per obbligo e volontà della religione ed in futuro sarebbe potuta diventare impura se avesse avuto la possibilità di vivere. Un ossimoro è un accostamento di due termini di significato opposto.  
 
