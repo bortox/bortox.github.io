@@ -13,15 +13,15 @@ title: I'mi trovai, un bel mattino, analisi e commento
 ---
 
 
-{{< highlight markdown "linenos=table" >}}  
- I' mi trovai, fanciulle, un bel mattino  
-2 di mezzo maggio in un verde giardino.  
-3 Eran d'intorno violette e gigli  
-4 fra l'erba verde, e vaghi fior novelli  
-5 azzurri gialli candidi e vermigli:  
-6 ond'io porsi la mano a côr di quelli  
-7 per adornar e' mie' biondi capelli  
-8 e cinger di grillanda el vago crino.  
+{{< highlight markdown "linenos=table", linenostart=1" >}}
+I' mi trovai, fanciulle, un bel mattino  
+di mezzo maggio in un verde giardino.  
+Eran d'intorno violette e gigli  
+fra l'erba verde, e vaghi fior novelli  
+azzurri gialli candidi e vermigli:  
+ond'io porsi la mano a côr di quelli  
+per adornar e' mie' biondi capelli  
+e cinger di grillanda el vago crino.  
 {{</ highlight >}}  
 
 

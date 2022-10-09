@@ -14,9 +14,7 @@ title: Canzone di Bacco, analisi e commento
 ---
 **Lorenzo de'Medici** scrive i Canti Carnascialeschi, ci aspettiamo un tipo di poesia con persone con maschere e vestiti, ispirate ai drammaturghi grecci, poesie fatte per essere recitate in pubblico. Noi analizzeremo la *Canzone di Bacco*, dove possiamo già prevedere il tema dei costumi e del capovolgimento dei ruoli in occasione del Carnevale.  
 
-Testo della Canzone di Bacco  
-
-------------------------------  
+## Testo della Canzone di Bacco    
 
 ```  
     Quant'è bella giovinezza  
@@ -77,7 +75,6 @@ Testo della Canzone di Bacco
     Ciò che ha esser, convien sia.  
     Chi vuole esser lieto, sia:  
     di doman non c'è certezza.  
-
 ```  
 
 Iniziamo analizzando i temi preponderanti nel componimento poetico.  

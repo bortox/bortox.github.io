@@ -17,8 +17,7 @@ Leon Battista Alberti propone una gara per testare gli intellettuali dell'epoca 
 
 Anche personaggi politici all'interno di una coorte, come Lorenzo de Medici, si sentono ispirati dai cortigiani e dagli intellettuali per trasformarsi in un poeta. Adesso analizziamo le opere ed i componimenti di diversi artisti del tempo, alcuni coortigiani, altri nobili e persino di un barbiere!  
 
-Lorenzo de'Medici ed i Canti Carnescialeschi  
---------------------------------------------  
+## Lorenzo de'Medici ed i Canti Carnescialeschi  
 
 **Lorenzo de'Medici** scrive i Canti Carnascialeschi, ci aspettiamo un tipo di poesia con persone con maschere e vestiti, ispirate ai drammaturghi grecci, poesie fatte per essere recitate in pubblico. Noi analizzeremo la *Canzone di Bacco*in cui persone si travestono in altre persone,  
 
@@ -38,11 +37,9 @@ Jacopo Sannazzaro scrive lirica pastorale, ad esempio l'Arcadia, una zona della 
 
 Con il brano *Non ti fidar di femina ch'è usa *Burchiello critica le donne per criticare l'intero sistema, se la donna vuole illudere l'uomo l'opera è molto facile, dunque anche le coortigiane non rispettano l'ideale petrarchista.  
 
-Analisi della Canzone di Bacco  
+## Analisi della Canzone di Bacco    
 
---------------------------------  
-
-{{< highlight markdown "linenos=table" >}}  
+{{< highlight markdown "linenos=table", linenostart=1" >}}  
 Quant'è bella giovinezza  
 che si fugge tuttavia!  
 Chi vuole esser lieto, sia,  

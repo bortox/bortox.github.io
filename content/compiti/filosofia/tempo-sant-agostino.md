@@ -20,8 +20,8 @@ Inizialmente Agostino abbraccia il manicheismo, in cui tutta la realtà si focal
 
 Dopo Agostino diventa scettico, gli scettici mettevano in dubbio che esistesse o fosse accessibile la verità. Abbiamo in precendenza ricostruito l'argomentazione che Agostino utilizza per distruggere l'argomento scettico per cui non esiste la verità utilizzando i principi di non contraddizione e del terzo escluso.  
 
-La verità secondo Agostino  
---------------------------  
+## La verità secondo Agostino  
+  
 
 Secondo Agostino la verità deriva da un'illuminazione interiore, fornita da Dio stesso, garante dei criteri di verità.  
 
@@ -36,7 +36,6 @@ La ragione usa i criteri di verità che arrivano da Dio, Dio stesso illumina l'u
 Questi appunti sono pubblicati senza alcuna alterazione dalla loro scrittura a lezione.  
 {{< /alert >}}  
 
--------------------------------------  
 ## Il tema del tempo secondo Agostino, brainstorming collettivo
 
 Parole chiave che ci vengono in mente nel nostro brainstorming collettivo:  
@@ -55,8 +54,7 @@ Proust dice che il tempo è legato ad un presente in cui tutto coincide, passato
 
 Il tempo per Agostino - così come per Proust -  è difficile da misurare, per Agostino il tempo si misura attraverso l'anima, non attraverso orologi o strumenti, per *distensio anima*, ossia distensione dell'anima, il tempo viene percepito dalla propria anima, che lo struttura in passato, presente e futuro.  
 
-Passato, presente e futuro  
---------------------------  
+## Passato, presente e futuro  
 
 Secondo Agostino Dio crea il tempo, garante della verità, dunque il tempo è oggettivo, ma è soggettivo perché viene misurato dall'anima di ogni individuo.  
 
