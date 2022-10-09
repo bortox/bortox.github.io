@@ -20,29 +20,12 @@ Every time you visit a webpage on bortox.it, a _service worker_ copies temporari
 * the page you are visiting
 * the pages linked in the page you are visiting
 
-## Available offline pages:
+## Available offline pages (if you visited):
 
-{{< badge >}}
-These pages are available for one hour on your device. Each page weighs about 0.05 MB, and the maximum that can be stored is 50MB, about 1000 page views in an hour. This happens because of a service worker, both Google and Mozilla recommend adding one on your website.
-{{</ badge >}}
-
-<div id="cached">No page saved offline</div>
-<script>
-var root = document.getElementById("cached");
-if (navigator && navigator.serviceWorker) {
-    caches.open('content-v1.13').then(function (cache) {
-        cache.keys().then(function (keys) {
-            root.innerHTML =
-                '<ul>' +
-                    keys.map(function(key) {
-                        if ((key.url.includes(".html") || key.url.endsWith('/'))&& key.url.startsWith('https://bortox.it/'))  {
-                            return '<li><a href="' + key.url + '">' + key.url + '</a></li>';
-                        }
-                    }).join('') +
-                '</ul>';
-        });
-    });
-}
-</script>
+* Go to [:house: menu](https://bortox.it/)
+* Go to <a target="_blank" href="https://bortox.it/galleria/"> the collection of photos 📷</a>
+* Go to [the tech blog (:it:,:uk:)]({{< ref "/article" >}})
+* Go to <a target="_blank" href="https://bortox.it/Compiti-scolastici/">Compiti e appunti scolastici (🇮🇹)</a>
+* Go to <a target="_blank" href="https://bortox.it/trovaparadigmi/">🔍 Trovaparadigmi GUI (🇮🇹)</a>
 
 Enjoy your offline surfing!

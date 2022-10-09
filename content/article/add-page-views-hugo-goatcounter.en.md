@@ -30,7 +30,7 @@ In this tutorial I'll use the Goatcounter json api to get the current page views
 
 ## The Goatcounter API
 
-GoatCounter is one of the services I use to gather analytics about my website; the other is Matomo self-hosted. 
+GoatCounter is the only service I use to gather analytics about my website, as of 2022.
 
 ### Branded visitor counter
 

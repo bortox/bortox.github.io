@@ -7,7 +7,6 @@ function run_share(evt) {
     n.setAttribute("id", "shareMenu");
     document.body.appendChild(n);
     shareMenu.share();
-    _paq.push(['trackEvent', 'Share', 'Share webpage', '{{ .Title }}']);
     window.goatcounter.count({
         path: 'share',
         title: 'Share menu',

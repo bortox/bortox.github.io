@@ -66,7 +66,7 @@
 
 [[footer]]
   name = "Status :bar_chart:"
-  url = "https://status.bortox.it"
+  url = "https://uptime.bortox.it"
   weight = 50
 
 [[footer]]

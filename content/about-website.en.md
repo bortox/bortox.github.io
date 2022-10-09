@@ -78,7 +78,7 @@ Navigation remains fast and light also because of the absence of advertisements.
 
 ## Confidentiality of visitors' data :eyes:
 
-bortox.it complies with the GDPR and the only analytics (visit statistics) solutions used are Matomo (self-hosted in Europe) and GoatCounter (hosted in Europe); both **comply with the GDPR** and are set up to **not collect personal information** that would allow a visitor to be identified, such as their IP address.
+bortox.it complies with the GDPR and the only analytics (visit statistics) solution used is GoatCounter (hosted in Europe); it **complies with the GDPR** and is set up to **not collect personal information** that would allow a visitor to be identified, such as their IP address.
 
 The only information stored on a visitor's device by the bortox.it website are those:
 

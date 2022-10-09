@@ -20,29 +20,14 @@ Ogni volta che visiti una pagina, un _service worker_ copia per un'ora sul dispo
 * la pagina stessa
 * le pagine collegate a quella pagina
 
-## Pagine usufruibili offline:
+## Pagine (forse) usufruibili offline:
 
-{{< badge >}}
-Queste pagine sono disponibili per un'ora sul tuo dispositivo. Ogni pagina pesa circa 0.05 MB, ed il massimo immagazzinabile è 50MB, circa 1000 pagine visitate in un'ora. Questo accade per via di un service worker, sia Google che Mozilla consigliano di aggiungerne uno sul proprio sito web.
-{{</ badge >}}
+Le pagine visitate restano offline per un'ora, ma appena Compiti Scolastici viene visitato, tutte le pagine di Compiti Scolastici diventano disponibili offline.
 
-<div id="cached">Nessuna pagina salvata :sad:</div>
-<script>
-var root = document.getElementById("cached");
-if (navigator && navigator.serviceWorker) {
-    caches.open('content-v1.13').then(function (cache) {
-        cache.keys().then(function (keys) {
-            root.innerHTML =
-                '<ul>' +
-                    keys.map(function(key) {
-                        if (key.url.includes(".html") || key.url.endsWith('/'))  {
-                            return '<li><a href="' + key.url + '">' + key.url + '</a></li>';
-                        }
-                    }).join('') +
-                '</ul>';
-        });
-    });
-}
-</script>
+* Vai al [menù :house:](https://bortox.it/)
+* Vai a <a target="_blank" href="https://bortox.it/galleria/"> collezione di foto 📷</a>
+* Vai al [blog sull'informatica (:it:,:uk:)]({{< ref "/article" >}})
+* Vai a <a target="_blank" href="https://bortox.it/Compiti-scolastici/">Compiti e appunti scolastici (🇮🇹)</a>
+* Vai a <a target="_blank" href="https://bortox.it/trovaparadigmi/">🔍 Trovaparadigmi GUI (🇮🇹)</a>
 
 Buona navigazione offline!
