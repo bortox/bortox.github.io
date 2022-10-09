@@ -115,8 +115,7 @@ Frazione molare: moli di soluto su moli di soluzione
 
 L’acqua va in entrambi le direzioni ma il flusso netto va dalla soluzione con meno soluto a quella con più soluto. Nelle cellule questo processo può essere pericoloso (...)
 
-![Pressione osmotica immagine tubo](/scuola/chimica/pressione-osmotica.svg "Immagine della pressione osmotica che agisce tra due soluzioni differenti")
-
+{{< svg "chimica/pressione-osmotica.svg" >}}
 
 La pressione osmotica fa sì che da una parte l’acqua salga, dall’altra scenda fino a che non si raggiunge un equilibrio dinamico con da una parte una pressione idrostatica, dall’altra il flusso netto dell’osmosi, entrambi equilibrati. La pressione osmotica è generata dalla colonna di acqua che grava ed è legata alla pressione idrostatica. Formula:
 
