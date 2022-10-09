@@ -9,6 +9,10 @@ date: 2022-10-08 10:19:00
 description: Interrogazione della professoressa Santo su stechiometria, molarità, molalità, frazione molare, esperienza di diluizione in laboratorio e pressione osmotica.
 ---
 
+In questo post si trova la trascrizione di un'interrogazione di un mio compagno di classe riguardante stechiometria, quindi molarità, molalità e preparazione di soluzioni. 
+
+Ci sono domande sull'esperienza di laboratorio in cui abbiamo diluito una soluzione 1M in una 0,3M ed anche una domanda sulla pressione osmotica, una proprietà colligativa.
+
 ## Domande sull’esperienza di laboratorio
 
 In laboratorio abbiamo fatto una diluizione, aggiungendo solvente ad una soluzione madre. 
@@ -115,7 +119,7 @@ Frazione molare: moli di soluto su moli di soluzione
 
 L’acqua va in entrambi le direzioni ma il flusso netto va dalla soluzione con meno soluto a quella con più soluto. Nelle cellule questo processo può essere pericoloso (...)
 
-{{< svg "chimica/pressione-osmotica.svg" >}}
+{{< read-svg "chimica/pressione-osmotica.svg" >}}
 
 La pressione osmotica fa sì che da una parte l’acqua salga, dall’altra scenda fino a che non si raggiunge un equilibrio dinamico con da una parte una pressione idrostatica, dall’altra il flusso netto dell’osmosi, entrambi equilibrati. La pressione osmotica è generata dalla colonna di acqua che grava ed è legata alla pressione idrostatica. Formula:
 
