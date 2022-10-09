@@ -13,13 +13,7 @@
   {{ else if resources.GetMatch ($url.String) }}
     {{ $resource = resources.Get ($url.String) }}
   {{ end }}
-    {{ if eq $resource.MediaType.SubType "svg" }}
-    <figure>
-      <img class="my-0 rounded-md" src="{{ $url.String }}" alt="{{ $altText }}" loading="lazy" decoding="async" />
-      {{ with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
-    </figure>
-    {{ else }}
-    {{ with $resource }}
+  {{ with $resource }}
     <figure>
       <picture>
         {{ $data := newScratch }}
@@ -54,7 +48,6 @@
         </picture>
       {{ with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}{{ end }}
     </figure>
-    {{ end }}
   {{ else }}
     <figure>
       <img class="my-0 rounded-md" src="{{ $url.String }}" alt="{{ $altText }}" loading="lazy" decoding="async" />
