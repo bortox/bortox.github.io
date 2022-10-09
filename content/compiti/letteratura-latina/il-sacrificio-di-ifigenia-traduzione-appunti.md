@@ -28,13 +28,13 @@ Questi appunti sono pubblicati senza alcuna alterazione dalla loro scrittura a l
 
 ## Traduzione ed analisi del testo 
 
-Io temo ciò in queste circostanze: forse (ne forte - composto che significa forse) tu pensi di intraprendere gli empi elementi / elementi difficile della dottrina (epicurea) e di imboccare (deponente, infinito di indugredior) la strada della scelleratezza, in realtà al contrario spesso quella religione ha generato (peperit) fatti, azioni scellerose e vergognose/empie.  
+> Io temo ciò in queste circostanze: forse (ne forte - composto che significa forse) tu pensi di intraprendere gli empi elementi della dottrina (epicurea) e di imboccare (deponente, infinito di indugredior) la strada della scelleratezza, in realtà al contrario spesso quella religione ha generato (peperit) fatti, azioni scellerate e vergognose.  
 
-In questo modo nell'Aulide (il porto della Boezia dove secondo una leggenda si è radunata la flotta greca per partire alla volta di Troia) i condottieri scelti tra i Danai, i migliori tra gli uomini (apposizione),  deturparono vergognosamente con il sangue di Ifigenia l'altare della vergine Trivia.  
+> In questo modo nell'Aulide (il porto della Beozia dove secondo una leggenda si è radunata la flotta greca per partire alla volta di Troia) i condottieri scelti tra i Danai, i migliori tra gli uomini (apposizione),  deturparono vergognosamente con il sangue di Ifigenia l'altare della vergine Trivia.  
 
 Trivia rappresenta tre elementi: *la Luna, la caccia e gli Inferi, Artemide, sorella di Apollo, dio del Sole*.  
 
-Non appena a lei (aferesi: profusa est diventa profusast) fu posta la stoffa/bandana/benda che circondava/che raccoglieva i virginei capelli e allo stesso modo cadevano dall'una e dall'altra parte delle guance si accorse del tristo padre che stava davanti all'altare e (si accorse) che i ministri accanto a lui nascondevano la spada e dalla loro espressione (vide) che i cittadini versavano  lacrime, si dirigeva a terra piegata sulle ginocchia muta per la paura, muta per la paura.  
+> Non appena a lei (aferesi: profusa est diventa profusast) fu posta la benda che raccoglieva i virginei capelli e allo stesso modo cadevano dall'una e dall'altra parte delle guance si accorse del tristo padre che stava davanti all'altare e (si accorse) che i ministri accanto a lui nascondevano la spada e dalla loro espressione (vide) che i cittadini versavano  lacrime, si dirigeva a terra piegata sulle ginocchia muta per la paura.  
 
 **Analisi dei verbi e dei termini**  
 
@@ -46,7 +46,7 @@ Adesso ci aspettiamo un accusativo ed un dativo invertiti, ossia "al re il nome 
 
 **Traduzione**  
 
-Non poteva (quibat) giovare (prodesse - salvare dal sacrificio) alla misera ragazza in tale circostanza il fatto che aveva dato per prima al re il nome di padre.  
+> Non poteva (quibat) giovare (prodesse - salvare dal sacrificio) alla misera ragazza in tale circostanza il fatto che aveva dato per prima al re il nome di padre.  
 
 **Analisi dei verbi e dei termini**  
 
@@ -66,7 +66,7 @@ Non ut + congiuntivo - può essere una finale, sia in forma implicita, con non p
 
 L'imeneo è il campo con il quale venivano accompagnate le nozze, dunque Ifigenia non stava venendo accompagnata dal luminoso canto imeneo per sposarsi ma per morire. Troviamo solemni more perfecto, un ablativo assoluto, e sacrorum, un genitivo. More solemni - solenne rito.  
 
-Infatti sollevata dalle mani degli uomini fu condotta all'altare non per poter essere accompagnata dal luminoso imeneo concluso il solenne rito degli antichi.  
+> Infatti sollevata dalle mani degli uomini fu condotta all'altare non per poter essere accompagnata dal luminoso imeneo concluso il solenne rito degli antichi.  
 
 **Traduzione dei termini**  
 
@@ -74,10 +74,10 @@ Impuramente casta - questo è un ossimoro che vuol dire "pura ma impura"quindi c
 
 Trovo concideret che viene sostenuto da ut, l'ut che si trova tre righi sopra.  
 
-impuramente casta non per essere accompagnata nello stesso periodo delle nozze (nubendi, gerundio  al genitivo che si declina come un nome di seconda, lett. del convolare) ma per cadere vittima mesta del parente.  
+> impuramente casta non per essere accompagnata nello stesso periodo delle nozze (nubendi, gerundio  al genitivo che si declina come un nome di seconda, lett. del convolare) ma per cadere vittima mesta del parente.  
 
 Ut daretur - congiuntivo + ut = finale  
 
 Classis = flotta  
 
-Affinché fosse data un uscita felice e favorevole alla flotta, a tanto male la religione poté indurre  che si può parafrasare in affinché una fausta e felice uscita fosse data alla flotta  
+> Affinché fosse data un uscita felice e favorevole alla flotta, a tanto male la religione poté indurre
