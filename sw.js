@@ -1,4 +1,4 @@
-const CACHE_VERSION = 1.17;
+const CACHE_VERSION = 1.18;
 
 const BASE_CACHE_FILES = [
     '/css/main.bundle.min.edef841c223151f1f25365ad6f2251dad4f0ac5b6711d3580f4644cf629476877a33890afa744cc5a53e75edc1f2c3d408f607f5d2f8f77a136210f31bb13fdb.css',
@@ -31,11 +31,15 @@ const CACHE_VERSIONS = {
 // Define MAX_TTL's in SECONDS for specific file extensions
 const MAX_TTL = {
     '/': 3600,
-    html: 3600,
+    html: 21600,
     json: 86400,
     js: 86400,
     svg: 604800,
     css: 604800,
+    png: 604800,
+    jpg: 604800,
+    webp: 604800,
+    avif: 604800,
 };
 
 const CACHE_BLACKLIST = [
