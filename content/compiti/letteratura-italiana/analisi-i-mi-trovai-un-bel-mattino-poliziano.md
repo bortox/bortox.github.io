@@ -13,7 +13,7 @@ title: I'mi trovai, un bel mattino, analisi e commento
 ---
 
 
-{{< highlight markdown "linenos=table", linenostart=1" >}}
+{{< highlight markdown "linenos=table, linenostart=1" >}}
 I' mi trovai, fanciulle, un bel mattino  
 di mezzo maggio in un verde giardino.  
 Eran d'intorno violette e gigli  

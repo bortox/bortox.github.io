@@ -39,7 +39,7 @@ Con il brano *Non ti fidar di femina ch'è usa *Burchiello critica le donne pe
 
 ## Analisi della Canzone di Bacco    
 
-{{< highlight markdown "linenos=table", linenostart=1" >}}
+{{< highlight markdown "linenos=table, linenostart=1" >}}
 Quant'è bella giovinezza  
 che si fugge tuttavia!  
 Chi vuole esser lieto, sia,  
