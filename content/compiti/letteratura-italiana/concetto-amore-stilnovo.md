@@ -33,7 +33,7 @@ L’uomo medievale inizia ad informarsi sulla realtà, attraverso l’osservazio
 
 Nel Cantico delle Creature di San Francesco il tema della lode è frequente: il Signore illumina tutti indistintamente ed è presente nell’intero mondo fisico  
 
-{{< highlight markdown "linenos=table" >}}  
+{{< highlight markdown "linenos=table" >}}
 Altissimo, onnipotente, e buon Signore,  
 a te solo spettano le lodi, la gloria, l’onore ed ogni benedizione.  
 Soltanto a te, o altissimo, si addicono,  
@@ -68,14 +68,14 @@ Possiamo affermare che nella poesia di Guinizzelli la donna è il mezzo per otte
 
 Questo è un sonetto con rime ABAB ABAB CDE DCE. Tale struttura particolare delle terzine introduce dei rimandi alternati, inoltre viene usato l’endecasillabo, che introduce un’asimmetria del ritmo, ed una scrittura in prosa. L’asimmetria di ritmo e struttura introduce dei significati “racchiusi” nel componimento, da trovare nello sbilanciamento fonetico.   
 
-{{< highlight markdown "linenos=table, linenostart=1" >}}  
+{{< highlight markdown "linenos=table, linenostart=1" >}}
 Tu m’hai sì piena di dolor la mente,  
 che l’anima si briga di partire,  
 e li sospir’ che manda ’l cor dolente  
 mostrano agli occhi che non può soffrire.  
 {{</ highlight >}}  
 
-{{< highlight markdown "linenos=table, linenostart=5" >}}  
+{{< highlight markdown "linenos=table, linenostart=5" >}}
 Amor, che lo tuo grande valor sente,  
 dice: “E’ mi duol che ti convien morire  
 per questa fiera donna, che niente  
@@ -84,13 +84,13 @@ par che pietate di te voglia udire”
 
 Nelle quartine viene introdotta la situazione: nelle prime due quartine si invoca la donna, poi si introduce la situazione in modo impersonale. La descrizione del fenomeno è impersonale, può applicarsi ad una molteplicità di cuori nobili: l’unico indizio che l’io lirico ci lascia e “m’hai” all’inizio, complemento di termine che si riferisce ad esso.   
 
-{{< highlight markdown "linenos=table, linenostart=9" >}}  
+{{< highlight markdown "linenos=table, linenostart=9" >}}
 I’ vo come colui ch’è fuor di vita,  
 che pare, a chi lo sguarda, ch’omo sia  
 fatto di rame o di pietra o di legno,  
 {{</ highlight >}}  
 
-{{< highlight markdown "linenos=table, linenostart=12" >}}  
+{{< highlight markdown "linenos=table, linenostart=12" >}}
 che si conduca sol per maestria  
 e porti ne lo core una ferita  
 che sia, com’ egli è morto, aperto segno.   
@@ -106,8 +106,8 @@ Il lessico in alcuni tratti diventa volgare, menzionando ad esempio la configura
 
 Analizzerò “Tanto gentile e tanto onesta pare” sonetto in rime ABBA ABBA CDE EDC del celebre Durante Aligheri. Dante nacque nel 1265 a Firenze, dalla famiglia ricca di usurai “Alighieri”. Nel 1274, a nove anni, incontra per la prima volta la sua musa Beatrice - della stessa età - , portatrice di beatitudine, secondo la logica latina “nomes sunt consequentia rerum”. Alla giovane età di 18 anni vede Beatrice in un sogno premonitore, dopo il saluto con lei. Infatti nel 1290 Beatrice muore: Dante dal 1293 al 1295 scriverà la Vita Nova, prosimetro di trama narrativo-autobiografica in cui tratterà di Beatrice in ottica fisica e poi metafisica, infatti dopo la sua morte, la nuova donna di cui s’innamorerà sarà la filosofia, dopo aver letto classici latini come il “De amicitia” di Cicerone.   
 
-{{< highlight markdown "linenos=table, linenostart=1" >}}  
-«Tanto gentile e tanto onesta pare  
+{{< highlight markdown "linenos=table, linenostart=1" >}}
+Tanto gentile e tanto onesta pare  
 la donna mia, quand'ella altrui saluta,  
 ch'ogne lingua devèn, tremando, muta,  
 e li occhi no l'ardiscon di guardare.  
@@ -118,7 +118,7 @@ Nel primo verso Dante usa “tanto gentile e tanto onesta pare”: latinismo der
 
 Il lessico stilnovista si impone con potenza in questo sonetto. Nella prima stanza, Beatrice saluta la gente; in un altro sonetto della Vita Nova, dopo che Beatrice ha ritirato il saluto a Dante, egli descrive la sensazione di un saluto: uno spirito d’amore diceva agli spiriti della vista, distruggendo gli altri spiriti sensitivi “andate ad onorare la donna vostra” ed il corpo si muoveva come inanimato, riuscendo a perdonare chiunque dei peccati e ricevendo la beatitudine che risiedeva nel saluto.   
 
-{{< highlight markdown "linenos=table, linenostart=5" >}}  
+{{< highlight markdown "linenos=table, linenostart=5" >}}
 Ella si va, sentendosi laudare,  
 benignamente e d'umiltà vestuta,  
 e par che sia una cosa venuta  
@@ -129,7 +129,7 @@ Beatrice è “d’umiltà vestuta”, segno del divino, inoltre la poetica dell
 
 “par che sia venuta da cielo in terra”, “da per li occhi una dolcezza al core”, e “par che de la sua labbia si muova uno spirito soave pien d’amore”: ancora Dante si concentra sulle caratteristiche fisiche,  sottolinenando nuovamente l’origine celeste della donna, anche chiamata “Donna Angelo”.   
 
-{{< highlight markdown "linenos=table, linenostart=9" >}}  
+{{< highlight markdown "linenos=table, linenostart=9" >}}
 Mostrasi sì piacente a chi la mira  
 che dà per li occhi una dolcezza al core,  
 che 'ntender no la può chi no la prova;  
@@ -138,7 +138,7 @@ che 'ntender no la può chi no la prova;
 
 Nella penultima terzina viene rimarcata la tipica poetica dello sguardo di Dante e la visione elitista di Amore, apprezzabile solo dai nobili, di matrice Guinizzelliana.  
 
-{{< highlight markdown "linenos=table, linenostart=12" >}}  
+{{< highlight markdown "linenos=table, linenostart=12" >}}
 e par che de la sua labbia si mova  
 un spirito soave pien d'amore,  
 che va dicendo a l'anima: Sospira.  
