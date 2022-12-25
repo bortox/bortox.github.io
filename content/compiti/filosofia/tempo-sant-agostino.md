@@ -1,7 +1,7 @@
 ---  
 author: Andrea Bortolotti  
 categories: filosofia  
-date: 2022-10-03 17:45:00  
+date: 2022-10-03 17:45:00
 description: "Le interpretazioni in campo filosofico di Sant'Agostino riguardo tempo, verità, anima e religione, assieme ad un breve excursus storico sulla sua vita."  
 tags:  
 - religione
@@ -72,8 +72,3 @@ Il tempo
 La concezione del tempo si arricchisce di un altro elemento, ossia una sua riflessione sulla storia, presente nel paragrafo 7, quella che emerge dall'opera La Città di Dio, scritta in seguito all'assedio di Roma da parte dei Visigoti, dove i barbari invadono Roma e vengono incolpati i cristiani dediti al perdono con atteggiamento accondiscendente, miti, non violenti e pacifisti. è come se non gli interessasse e come se fossero complici. In quest'opera Agostino dice che all'interno della storia ci sono due città: la città di Dio e la città degli uomini, due città come due attitudini. Nella città di Dio l'uomo ama Dio fino a disprezzare sé stesso, mentre nella città degli uomini l'uomo si abbandona all'egoismo, ricerca i piaceri e disprezza dio. Queste due forme esistono mescolate nella storia, riprende sia dal manicheismo, scontro tra bene e male, sia Platone, con il concetto della biga alata.  
 
 Agostino apre la strada a una nuova concezione della storia, già abbiamo visto le riflessione del tempo di Agostino nelle Confessioni, adesso analizziamo la *Filosofia della Storia* con una visione lineare della storia e del tempo di Agostino, in cui l'inizio è la Creazione, la fine l'Apocalisse. La visione Stoica invece è una visione ciclica: ad una morte segue una nascita, come un eterno ritorno.  
-
-Compito per casa: una bellissima tabella di confronto tra la visione del tempo di diversi filosofi.  
-
-| PARMENIDE | PLATONE | ARISTOTELE | STOICI | AGOSTINO |  
-| --- | --- | --- | --- | --- |  

@@ -17,3 +17,8 @@ hugo.linux
 node_modules
 dist
 tmp
+
+# Hugo module files
+
+go.sum
+go.mod
