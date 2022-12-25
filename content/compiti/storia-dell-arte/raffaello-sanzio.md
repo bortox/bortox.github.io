@@ -20,7 +20,7 @@ Egli avrà una vita molto breve ma ricca di soddisfazioni per la sua innata brav
 
 Proprio per la sua natura gentile è amato dalle donne, quindi morirà presto per una malattia venerea. 
 
-Quando esordì artisticamente in Italia, allievo del Perugino in Umbria si trasferì inizialmente a Firenze e successivamente a Roma. 
+Quando esordì artisticamente in Italia, allievo del Perugino in Umbria, si trasferì inizialmente a Firenze e successivamente a Roma. 
 
 Come Leonardo da Vinci e Michelangelo segna un cambiamento nello stile e nell’innovazione strutturale della composizione che va a rappresentare. La caratteristica della gentilezza si nota anche nei soggetti rappresentati, sia nella loro espressività sia nella delicatezza dei movimenti, nella gestualità. Tale gentilezza è orientata verso una dimensione spirituale, data la natura religiosa delle commesse. 
 
@@ -34,9 +34,7 @@ Nella struttura compositiva Raffaello mantiene lo stesso regime di lettura, per�
 
 Raffaello racchiude l’intera composizione dentro uno spazio a lui congeniale, mentre Perugino fa una scelta che taglia l’architettura, non tiene conto della visualizzazione dell’architettura sullo sfondo. 
 
-Nel dipinto di Raffaello il punto di vista è situato ad un’altezza media, circa 4 metri d’altezza, mentre la linea d'orizzonte del perugino è più bassa rispetto a quella di Raffaello, il quale permette anche con una piastrellatura più arricchita una maggiore spazialità. Raffaello restituisce più spazio alla composizione, ai personaggi, mentre
-
-Raffaello cita, arricchendolo un po’, il tempietto di San Pietro del Bramante, omaggiando il suo tempio a pianta centrale di stile Classico. Il Perugino sceglie invece un architettura più goticheggiante, più “spigolosa”. 
+Nel dipinto di Raffaello il punto di vista è situato ad un’altezza media, circa 4 metri d’altezza, mentre la linea d'orizzonte del perugino è più bassa rispetto a quella di Raffaello, il quale permette anche con una piastrellatura più arricchita una maggiore spazialità. Raffaello restituisce più spazio alla composizione, ai personaggi, mentre Raffaello cita, arricchendolo un po’, il tempietto di San Pietro del Bramante, omaggiando il suo tempio a pianta centrale di stile Classico. Il Perugino sceglie invece un architettura più goticheggiante, più “spigolosa”. 
 
 Entrambe le architetture ci rappresentano un paesaggio che va oltre la visione dell’uomo, verso l’infinito e oltre. 
 
@@ -44,7 +42,7 @@ La spazialità e la prospettiva viene accentuata grazie alla pavimentazione util
 
 ### Analisi luce e colori
 
-Nel disegno del Perugino pare ci sia un filtro che mantiene una certa freddezza, una tonalità plumbea. a
+Nel disegno del Perugino pare ci sia un filtro che mantiene una certa freddezza, una tonalità plumbea.
 
 I personaggi sono scambiati, da destra a sinistra. Nel quadro del Perugino i personaggi stanno su una sorta di linea orizzontale immaginaria, mentre Raffaello tende a creare una sorta di semicerchio iniziale. Nel disegno del Perugino si trovano anche personaggi girati di spalle, per dare un’impressione di spazialità, mentre Raffaello li mostra tutti davanti, con il volto e con l’espressione. Raffaello rappresenta le donne a sinistra e gli uomini a destra, mentre il Perugino inverte l’ordine con le donne a destra e gli uomini a sinistra. 
 
@@ -70,9 +68,7 @@ Michelangelo ha avuto una produzione di Madonne e Bambini molto variegata, molto
 
 ![Scuola di Atene](/scuola/storia-dell-arte/raffaello-sanzio/scuola-di-atene.jpg)
 
-G: La composizione che si è fatta la scorsa volta era semicircolare come questa
-
-Prof: L’architettura della cattedrale è simile alla basilica di Sant’Andrea presso Mantova. L’architettura è caratterizzata da nicchie e bassorilievi che restituiscono magnificenza all’edificio. La pittura stessa è solare come tutte le pitture di raffaello, il cielo è terso e pulito. Raffaello rappresentava sempre una sorta di serenità attraverso il cielo, il suo carattere - secondo alcuni storici dell’arte - restituiva in pittura una calma dell’animo. Il tutto è incorniciato da una grande cornice semicircolare che incastona la nostra visione. 
+L’architettura della cattedrale è simile alla basilica di Sant’Andrea presso Mantova. L’architettura è caratterizzata da nicchie e bassorilievi che restituiscono magnificenza all’edificio. La pittura stessa è solare come tutte le pitture di Raffaello, il cielo è terso e pulito. Raffaello rappresentava sempre una sorta di serenità attraverso il cielo, il suo carattere - secondo alcuni storici dell’arte - restituiva in pittura una calma dell’animo. Il tutto è incorniciato da una grande cornice semicircolare che incastona la nostra visione. 
 
 I personaggi si mostrano davanti all’osservatore, Michelangelo viene inserito senza la progettazione a monte, quando era già stata completato il posizionamento degli altri personaggi, dunque comprendiamo l’omaggio a Michelangelo, chiuso sui suoi pensieri e sulla sua filosofia di vita.
 
@@ -94,4 +90,4 @@ Nella lettura di Achille Bonitoliva l’incendio di Borgo rappresenta l’evoluz
 
 In questa scena ci sono degli spunti manieristi. Raffaello inserisce in un contesto architettonico personaggi tra i più svariati.
 
-Corinzia davanti a noi, ionica dietro, dove c’è il Papa sulla chiesa ci sta un’altra colonna. L’architettura di sfondo sembra finta, di cartapesta perché è una metafora alla prima chiesa di Roma, sembra una rappresentazione teatrale. Questo è un rimando ad una ricerca nuova, quella del manierismo e del barocco. Fuggi fuggi generale composto da personaggi non attinenti tra di loro, come l’uomo che si sta aggrappando alla parete, completamente svestito, sembra quasi uno studio anatomico. 
+Corinzia davanti a noi, ionica dietro, dove c’è il Papa sulla chiesa ci sta un’altra colonna. L’architettura di sfondo sembra finta, di cartapesta perché è una metafora alla prima chiesa di Roma, sembra una rappresentazione teatrale. Questo è un rimando ad una ricerca nuova, quella del manierismo e del barocco. C'è un fuggi fuggi generale composto da personaggi non attinenti tra di loro, come l’uomo che si sta aggrappando alla parete, completamente svestito, sembra quasi uno studio anatomico. 
