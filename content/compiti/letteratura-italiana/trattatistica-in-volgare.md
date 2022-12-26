@@ -13,7 +13,11 @@ tags:
 tipo: appunti  
 title: Trattastica nel periodo Rinascimentale, il ruolo del volgare  
 ---  
-Leon Battista Alberti propone una gara per testare gli intellettuali dell'epoca con un componimento poetico in volgare. La tematica dell'amicizia era affrontabile da tutti, ma l'importante era la lingua volgare, con la stessa dignità del latino.  La famiglia Medici sostiene fermamente quest'idea. Nessuno risulta vincitore rispetto agli altri, quindi nonostante non vi sia stato un risultato, gli intellettuali possono parlare di tematiche importanti anche in volgare. Il volgare doveva essere come pensato da Pietro Bembo, ossia con una grammatica che rispettasse un copione, una grammatica condivisa e diffusa da tutti per rendere la lingua longeva.  
+Leon Battista Alberti propone una gara per testare gli intellettuali dell'epoca con un componimento poetico in volgare. La tematica dell'amicizia era affrontabile da tutti, ma l'importante era la lingua volgare, con la stessa dignità del latino.  La famiglia Medici sostiene fermamente quest'idea. 
+
+Tale concorso si chiama Certame Coronario e venne istituito nel 1441.
+
+Nessuno risulta vincitore rispetto agli altri, quindi nonostante non vi sia stato un risultato, gli intellettuali possono parlare di tematiche importanti anche in volgare. Il volgare doveva essere come pensato da Pietro Bembo, ossia con una grammatica che rispettasse un copione, una grammatica condivisa e diffusa da tutti per rendere la lingua longeva.  
 
 Anche personaggi politici all'interno di una coorte, come Lorenzo de Medici, si sentono ispirati dai cortigiani e dagli intellettuali per trasformarsi in un poeta. Adesso analizziamo le opere ed i componimenti di diversi artisti del tempo, alcuni coortigiani, altri nobili e persino di un barbiere!  
 

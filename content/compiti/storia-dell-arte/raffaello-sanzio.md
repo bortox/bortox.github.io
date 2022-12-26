@@ -16,17 +16,17 @@ title: Raffaello Sanzio in breve, vita ed opere
 
 Raffaello fa parte della triade rinascimentale con Leonardo e Michelangelo. 
 
-Egli avrà una vita molto breve ma ricca di soddisfazioni per la sua innata bravura e la sua indole particolarmente gentile, causa di diverse commesse da parte dello stato Papale. 
+Egli avrà una vita molto breve ma ricca di soddisfazioni per la sua innata bravura e la sua indole particolarmente gentile, causa di diverse commesse da parte dello stato Papale. Proprio per la sua natura gentile è amato dalle donne, quindi morirà presto per una malattia venerea. 
 
-Proprio per la sua natura gentile è amato dalle donne, quindi morirà presto per una malattia venerea. 
+Quando esordì artisticamente in Italia, prima come allievo del Perugino in Umbria, si trasferì inizialmente a Firenze e successivamente a Roma. 
 
-Quando esordì artisticamente in Italia, allievo del Perugino in Umbria, si trasferì inizialmente a Firenze e successivamente a Roma. 
+Come Leonardo da Vinci e Michelangelo segna un cambiamento nello stile e nell’innovazione strutturale della composizione che va a rappresentare. 
 
-Come Leonardo da Vinci e Michelangelo segna un cambiamento nello stile e nell’innovazione strutturale della composizione che va a rappresentare. La caratteristica della gentilezza si nota anche nei soggetti rappresentati, sia nella loro espressività sia nella delicatezza dei movimenti, nella gestualità. Tale gentilezza è orientata verso una dimensione spirituale, data la natura religiosa delle commesse. 
+La caratteristica della gentilezza si nota, oltre che nella sua indole, anche nei soggetti rappresentati, sia nella loro espressività sia nella delicatezza dei movimenti, nella gestualità. Tale gentilezza è orientata verso una dimensione spirituale, data la natura religiosa delle commesse. 
 
 ## Lo sposalizio della Vergine
 
-![Sposalizio della Vergine ](/scuola/storia-dell-arte/raffaello-sanzio/sanzio-sposalizio-vergine.jpg 'Confronto dello Sposalizio della Vergine tra Raffaello Sanzio ed il suo maestro Perugino')
+![Sposalizio della Vergine ](/scuola/storia-dell-arte/raffaello-sanzio/sanzio-sposalizio-vergine.jpg 'Confronto dello Sposalizio della Vergine tra Raffaello Sanzio (destra) ed il suo maestro Perugino (sinistra)')
 
 Lo sposalizio della vergine di Raffaello viene subito associato con quella che è l’opera del suo maestro, il Perugino. 
 
@@ -34,7 +34,7 @@ Nella struttura compositiva Raffaello mantiene lo stesso regime di lettura, per�
 
 Raffaello racchiude l’intera composizione dentro uno spazio a lui congeniale, mentre Perugino fa una scelta che taglia l’architettura, non tiene conto della visualizzazione dell’architettura sullo sfondo. 
 
-Nel dipinto di Raffaello il punto di vista è situato ad un’altezza media, circa 4 metri d’altezza, mentre la linea d'orizzonte del perugino è più bassa rispetto a quella di Raffaello, il quale permette anche con una piastrellatura più arricchita una maggiore spazialità. Raffaello restituisce più spazio alla composizione, ai personaggi, mentre Raffaello cita, arricchendolo un po’, il tempietto di San Pietro del Bramante, omaggiando il suo tempio a pianta centrale di stile Classico. Il Perugino sceglie invece un architettura più goticheggiante, più “spigolosa”. 
+Nel dipinto di Raffaello il punto di vista è situato ad un’altezza media, circa 4 metri d’altezza, mentre la linea d'orizzonte del perugino è più bassa rispetto a quella di Raffaello, il quale permette anche con una piastrellatura più arricchita una maggiore spazialità. Raffaello restituisce più spazio alla composizione, ai personaggi, inoltre Raffaello cita, arricchendolo un po’, il tempietto di San Pietro del Bramante, omaggiando il suo tempio a pianta centrale di stile Classico. Il Perugino sceglie invece un'architettura più goticheggiante, più “spigolosa”. 
 
 Entrambe le architetture ci rappresentano un paesaggio che va oltre la visione dell’uomo, verso l’infinito e oltre. 
 

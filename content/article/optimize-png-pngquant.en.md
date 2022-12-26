@@ -42,7 +42,7 @@ I have run this command to compress my images, obtaining [good results, often re
 
 * `-Q 92-100` sets the minimum and maximum quality. If the quality is less than the minimum value - in my case 92 - the file is not saved. On the other hand, if the quality exceeds the maximum value, then fewer colours will be used to compress the file more effectively. This range is rather high, for a **website even `-Q 70-85`** would suffice, as the priority is to reduce the file size, not the detail in the photos.  
 
-* `--ext .png --force` This part **overwrites the processed images** (I use git so it's not a problem for me) if you want to avoid it, remove the --force suffix or change the extension (i.e. the file suffix) to e.g. `--ext compressed.png`.
+* `--ext .png --force` This part **overwrites the processed images** (I use git, so it's not a problem for me) if you want to avoid it, remove the --force suffix or change the extension (i.e. the file suffix) to e.g. `--ext compressed.png`.
 
 * `$(find . -name '*.png')` This code expression uses the [find](https://manned.org/find) command. In this case, it finds all files ending in .png in the current folder (`.`) and subfolders, producing a list which is read by the `pngquant` command. Instead of using `$(find . -name '*.png')`, with `*.png` only the png files in the current directory are processed. If you want to convert a single file you just have to write the filename at the end of the command.
 
