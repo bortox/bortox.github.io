@@ -3,7 +3,6 @@ author: Andrea Bortolotti
 categories: latino
 date: 2022-04-14 17:45:00
 description: Traduzione della seconda parte della versione una famiglia terribile, esercizio 16 pagina 448, Multis iam ab Oenomao.
-draft: "true"
 tags:
 - 16
 - 448
