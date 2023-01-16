@@ -6,6 +6,9 @@ theme = ["github.com/jpanther/congo/v2", "hugo-shortcode-gallery"]
 defaultContentLanguage = "it"
 timeout = 600000
 
+[permalinks]
+  naver490fce001dfd0e85dbee2ca56d024e97 = "/naver490fce001dfd0e85dbee2ca56d024e97.html"
+
 [languages]
   [languages.it]
     languageCode = "it"
