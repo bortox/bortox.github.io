@@ -1,8 +1,8 @@
 ---
 author: Andrea Bortolotti
 categories: letteratura-latina
-date: 2023-01-11 11:00:00
-description: "Catilina venne considerato un nemico dello stato Romano per aver ordito una congiura, analizziamo alcuni testi scritti dallo storico Sallustio."
+date: 2023-01-16 11:02:00
+description: "Cicerone fu una figura storica nello stato Romano, ne analizziamo la vita, lo stile delle orazioni scritte e le sue opere."
 tags:
 - vita
 - repubblica
@@ -11,7 +11,7 @@ tags:
 - orazione
 - filosofia
 tipo: appunti
-title: Cicerone
+title: Vita di Cicerone in breve, stile delle orazioni ed ascesa politica
 ---
 
 Cicerone vive in un periodo storico della repubblica romana in cui avvengono diverse battaglie che vanno ad inficiare la sua formazione, soprattutto il suo lavoro. Cicerone come figura nasce come avvocato, il suo ruolo è perorare le cause in tribunale. Cicerone ha anche partecipato nello scandalo di Clodia, avvocato di coloro che si devono difendere da eventuali avvelenamenti o cause di uccisioni del marito Clodio, accusando la moglie, Clodia.
