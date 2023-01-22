@@ -36,7 +36,7 @@ L'obiettivo di Cicerone era garantire la _concordia ordinum_, concordia della cl
 
 Nel 45 a.C. muore sua figlia Tullia e si separa dalla moglie. Cicerone inizia ad occuparsi della filosofia. Fungeva come una sorta di medicina, un farmaco per alleviare i dolori legati all'aspetto sentimentale e familiare. La medicina è un rimedio per alleviare il dolore di questi momenti.
 
-Dopo aver pronunciato 14 orazioni contro Marco Antonio, vengono chiamate le filippiche, il nome deriva da Filippo di Macedonia, il padre di Alessandro Magno. Demostrene pronuncia orazioni contro l'operato di Filippo di Macedonia, così come Cicerone le scrive contro Marco Antonio, con l'intenzione di pubblicarle e diffonderle. Marco Antonio che si contende il potere con Augusto, ma ancora nessuno dei due prevale sull'altro. 
+Dopo aver pronunciato 14 orazioni contro Marco Antonio, vengono chiamate le filippiche, il nome deriva da Filippo di Macedonia, il padre di Alessandro Magno. Demostene pronuncia orazioni contro l'operato di Filippo di Macedonia, così come Cicerone le scrive contro Marco Antonio, con l'intenzione di pubblicarle e diffonderle. Marco Antonio che si contende il potere con Augusto, ma ancora nessuno dei due prevale sull'altro. 
 
 In queste circostanze Marco Antonio stila le _liste di proscrizione_, liste di nemici dello stato da uccidere in cambio dei soldi. Cicerone viene catturato, in cambio di soldi, e la sua testa e le sue mani vengono esposte nel foro come simbolo. 
 
