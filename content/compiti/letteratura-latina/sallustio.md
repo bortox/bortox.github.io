@@ -13,21 +13,20 @@ tags:
 - Cesare
 - morte
 tipo: appunti
-title: Vita di Catilina, analisi del discorso ai congiurati
+title: Vita di Catilina, analisi del discorso ai congiurati, opere di Sallustio
 ---
 
 
-Catilina viene considerato nemico dello stato, allontanato dalla vita politica, e piuttosto che arrendersi allestisce un esercito. 
+Catilina viene considerato nemico dello stato, è allontanato dalla vita politica, e piuttosto che arrendersi allestisce un esercito. 
 
-I galli allobrogi riescono a farsi dare da Cicerone una carta di patti e compromessi tra Catilina e gli allobrogi. 
+Cicerone riesce a farsi dare dai galli allobrogi una carta di patti e compromessi intercorsi tra Catilina e gli allobrogi. 
 
-Una volta che Cicerone ottiene questa carta, la mostra in senato, e inizia una guerra civile. Catilina muore a Pistoia in quell'anno. 
+Una volta che Cicerone ottiene questa carta, la mostra in senato, e inizia una guerra civile. Catilina muore in battaglia presso Pistoia in quello stesso anno. 
+La vicenda è stata oggetto di analisi storica, da parte di storici, come Sallustio, che cercano di essere oggettivi e di utilizzare le fonti in modo appropriato.
 
-Noi vogliamo fare gli storici, come Sallustio, essendo oggettivi e utilizzando le fonti in modo appropriato.
+Nel Senato Catilina viene allontanato come nemico dello stato, ma una volta dimostrata la congiura con i galli, piuttosto che ritirarsi a vita privata, arma un esercito per andare a Roma. Scatta quindi la guerra civile e Catilina muore in una battaglia a Pistoia.
 
-Nel senato Catilina viene allontanato dal senato come nemico dello stato, una volta dimostrata la congiura con i galli che piuttosto che ritirarsi a vita privata arma un esercito per andare a Roma. Scatta la guerra civile e muore in una battaglia a Pistoia.
-
-## Il ritratto di Catilina
+## Il ritratto di Catilina (Sallustio)
 
 > Nato da una nobile stirpe, fu di grande forza d'animo e di corpo ma d'ingegno malvagio e corrotto. A questo furono grate fin dall'adolescenza le guerre pristine (guerre civili), le stragi, le rapine e la discordia civile. In queste trascorse la sua gioventù. 
 
@@ -56,7 +55,7 @@ E Infatti l'animo impuro, nemico agli dei e agli uomini non poteva essere sedato
 Allora il colorito di questo era pallido, gli occhi minacciosi e il suo avanzare che era ora rapido ora lento, sul suo viso e sul suo volto c'era la pazzia.
 
 
-Terminato il ritratto morale, parliamo delle cause della crisi di Roma, a pagina 556
+Terminato il ritratto morale, opera di Sallustio, parliamo delle cause della crisi di Roma, a pagina 556
 
 ## Origini della decadenza della repubblica
 
