@@ -61,7 +61,7 @@ Cicerone qui inizierà un riepilogo di tutte le azioni malvagie di Catilina cont
 
 > Anzi in realtà lui viene anche in senato, si rende partecipe delle decisioni pubbliche, nota e designa con gli occhi ognuno di noi per la strage. Noi invece, uomini forti, sembra a noi di aver fatto abbastanza per lo stato se evitiamo il furore e le frecce di questo.
 
-In _fortes viri_ Viene posto l'aggettivo prima del nome, forma inusuale, che evidenzia il senso ironico inteso da Cicerone per questa frase, infatti è l'introduzione per un discorso in cui parlerà della bassa efficienza del senato. 
+In _fortes viri_ viene posto l'aggettivo prima del nome, forma inusuale, che evidenzia il senso ironico inteso da Cicerone per questa frase, infatti è l'introduzione per un discorso in cui parlerà della bassa efficienza del senato. Questi uomini forti hanno causato un'assemblea del senato.
 
 Infatti la frase successiva evidenzia il fatto che i senatori reputino di aver fatto tutto il possibile per lo stato soltanto evitando le frecce ed il furore di Catilina, senza cercare di riformare la repubblica. Inoltre, i senatori hanno fallito nel "mettere a bada" catilina"
 
@@ -79,4 +79,6 @@ Con questo esempio Cicerone giustifica l'omicidio politico e lo impone come mode
 
 Questo _mediocriter_ sminuisce l'azione di Tiberio Gracco, per rendere più orribili le gesta di Catilina.
 
-> Ci fu, ci fu un tempo in cui questa virtù, il coraggio, era nello stato, quando uomini forti infliggevano al cittadino dannoso un supplizio più crudele di quello per il più duro nemico. Abbiamo un decreto del senato contro di te, Catilina, peso ed efficace; non manca il consiglio dello Stato né l'autorità di questo sistema; noi, noi,lo dico apertamente, siamo noi consoli a non essere presenti (venir meno al dovere di occuparsi di Catilina).
+> Ci fu, ci fu già un tempo questa virtù in questo stato, quando forti uomini punivano il cittadino dannoso con più acri supplizi rispetto al proprio peggior nemico. Abbiamo un decreto del senato contro di te, Catilina, autorevole e grave; non manca saggezza allo Stato, non manca l'autorità di questo ordine (il Senato); noi, invece, noi, lo dico apertamente, noi consoli siamo manchevoli (non si occupano di Catilina e di reprimere le rivoluzioni).
+
+Non viene attaccato il Senato come istituzione, un istituzione tradizionale ed antica, ma viene accusata la classe politica di essere manchevole e pigra quando affronta inaspettati problemi, accusando anche se stesso. 

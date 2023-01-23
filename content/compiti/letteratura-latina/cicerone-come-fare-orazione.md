@@ -19,7 +19,7 @@ Questo schema può essere utilizzato per la scrittura di un saggio breve, un tes
 
 ## Exordium
 
-Si comincia con l'inizio, l' esordio. Si tratta della parte fondamentale per accattivarsi l'attenzione del pubblico, bisogna usare un tono di voce per richiamare l'attenzione, portando le persone vicine a diventare ascoltatori attivi.
+Si comincia con l'inizio, l' esordio. Si tratta della parte fondamentale per accattivarsi l'attenzione del pubblico, bisogna usare un tono di voce per richiamare l'attenzione, portando le persone vicine a diventare ascoltatori attivi. Si può utilizzare anche la _captatio benevolentiae_ per attirare il pubblico.
 
 ## Narratio
 
@@ -27,7 +27,9 @@ Si inizia l'esposizione dei fatti, in ordine cronologico, oppure in _medias res_
 
 ## Argumentatio
 
-Può essere composta da due parti, la _confirmatio_ in cui si portano prove ed ipotesi a sostegno della propria tesi, seguita dalla _refutatio_, in cui si cerca di scalfire la tesi opposta alla propria.
+Può essere composta da due parti, la _confirmatio_ in cui si portano prove ed ipotesi a sostegno della propria tesi, seguita dalla _refutatio_, in cui si cerca di scalfire la tesi opposta alla propria. 
+
+### La patria parla a Catilina
 
 ## Peroratio
 
