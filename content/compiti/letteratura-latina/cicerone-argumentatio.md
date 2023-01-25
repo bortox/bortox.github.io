@@ -45,4 +45,30 @@ Interpretata
 
 Di solito si imparano insieme _nolo_ _volo_ e _malo_ che significano _non volere_, _volere_ e _preferire_.
 
-> Tu, con la consapevolezza dei tuoi delitti (_scelerum_ deriva da _sceleris_) riconosci che l'odio di tutti è giusto e ormai da lungo tempo meritato (_debitum_, verbo essere sottinteso). Dubiti di evitare la presenza e lo sguardo di quelli di coloro che tu feristi i sensi (arcaico) e le menti (arcaico).
+> Tu, con la consapevolezza dei tuoi delitti (_scelerum_ deriva da _sceleris_) riconosci che l'odio di tutti è giusto e ormai da lungo tempo meritato (_debitum_, verbo essere sottinteso). 
+
+> Dubiti di evitare la presenza e lo sguardo di coloro i quali tu feristi i sensi (arcaico) e le menti (arcaico).
+
+> Se i tuoi genitori ti temessero e ti odiassero e non può esserci nulla che li plachi, io credo che ti allontaneresti via (_alicor_) dai loro occhi.
+
+{{< badge >}}
+Cicerone usa ut quasi sempre come consecutiva
+{{< /badge >}}
+
+> Ora, la patria, che è la comune genitrice (colei che ci ha generato) di tutti noi, ti odia e ti teme e ti ritiene ormai da lungo tempo ti ritiene e ti considera nient'altro che il suo distruttore (patricida, colui che uccide il padre); rispetterai (_verebere_) mai tu l'autorità di questa? O seguirai mai il suo consiglio? O temerai mai la sua forza (_vim_)? 
+
+> E quella, o'Catilina, si mostra a te (_agit_, riflessivo con _tecum_, lett. _agisce con te_) così e in un certo modo parla silenziosamente (_ossimoro_, figura retorica, solo tramite le azioni del Senato e dello Stato, la patria ha parlato senza aprire bocca)
+
+Adesso la patria inizia a parlare con Catilina. Si tratta di una _prosopopea_ ossia una personificazione in cui l'inanimato diventa animato ed oltre alla personificazione si comporta da persona animata, con una sua coscienza. _Nullum facinus_ è il nostro soggetto, concorda con _facinus_ perché sono entrambi neutri. 
+
+> Nessun delitto in tanti anni è derivato se non da te, nessuno scandalo se non per te, solo morti di molti cittadini per te, dolore e sacrilegio degli alleati fu impunito e libero;
+
+Si tratta di due azioni che secondo Cicerone sono rimaste impunite, due accuse di _peculato_, dopo che Catilina era riuscito a corrompere i giudici.
+
+> Tu sei stato capace non solo di disprezzare le leggi e le inchieste giudiziarie (_quaestiones_) ma in realtà anche di sovvertirle e annientarle.
+
+> Le cose precedenti sebbene non furono sopportabili tuttavia io le sopportai come ho potuto(_potui_); 
+
+> Ora, in realtà, non è sopportabile essere spaventati (_esse in metu_) a causa di uno solo come te, non è sopportabile sempre temere Catilina al minimo rumore, non è sopportabile che qualsiasi complotto sembri essere fatto contro di me o che derivi dalla tua malvagità. 
+
+> Quindi vattene e liberami da questo timore (_di trovare una persona che spaventa tutti e che al minimo rumore crea scompiglio_); se è vero affinché non ne sia oppressa e smetta un giorno di temerla, se è falso affinché io smetta di temere
