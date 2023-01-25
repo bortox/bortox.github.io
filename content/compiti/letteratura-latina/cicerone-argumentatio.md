@@ -13,7 +13,7 @@ tipo: appunti
 title: Argumentatio di Cicerone, la patria parla a Catilina
 ---
 
-Traduzione parziale ed analisi dell'argumentatio di Cicerone contro Catilina. 
+Traduzione ed analisi dell'argumentatio di Cicerone contro Catilina. 
 
 > Se per Ercole i miei servi mi temessero con questo comportamento (lo stesso comportamento sbagliato che ha tenuto Catilina) allo stesso modo
 
