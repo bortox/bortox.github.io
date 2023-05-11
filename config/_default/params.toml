@@ -42,7 +42,7 @@ enableCodeCopy = true
   showTableOfContents = true
   showTaxonomies = true
   showWordCount = true
-  showVisitCount = true
+  showVisitCount = false
 
 
 [list]

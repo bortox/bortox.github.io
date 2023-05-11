@@ -69,13 +69,13 @@ Parte ora l'invettiva, Cicerone inizia con
 
 > A morte, o' Catilina, era opportuno che tu fossi condotto (a morte) già prima per ordine del console, che in te, contro di te, fosse portata la rovina che tu ormai da tempo contro di noi avevi architettato. 
 
-Adesso troviamo un discorso importantissimo sull'exemplum. Inserisco un personaggio politico che si è comportato così brillantemente da essere assunto come modello. In verità, un uomo amplissimus, pontefice massimo, da privato cittadino
+Adesso troviamo un discorso importantissimo sull'exemplum. Inserisco un personaggio politico che si è comportato così brillantemente da essere assunto come modello. In verità, un uomo amplissimus, pontefice massimo, da privato cittadino ha ucciso una minaccia allo stato.
 
 Publio Scipione ha sentito il dovere personale di ammazzare Tiberio Gracco che aveva proposto la riforma agraria, la quale aveva causato diversi problemi. 
 
 Con questo esempio Cicerone giustifica l'omicidio politico e lo impone come modello per come ci dovremmo comportare con Catilina. Queste sono parole forti dette in pubblica piazza.
 
-> Non è vero che il più grande uomo, il pontefice massimo Publio Scipione uccise da privato (cittadino) Tibero Gracco che in modo mediocre aveva danneggiato il benessere dello stato; e noi consoli supporteremo Catilina desideroso di devastare tutta la terra con incendi?  E tralascio gli eventi troppo lontani nel tempo, poiché C. Servilio Ahala, uccise di mano sua Spurio Melio, il quale aveva tendenze rivoluzionarie. 
+> Non è vero che il più grande uomo, il pontefice massimo Publio Scipione uccise da privato (cittadino) Tiberio Gracco che in modo mediocre aveva danneggiato il benessere dello stato; e noi consoli supporteremo Catilina desideroso di devastare tutta la terra con incendi?  E tralascio gli eventi troppo lontani nel tempo, poiché C. Servilio Ahala, uccise di mano sua Spurio Melio, il quale aveva tendenze rivoluzionarie. 
 
 Questo _mediocriter_ sminuisce l'azione di Tiberio Gracco, per rendere più orribili le gesta di Catilina.
 
