@@ -24,7 +24,7 @@ Every time you visit a webpage on bortox.it, a _service worker_ copies temporari
 
 * Go to [:house: menu](https://bortox.it/)
 * Go to <a target="_blank" href="https://bortox.it/galleria/"> the collection of photos 📷</a>
-* Go to [the tech blog (:it:,:uk:)]({{< ref "/article" >}})
+* Go to [the blog (:it:,:uk:)]({{< ref "/article" >}})
 * Go to <a target="_blank" href="https://bortox.it/Compiti-scolastici/">Compiti e appunti scolastici (🇮🇹)</a>
 * Go to <a target="_blank" href="https://bortox.it/trovaparadigmi/">🔍 Trovaparadigmi GUI (🇮🇹)</a>
 
