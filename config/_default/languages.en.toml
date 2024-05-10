@@ -1,6 +1,6 @@
 languageName = "English"
 weight = 2
-title = "bortox.it - Andrea Bortolotti"
+title = "bortox.it 🦅 the cuckoo's nest "
 #logo = "logo.png"
 copyright = "Content license: [ :link: CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0)"
 
@@ -9,7 +9,7 @@ copyright = "Content license: [ :link: CC BY-NC-ND 4.0](https://creativecommons.
    isoCode = "en"
    rtl = false
    displayName = ":uk:"
-   description = "My own blog"
+   description = "Personal blog of Andrea Bortolotti, containing school notes, photos and tech fun facts."
 
 
 
@@ -17,11 +17,11 @@ copyright = "Content license: [ :link: CC BY-NC-ND 4.0](https://creativecommons.
 
 [author]
   name = "Andrea Bortolotti"
-  image = "author.png"
-  headline = "I'm only human. [✨ **donate** to bortox.it ✨](https://bortox.it/contribuisci-cs-en)"
-  bio = "I like trains. [✨ **donate** to bortox.it ✨](https://bortox.it/contribuisci-cs-en)"
+  image = "cuculo.jpg"
+  headline = "Welcome into the cuckoo's nest"
+  bio = "Our virtues and our failings are inseparable, like force and matter. When they separate, man is no more."
   links = [
-     { email = "mailto:bort0x@tuta.io" },
+  #   { email = "mailto:bort0x@tuta.io" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
@@ -33,9 +33,9 @@ copyright = "Content license: [ :link: CC BY-NC-ND 4.0](https://creativecommons.
   #   { facebook = "https://facebook.com/username" },
   #   { flickr = "https://www.flickr.com/photos/username/" },
   #   { foursquare = "https://foursquare.com/username" },
-     { github = "https://github.com/bortox" },
+  #   { github = "https://github.com/bortox" },
   #   { gitlab = "https://gitlab.com/username" },
-     { google = "https://www.google.com/search?q=site:bortox.it" },
+  #   { google = "https://www.google.com/search?q=site:bortox.it" },
   #   { hashnode = "https://username.hashnode.dev" },
   #   { instagram = "https://instagram.com/username" },
   #   { keybase = "https://keybase.io/username" },
@@ -55,7 +55,7 @@ copyright = "Content license: [ :link: CC BY-NC-ND 4.0](https://creativecommons.
   #   { soundcloud = "https://soundcloud.com/username" },
   #   { stack-overflow = "https://stackoverflow.com/users/userid/username" },
   #   { steam = "https://steamcommunity.com/profiles/userid" },
-     { telegram = "https://t.me/il_bortox" },
+  #   { telegram = "https://t.me/il_bortox" },
   #   { tiktok = "https://tiktok.com/@username" },
   #   { tumblr = "https://username.tumblr.com" },
   #   { twitch = "https://twitch.tv/username" },

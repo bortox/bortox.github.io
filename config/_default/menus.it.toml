@@ -16,34 +16,19 @@
   weight = 1
 
 [[main]]
-  name = ":man_technologist:"
+  name = "Blog :man_technologist:"
   pageRef = "article"
   weight = 10
 
 [[main]]
-  name = ":camera:"
+  name = "Foto :camera:"
   url = "https://bortox.it/galleria/"
   weight = 11
 
 [[main]]
-  name = ":memo:"
+  name = "Scuola :memo:"
   url = "https://bortox.it/Compiti-scolastici/"
   weight = 12
-
-[[main]]
-  name = "Donazione :euro:"
-  url = "https://www.paypal.com/donate/?hosted_button_id=96RXFETTZFDPQ"
-  weight = 13
-
-[[main]]
-  name = "Categorie"
-  pageRef = "categories"
-  weight = 20
-
-[[main]]
-  name = "Tag"
-  pageRef = "tags"
-  weight = 30
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
@@ -55,31 +40,16 @@
   weight = 10
 
 [[footer]]
-  name = "Categorie"
-  pageRef = "categories"
-  weight = 20
-
-[[footer]]
-  name = "Tag"
-  pageRef = "tags"
-  weight = 30
-
-[[footer]]
-  name = "Articoli"
-  pageRef = "article"
-  weight = 40
-
-[[footer]]
   name = "Status :bar_chart:"
   url = "https://uptime.bortox.it"
   weight = 50
 
 [[footer]]
-  name = "Informativa sulla privacy"
+  name = "Informativa sulla privacy :shield:"
   pageRef = "privacy"
   weight = 60
 
 [[footer]]
-  name = "Supporta bortox.it :moneybag:"
+  name = "Supporto :chart:"
   url = "https://bortox.it/contribuisci-cs/"
   weight = 45

@@ -11,39 +11,19 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = ":house:"
-  pageRef = "/"
-  weight = 1
-
-[[main]]
-  name = ":man_technologist:"
+  name = "Blog :man_technologist:"
   pageRef = "article"
   weight = 10
 
 [[main]]
-  name = ":camera:"
+  name = "Photos :camera:"
   url = "https://bortox.it/galleria/"
   weight = 11
 
 [[main]]
-  name = ":memo:"
-  url = "https://bortox.it/Compiti-scolastici/"
+  name = "School :memo:"
+  pageRef = "compiti"
   weight = 12
-
-[[main]]
-  name = "Donate :euro:"
-  url = "https://www.paypal.com/donate/?hosted_button_id=EXM9CJNDTLCZJ"
-  weight = 13
-
-[[main]]
-  name = "Categories"
-  pageRef = "categories"
-  weight = 20
-
-[[main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
@@ -54,32 +34,18 @@
   pageRef = "/"
   weight = 10
 
-[[footer]]
-  name = "Categories"
-  pageRef = "categories"
-  weight = 20
 
 [[footer]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
-
-[[footer]]
-  name = "Articles"
-  pageRef = "article"
-  weight = 40
-
-[[footer]]
-  name = "Status :bar_chart:"
+  name = "Uptime :bar_chart:"
   url = "https://uptime.bortox.it"
   weight = 50
 
 [[footer]]
-  name = "Privacy Policy"
+  name = "Privacy Policy  :shield:"
   pageRef = "privacy"
   weight = 60
 
 [[footer]]
-  name = "Support :moneybag:"
+  name = "Support :chart:"
   url = "https://bortox.it/contribuisci-cs-en/"
   weight = 45

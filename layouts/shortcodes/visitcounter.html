@@ -1,0 +1,22 @@
+{{$link := .Get "link"}}
+{{$title := .Get "title"}}
+
+<li><a href='{{$link}}'>{{$title}}</a>
+
+  <span id="{{$link}}">
+    <script async>
+      var r = new XMLHttpRequest();
+      r.addEventListener('load', function() {
+        try {
+          const count = JSON.parse(this.responseText).count;
+          console.log(count)
+          document.getElementById('{{$link}}').innerText = "👀" + count + " visite";
+        } catch (SyntaxError) {
+          console.error("Error parsing visit count:", this.responseText);
+        }
+      });
+      r.open('GET', "https://contacapre.bortox.it/counter/" + encodeURIComponent({{$link}}.replace(/^https?:\/\/[^\/]+/, '')) + '.json');
+      r.send();
+    </script>
+  </span>
+</li>
