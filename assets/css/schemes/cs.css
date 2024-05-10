@@ -13,25 +13,37 @@
   --color-neutral-800: 39, 39, 42;
   --color-neutral-900: 24, 24, 27;
     /*electric violet*/
-    --color-secondary-50: 226, 197, 252;
-    --color-secondary-100: 217, 177, 251;
-    --color-secondary-200: 198, 139, 249;
-    --color-secondary-300: 179, 100, 247;
-    --color-secondary-400: 160, 61, 245;
-    --color-secondary-500: 141, 22, 243;
-    --color-secondary-600: 111, 10, 199;
-    --color-secondary-700: 82, 8, 145;
-    --color-secondary-800: 52, 5, 92;
-    --color-secondary-900: 22, 2, 39;
+/* 50 */
+--color-primary-50: 252, 233, 237;
+/* 100 */
+--color-primary-100: 249, 215, 231;
+/* 200 */
+--color-primary-200: 243, 170, 224;
+/* 300 */
+--color-primary-300: 238, 129, 236;
+/* 400 */
+--color-primary-400: 197, 85, 232;
+/* 500 */
+--color-primary-500: 138, 43, 226;
+/* 600 */
+--color-primary-600: 150, 26, 188;
+/* 700 */
+--color-primary-700: 144, 20, 141;
+/* 800 */
+--color-primary-800: 94, 13, 73;
+/* 900 */
+--color-primary-900: 49, 7, 27;
+/* 950 */
+--color-primary-950: 22, 3, 8;
     /*hollywood cerise*/
-    --color-primary-500: 253, 244, 255;
-    --color-primary-100: 254, 235, 250;
-    --color-primary-200: 254, 215, 245;
-    --color-primary-300: 253, 175, 235;
-    --color-primary-400: 252, 136, 225;
-    --color-primary-500: 251, 96, 215;
-    --color-primary-600: 250, 56, 205;
-    --color-primary-700: 249, 16, 195;
-    --color-primary-800: 219, 6, 169;
-    --color-primary-900: 112, 26, 117;
+    --color-secondary-500: 253, 244, 255;
+    --color-secondary-100: 254, 235, 250;
+    --color-secondary-200: 254, 215, 245;
+    --color-secondary-300: 253, 175, 235;
+    --color-secondary-400: 252, 136, 225;
+    --color-secondary-500: 251, 96, 215;
+    --color-secondary-600: 250, 56, 205;
+    --color-secondary-700: 249, 16, 195;
+    --color-secondary-800: 219, 6, 169;
+    --color-secondary-900: 112, 26, 117;
 }

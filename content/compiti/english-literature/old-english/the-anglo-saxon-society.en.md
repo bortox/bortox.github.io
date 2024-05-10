@@ -71,7 +71,7 @@ Epics can be splitted in two types:
 
 * Primary Epics, first transmitted orally then written down, like the Iliad.
 * Secondary Epics, first written down then chanted, like the Anaeid.
-{{ /alert}}
+{{< /alert >}}
 
 ### Features of Anglo-Saxon poetry
 

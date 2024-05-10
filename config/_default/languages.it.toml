@@ -1,13 +1,16 @@
-rtl = false
-dateFormat = "2/01/06"
 languageName = "Italiano"
-displayName = ":it:"
-isoCode = "it"
 weight = 1
 #logo = "logo.png"
-title = "bortox.it - blog "
-description = "Blog personale"
+title = "bortox.it 🦅 il nido del cuculo  "
 copyright = "Contenuto sotto licenza: [ :link: CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0)"
+
+[params]
+   rtl = false
+   dateFormat = "2/01/06"
+   description = "Blog personale"
+   displayName = ":it:"
+   isoCode = "it"
+
 [author]
   name = "Andrea Bortolotti"
   image = "author.png"

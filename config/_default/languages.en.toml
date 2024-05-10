@@ -1,13 +1,19 @@
-rtl = false
 languageName = "English"
-displayName = ":uk:"
-isoCode = "en"
 weight = 2
-dateFormat = "Mon, Jan 2, 2006"
 title = "bortox.it - Andrea Bortolotti"
 #logo = "logo.png"
-description = "My own blog"
 copyright = "Content license: [ :link: CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0)"
+
+[params]
+   dateFormat = "Mon, Jan 2, 2006"
+   isoCode = "en"
+   rtl = false
+   displayName = ":uk:"
+   description = "My own blog"
+
+
+
+
 
 [author]
   name = "Andrea Bortolotti"
