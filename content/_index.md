@@ -19,4 +19,4 @@ Il nido si ramifica in due sezioni principali, una sezione **personale** ed una 
 :people_hugging: Mantengo una  <a target="_blank" href="https://bortox.it/galleria/"> collezione di foto 📷</a> come hobby ed ogni tanto scrivo sul mio [blog personale (:it: :uk:)]({{< ref "/article" >}}). 
 
 
-Grazie per la visita :white_heart:. 
+Grazie per la visita :clap: spero che bortox.it si rivelerà utile. 

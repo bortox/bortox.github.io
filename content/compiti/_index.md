@@ -7,8 +7,6 @@ date: 2022-05-02
 Sono incluse numerose materie, tra cui Fisica, Chimica, Latino, Inglese, Geometria, Storia dell' Arte e tante altre ancora! 
 
 {{< alert "circle-info" >}}
-
-
 [Visualizza tutte le materie incluse nel nido del cuculo]({{< ref "/categories" >}})
 {{< /alert >}}
 

@@ -10,4 +10,4 @@ The nest branches in two main sections, a didactic one and a personal one.
 
 :people_hugging: I also keep a [:camera: personal collection of photos :it:](https://bortox.it/galleria) as I enjoy taking pictures and editing them. Once in a while, I'll write something tech-related on my [:man_technologist: blog ]({{< ref "/article" >}}).
 
-Thank you for your visit, I hope *bortox.it* proves useful :white_heart:. 
+Thank you for your visit :clap: I hope *bortox.it* proves useful. 
