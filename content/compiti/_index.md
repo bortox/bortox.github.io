@@ -9,5 +9,3 @@ Sono incluse numerose materie, tra cui Fisica, Chimica, Latino, Inglese, Geometr
 {{< alert "circle-info" >}}
 [Visualizza tutte le materie incluse nel nido del cuculo]({{< ref "/categories" >}})
 {{< /alert >}}
-
-_Sto trasferendo il sito in questo design più moderno. Ci vorrà un po' di tempo per gli ultimi ritocchi._

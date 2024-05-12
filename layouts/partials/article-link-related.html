@@ -61,10 +61,6 @@
           {{ $meta.Add "partials" (slice (partial "meta/reading-time.html" .)) }}
         {{ end }}
       
-        {{ if and (.Params.showVisitCount | default (.Site.Params.article.showVisitCount | default true)) }}
-          {{ $meta.Add "partials" (slice (partial "meta/visit-counter.html" .)) }}
-        {{ end }}
-      
         {{ if and (eq $scope "single") (.Params.showEdit | default (.Site.Params.article.showEdit | default false)) }}
           {{ $meta.Add "partials" (slice (partial "meta/edit.html" .)) }}
         {{ end }}
