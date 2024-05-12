@@ -27,7 +27,7 @@
 
 [[main]]
   name = "Scuola :memo:"
-  url = "https://bortox.it/Compiti-scolastici/"
+  pageRef = "compiti"
   weight = 12
 
 # -- Footer Menu --
