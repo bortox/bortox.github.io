@@ -12,7 +12,7 @@ Il nido si ramifica in due sezioni principali, una sezione **personale** ed una 
 
 
 
-:school: Durante il liceo, ho creato :school_satchel: [Compiti e appunti scolastici]({{< ref "/compiti" >}})per **aiutare gli studenti**. Ha riscosso un discreto successo nel **latino**, dove ho scritto anche <a target="_blank" href="https://bortox.it/trovaparadigmi/"> Trovaparadigmi GUI</a>, programma che scrive una lista automatica dei paradigmi di una versione. Il <a target="_blank" href="https://bortox.it/Compiti-scolastici/"> vecchio sito </a> conserva l'interfaccia originale realizzata autonomamente da cima a fondo.
+:school: Durante il liceo, ho creato :school_satchel: [Compiti e appunti scolastici]({{< ref "/compiti" >}}) per **aiutare gli studenti**. Ha riscosso un discreto successo nel **latino**, dove ho scritto anche <a target="_blank" href="https://bortox.it/trovaparadigmi/"> Trovaparadigmi GUI</a>, programma che scrive una lista automatica dei paradigmi di una versione. Il <a target="_blank" href="https://bortox.it/Compiti-scolastici/"> vecchio sito </a> conserva l'interfaccia originale realizzata autonomamente da cima a fondo.
 
 
 
