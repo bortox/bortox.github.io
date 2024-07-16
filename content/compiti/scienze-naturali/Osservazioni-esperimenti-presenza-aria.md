@@ -1,4 +1,5 @@
 ---
+
 categories: scienze-naturali
 date: '2020-11-07'
 description: Dimostriamo la presenza e alcune proprietà dell' aria discutendo su alcuni
@@ -12,3 +13,4 @@ title: Osservazioni e discussione condivisa sugli esperimenti riguardanti la pre
 type: redirect
 target: https://bortox.it/Compiti-scolastici/appunti/2020/11/07/Osservazioni-esperimenti-presenza-aria.html
 ---
+Dimostriamo la presenza e alcune proprietà dell' aria discutendo su alcuni esperimenti eseguiti nella lezione precedente. LSS sulla nascita dei gas.
