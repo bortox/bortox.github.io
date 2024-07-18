@@ -45,19 +45,19 @@ Una nuova aggiunta alla sezione scolastica è invece [PCTO Monitoraggio Ambienta
 
 ## Ecosostenibilità :deciduous_tree:
 
-Una visita a bortox.it produce appena **0.06** grammi di CO<sub>2</sub> - più leggero del 95% dei siti testati - ed il server dal quale viene servito il sito utilizza energia sostenibile!
+Una visita a bortox produce appena **0.06** grammi di CO<sub>2</sub> - più leggero del 95% dei siti testati - ed il server dal quale viene servito il sito utilizza energia sostenibile!
 
 <div id="wcb" class="carbonbadge"></div>
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
 
-In un anno con ~120 000 visite bortox.it produce appena ~9kg di CO<sub>2</sub> :balance_scale:
+In un anno con ~120 000 visite bortox produce appena ~9kg di CO<sub>2</sub> :balance_scale:
 , l'equivalente di 4.8kg di pasta :spaghetti: oppure di 75km in auto :oncoming_automobile:.
 
 Appena avrò abbastanza soldi, adotterò un albero per il bene dell'ambiente e della popolazione ma anche per compensare le emissioni di CO<sub>2</sub>
 
 ### Riduzione del consumo di traffico internet :zap:
 
-bortox.it applica le tecniche più moderne per garantire una navigazione veloce e fluida sul dispositivo ed una taglia leggera :feather: delle pagine. 
+bortox applica le tecniche più moderne per garantire una navigazione veloce e fluida sul dispositivo ed una taglia leggera :feather: delle pagine. 
 
 * Minificazione del codice
 * Service worker per il caching -> Possibile navigare offline
@@ -70,13 +70,13 @@ Tali tecniche rendono la **navigazione più etica** perché la fluidità del sit
 
 ## Nessuna pubblicità :no_entry:
 
-bortox.it è un sito senza scopo di lucro nonostante le notevoli visite mensili. La navigazione resta veloce e leggera anche grazie all'assenza di pubblicità. 
+bortox è un sito senza scopo di lucro nonostante le notevoli visite mensili. La navigazione resta veloce e leggera anche grazie all'assenza di pubblicità. 
 
 ## Riservatezza dei dati dei visitatori :eyes:
 
-bortox.it rispetta il GDPR e le uniche soluzioni di analytics (statistiche sulle visite) utilizzate sono Matomo (self-hostato in Europa) e GoatCounter (hostato in Europa); entrambi **rispettano il GDPR** e sono impostati in modo tale da **non raccogliere informazioni personali** che permetterebbero l'identificazione di un visitatore, come il suo indirizzo IP. 
+bortox rispetta il GDPR e le uniche soluzioni di analytics (statistiche sulle visite) utilizzate sono Matomo (self-hostato in Europa) e GoatCounter (hostato in Europa); entrambi **rispettano il GDPR** e sono impostati in modo tale da **non raccogliere informazioni personali** che permetterebbero l'identificazione di un visitatore, come il suo indirizzo IP. 
 
-Le uniche informazioni memorizzate sul dispositivo di un visitatore del sito web bortox.it sono due:
+Le uniche informazioni memorizzate sul dispositivo di un visitatore del sito web bortox sono due:
 
 * Preferenza tema scuro/chiaro nel local storage
 * Cache delle pagine già visitate così sono accessibili offline per 1 ora dalla prima visita.

@@ -7,13 +7,13 @@ showVisitCount: false
 
 * :mobile_phone_off: Sei offline. Controlla la tua connessione ad internet.
 
-* bortox.it **funziona anche offline**. 
+* bortox **funziona anche offline**. 
 
-## Come funziona bortox.it offline
+## Come funziona bortox offline
 
-Siccome bortox.it è una PWA (Progressive Web App) in parte è navigabile anche offline, siccome ogni pagina che visiti viene mantenuta in memoria per 3600 secondi, ossia un'ora.
+Siccome bortox è una PWA (Progressive Web App) in parte è navigabile anche offline, siccome ogni pagina che visiti viene mantenuta in memoria per 3600 secondi, ossia un'ora.
 
-![Bortox.it come PWA](/pwa.png)
+![bortox come PWA](/pwa.png)
 
 Ogni volta che visiti una pagina, un _service worker_ copia per un'ora sul dispositivo:
 

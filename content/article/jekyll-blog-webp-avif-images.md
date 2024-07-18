@@ -20,7 +20,7 @@ Perché l'ho fatto? Principalmente per tre ragioni:
 
 * Il punteggio di alcune pagine con molte immagini su PageSpeed a volte era minore di 90/100, mentre normalmente la media è di 99/100.
 * Dopo aver abilitato la conversione webp sul mio blog Hugo ho notato una velocità di caricamento migliore e dei risparmi sulla banda e sulla taglia delle immagini.
-* Questo articolo sulla [_crisi di obesità_ (:gb:)](https://idlewords.com/talks/website_obesity.htm) del web mi ha convinto a ridurre la taglia delle pagine di bortox.it e le immagini erano il problema più grande.
+* Questo articolo sulla [_crisi di obesità_ (:gb:)](https://idlewords.com/talks/website_obesity.htm) del web mi ha convinto a ridurre la taglia delle pagine di bortox e le immagini erano il problema più grande.
 
 ## Come convertire le immagini in webp e avif su Jekyll
 

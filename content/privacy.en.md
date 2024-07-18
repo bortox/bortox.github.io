@@ -5,11 +5,11 @@ date: 2022-06-11 20:00:00
 type: page
 ---
 
-bortox.it protects the privacy of its users.
+bortox protects the privacy of its users.
 
-bortox.it is not doing any profiling
+bortox is not doing any profiling
 
-If you think that the way we process your personal data with bortox.it is infringing the law, you have the right to lodge a complaint with a supervisory authority.
+If you think that the way we process your personal data with bortox is infringing the law, you have the right to lodge a complaint with a supervisory authority.
 
 Server Location: USA (Fastly hosting with Github Pages)
 

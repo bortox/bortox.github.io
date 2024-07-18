@@ -7,13 +7,13 @@ showVisitCount: false
 
 * :mobile_phone_off: You are offline. Check the connection.
 
-* bortox.it **works also offline**. 
+* bortox **works also offline**. 
 
-## How does bortox.it work offline?
+## How does bortox work offline?
 
-Since bortox.it is a PWA (Progressive Web App) it can be partly browsed even offline! Every page you visit online is stored for one hour in the browser's cache.
+Since bortox is a PWA (Progressive Web App) it can be partly browsed even offline! Every page you visit online is stored for one hour in the browser's cache.
 
-![Bortox.it come PWA](/pwa.png)
+![bortox come PWA](/pwa.png)
 
 Every time you visit a webpage on bortox.it, a _service worker_ copies temporarily on the device:
 

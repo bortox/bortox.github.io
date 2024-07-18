@@ -1,5 +1,5 @@
 ---
-title: "About bortox.it :tada:"
+title: "About bortox :tada:"
 description: "Website map, bortox.it's"
 date: 2022-07-16
 ---
@@ -48,19 +48,19 @@ A new addition to the school section is [PCTO Environmental Monitoring (:it:)](h
 
 ## Eco-sustainability :deciduous_tree:
 
-A visit to bortox.it produces just **0.06** grams of CO<sub>2</sub> - cleaner than 96% of sites tested - and the server uses sustainable energy!
+A visit to bortox produces just **0.06** grams of CO<sub>2</sub> - cleaner than 96% of sites tested - and the server uses sustainable energy!
 
 <div id="wcb" class="carbonbadge"></div>
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
 
-In a year with ~120 000 visits bortox.it produces just ~9kg of CO<sub>2</sub> :balance_scale:
+In a year with ~120 000 visits bortox produces just ~9kg of CO<sub>2</sub> :balance_scale:
 , the equivalent of 4.8kg of pasta :spaghetti: or 75km by car :oncoming_automobile:.
 
 As soon as I have enough money, I will adopt a tree for the sake of the environment and the people but also to offset CO<sub>2</sub> emissions.
 
 ### Reducing internet traffic consumption :zap:
 
-bortox.it applies the most modern techniques to ensure fast and smooth navigation on the device with light pages :feather:.
+bortox applies the most modern techniques to ensure fast and smooth navigation on the device with light pages :feather:.
 
 * Code minification.
 * Service worker for caching -> Possibility of offline browsing.
@@ -73,14 +73,14 @@ Such techniques make **navigation more ethical** because the smoothness of the s
 
 ## No advertising :no_entry:
 
-bortox.it is not a website for-profit site despite the monthly visits. 
+bortox is not a website for-profit site despite the monthly visits. 
 Navigation remains fast and light also because of the absence of advertisements.
 
 ## Confidentiality of visitors' data :eyes:
 
-bortox.it complies with the GDPR and the only analytics (visit statistics) solution used is GoatCounter (hosted in Europe); it **complies with the GDPR** and is set up to **not collect personal information** that would allow a visitor to be identified, such as their IP address.
+bortox complies with the GDPR and the only analytics (visit statistics) solution used is GoatCounter (hosted in Europe); it **complies with the GDPR** and is set up to **not collect personal information** that would allow a visitor to be identified, such as their IP address.
 
-The only information stored on a visitor's device by the bortox.it website are those:
+The only information stored on a visitor's device by the bortox website are those:
 
 * Dark/light theme preference in local storage.
 * Cache of pages already visited so they are accessible offline for 1 hour after the first visit.

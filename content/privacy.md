@@ -6,13 +6,13 @@ showAuthor: false
 showEdit: false
 ---
 
-bortox.it tutela la privacy dei propri utenti.
+bortox tutela la privacy dei propri utenti.
 
-bortox.it non effettua alcuna profilazione
+bortox non effettua alcuna profilazione
 
-Se ritenete che il modo in cui trattiamo i vostri dati personali con bortox.it violi la legge, avete il diritto di presentare un reclamo a un'autorità di controllo.
+Se ritenete che il modo in cui trattiamo i vostri dati personali con bortox violi la legge, avete il diritto di presentare un reclamo a un'autorità di controllo.
 
-Posizione del server: USA (Fastly hosting con Github Pages)
+Posizione del server: CDN Globale (Google Firebase)
 
 ## Servizi di terze parti utilizzati in loco
 

@@ -14,7 +14,7 @@ Il testo seguente contiene il copione per la mia recensione orale su un libro. S
 
 <!--more-->
 
-Siccome la recensione ha una notevole concentrazione di lessico specialistico e non riguarda un prodotto letterario, ma un prodotto di nicchia, questo articolo non si trova nella sezione scolastica di bortox.it ma si trova nel blog.
+Siccome la recensione ha una notevole concentrazione di lessico specialistico e non riguarda un prodotto letterario, ma un prodotto di nicchia, questo articolo non si trova nella sezione scolastica di bortox ma si trova nel blog.
 
 ## Introduzione
 
