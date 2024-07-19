@@ -5,8 +5,7 @@ description: Brief summary of Gulliver's Travels by Jonathan Swift
 category: english-literature
 tags:
 - Gulliver
-- literature
-- 
+- literature 
 ---
 
 Gulliver's travels was published anonimously in 1726, it consisted of four books, because Gulliver undertakes four voyages in the story. There is a book for each voyage. The protagonist belongs to the middle class. 
