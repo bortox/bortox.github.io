@@ -15,7 +15,7 @@ Il sito (la tana del Borto) si divide in due sezioni:
 
 #### Foto :camera:
 
-La **sezione personale** contiene una [collezione di foto :camera:](https://bortox.it/galleria/) scattate da me. La fotografia mi ha sempre interessato, ed ho avuto numerose fotocamere compatte, sin dalle elementari.
+La **sezione personale** contiene una [collezione di foto :camera:](https://bortox.eu/) scattate da me. La fotografia mi ha sempre interessato, ed ho avuto numerose fotocamere compatte, sin dalle elementari.
 
 #### Blog 💻
 

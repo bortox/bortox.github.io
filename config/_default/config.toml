@@ -2,7 +2,7 @@
 
 baseURL = "https://bortox.it/"
 #enableGitInfo = true
-theme = ["github.com/jpanther/congo/v2", "hugo-shortcode-gallery"]
+theme = ["github.com/jpanther/congo/v2"]
 defaultContentLanguage = "it"
 timeout = 600000
 

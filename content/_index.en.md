@@ -15,11 +15,11 @@ The nest comprises **educational** and **personal** content: <a href="#education
 
 ## Personal content
 
-:people_hugging: I also keep a [:camera: personal collection of photos :it:](https://bortox.it/galleria) as I enjoy taking pictures and editing them. Once in a while, I'll write something tech-related on my [:man_technologist: blog ]({{< ref "/article" >}}).
+:people_hugging: I also keep a [:camera: personal collection of photos :it:](https://bortox.eu) as I enjoy taking pictures and editing them. Once in a while, I'll write something tech-related on my [:man_technologist: blog ]({{< ref "/article" >}}).
 
 Thank you visiting :clap: I hope *bortox.it* proves useful. 
 
 {{< button href="https://bortox.it/Compiti-scolastici/" target="_blank" >}} Compiti Scolastici{{< /button >}}
-{{< button href="https://bortox.it/en/article" target="_blank" >}}Blog{{< /button >}}{{< button href="https://bortox.it/galleria/" target="_blank" >}}
+{{< button href="https://bortox.it/en/article" target="_blank" >}}Blog{{< /button >}}{{< button href="https://bortox.eu/" target="_blank" >}}
 Galleria Foto
 {{< /button >}}

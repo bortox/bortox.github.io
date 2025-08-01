@@ -26,12 +26,12 @@ Il sito si ramifica in due sezioni principali, una sezione **personale** ed una 
 
 ## Sezione personale
 
-:people_hugging: Mantengo una  <a target="_blank" href="https://bortox.it/galleria/"> collezione di foto 📷</a> come hobby ed ogni tanto scrivo sul mio [blog personale (:it: :uk:)]({{< ref "/article" >}}). 
+:people_hugging: Mantengo una  <a target="_blank" href="https://bortox.eu/"> collezione di foto 📷</a> come hobby ed ogni tanto scrivo sul mio [blog personale (:it: :uk:)]({{< ref "/article" >}}). 
 
 Grazie per la visita :clap: spero che bortox si rivelerà utile. 
 
 {{< button href="https://bortox.it/Compiti-scolastici/" target="_blank" >}}Vai a Compiti Scolastici{{< /button >}}
-{{< button href="https://bortox.it/article/" target="_blank" >}}Blog{{< /button >}}{{< button href="https://bortox.it/galleria/" target="_blank" >}}
+{{< button href="https://bortox.it/article/" target="_blank" >}}Blog{{< /button >}}{{< button href="https://bortox.eu/" target="_blank" >}}
 Galleria Foto
 {{< /button >}}
 

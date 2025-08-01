@@ -15,7 +15,7 @@ The site (the lair of the Borto) is divided into two sections:
 
 #### Photo :camera:
 
-The **personal section** contains a [collection of :camera:](https://bortox.it/galleria) photos taken by me. Photography has always interested me, and I've had several compact cameras since primary schools.
+The **personal section** contains a [collection of :camera:](https://bortox.eu) photos taken by me. Photography has always interested me, and I've had several compact cameras since primary schools.
 
 #### Blog 💻
 
