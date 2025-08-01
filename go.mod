@@ -1,5 +1,5 @@
 module git.bortox.it/bortox/website
 
-go 1.18
+go 1.24
 
-require github.com/jpanther/congo/v2 v2.8.2 // indirect
+require github.com/jpanther/congo/v2 v2.12.2

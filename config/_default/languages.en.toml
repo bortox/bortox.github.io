@@ -15,7 +15,7 @@ copyright = "Content license: [ :link: CC BY-NC-ND 4.0](https://creativecommons.
 
 
 
-[author]
+[params.author]
   name = "Andrea Bortolotti"
   image = "cuculo.jpg"
   headline = "Welcome into the cuckoo's nest"

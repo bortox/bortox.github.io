@@ -1,7 +1,6 @@
 ---
 title: Creare un Discord Webhook ed inviare messaggi con Python
 description: 
-published: true
 date: 2021-10-16T14:47:00Z
 tags:
 - discord

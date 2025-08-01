@@ -1,6 +1,6 @@
 ---
 categories: latino
-date: '2021-09-31'
+date: "2021-09-30"
 description: Traduzione delle frasi d'autore dal latino all'italiano dell'esercizio
   22 a pagina 387. Lycurgus pueros puberes...
 externalUrl: https://bortox.it/Compiti-scolastici/compiti/2021/09/31/Esercizio-22-pagina-387-frasi.html

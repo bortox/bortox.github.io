@@ -1,7 +1,6 @@
 ---
 title: Install Ruby and Jekyll on OpenSUSE Tumbleweed
 description: How to install Ruby and Jekyll on OpenSUSE Tumbleweed through rbenv
-published: true
 date: 2021-09-26T15:07:00+00:00
 tags: 
 - ruby

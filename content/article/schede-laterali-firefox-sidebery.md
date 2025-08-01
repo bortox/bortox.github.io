@@ -1,7 +1,6 @@
 ---
 title: Schede laterali personalizzate su Firefox con Sidebery
 description: Come abilitare le schede a lato dello schermo su Firefox, attraverso l'estensione Sidebery. Modifica dell'userChrome.css per rifiniture finali.
-published: true
 date: 2021-09-26T22:00:00.001Z
 tags:
 - sidebery

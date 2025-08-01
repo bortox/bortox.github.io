@@ -1,7 +1,6 @@
 ---
 title: Trasferire una cartella tra due computer linux sulla stessa rete locale con wget e http.server
 description: Righe su come inviare una cartella attraverso un server web Python e wget sul computer ricevente, per due computer sulla stessa rete locale.
-published: true
 date: 2022-05-01T17:21:00.001Z
 tags:
 - trasferire

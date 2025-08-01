@@ -1,7 +1,6 @@
 ---
 title: Come usare gli shaders su MPV per migliorare anime vecchi con Anime4K
 description: 
-published: true
 date: 2021-08-20T21:00:00.000+00:00
 tags: 
 - shader

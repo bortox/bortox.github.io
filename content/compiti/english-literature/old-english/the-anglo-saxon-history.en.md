@@ -1,7 +1,6 @@
 ---
 title: The Anglo-Saxon period, Gregory I, Alfred the Great and the Normans
 description: The Anglo-Saxon period, from the conquest of Britain after Rome's withdrawal to the Norman Invasion, with a focus on Alfred the Great's figure and Anglo-Saxon kingdoms.
-published: true
 date: 2021-12-10T17:41:36.555Z
 tags: 
 - Anglo-Saxons

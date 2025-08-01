@@ -1,7 +1,6 @@
 ---
 title: Recensione del libro "Mastering Monero"
 description: 
-published: true
 date: 2021-09-03T09:12:00Z
 lastmod: 2022-06-14 20:40:00Z
 tags:

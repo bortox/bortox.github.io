@@ -1,7 +1,6 @@
 ---
 title: Minare punti Twitch AFK con Twitch Channel Points Miner
 description: 
-published: true
 date: 2021-08-23T11:05:00.000+00:00
 tags: 
 - script

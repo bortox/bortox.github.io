@@ -1,7 +1,6 @@
 ---
 title: Snippet di codice per la gestione di Fail2Ban
 description: Appunti sulla configurazione ed attivazione di Fail2Ban per proteggere il proprio server da attacchi informatici.
-published: true
 date: 2022-02-28T20:21:02.031Z
 tags:
 - fail2ban

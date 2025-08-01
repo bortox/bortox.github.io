@@ -1,7 +1,6 @@
 ---
 title: Installare una stampante Samsung in meno di un minuto su Arch Linux
 description: Ecco come utilizzare una stampante Samsung con una distribuzione linux basata su Arch utlizzando cups
-published: true
 date: 2021-06-02T17:00:00.002Z
 tags:
 - stampa

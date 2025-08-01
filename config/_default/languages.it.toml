@@ -11,13 +11,13 @@ copyright = "Contenuto sotto licenza: [ :link: CC BY-NC-ND 4.0](https://creative
    displayName = ":it:"
    isoCode = "it"
 
-[author]
+[params.author]
   name = "Andrea Bortolotti"
   image = "cuculo.jpg"
   headline = "Benvenuti nel nido del cuculo"
   bio = "I nostri successi e i nostri fallimenti sono tra loro inscindibili, proprio come la materia e l'energia. Se vengono separati, l'uomo muore."
   links = [
-  #   { email = "mailto:bort0x@tuta.io" },
+     { email = "mailto:contact@bortox.it" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
@@ -29,7 +29,7 @@ copyright = "Contenuto sotto licenza: [ :link: CC BY-NC-ND 4.0](https://creative
   #   { facebook = "https://facebook.com/username" },
   #   { flickr = "https://www.flickr.com/photos/username/" },
   #   { foursquare = "https://foursquare.com/username" },
-  #   { github = "https://github.com/bortox" },
+     { github = "https://github.com/bortox" },
   #   { gitlab = "https://gitlab.com/username" },
   #   { google = "https://www.google.com/search?q=site:bortox.it" },
   #   { hashnode = "https://username.hashnode.dev" },

@@ -1,7 +1,6 @@
 ---
 title: "Risolvere errore in fastboot boot partition is smaller than boot image mentre si installa DivestOS sul Fairphone 3"
 description: Come risolvere l'errore boot partition is smaller than boot image in fastboot sul Fairphone 3 mentre si installa DivestOS
-published: true
 date: 2022-08-22
 tags:
 - custom rom
