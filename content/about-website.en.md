@@ -2,6 +2,8 @@
 title: "About bortox :tada:"
 description: "Website map, bortox.it's"
 date: 2022-07-16
+lastmod: 2025-08-02
+showPagination: false
 ---
 
 
@@ -35,12 +37,6 @@ The site can be found in Google results and contains over 100 posts. The most vi
 
 If you'd like to contribute - code, knowledge or money - to Compiti Scolastici you can see the options available at [contribute-cs](https://bortox.it/contribuisci-cs/)
 
-#### Latin Paradigm Finder
-
-[:mag: Trovaparadigmi GUI (:it:)](https://bortox.it/trovaparadigmi) is a Windows program written in Python to quickly and easily compile a complete list of paradigms in a version of Latin.
-
-I wrote the program initially for myself, then made some improvements and distributed an .exe file to my classmates, with the aim of _providing everyone with a more or less accurate option to quickly find the paradigms of an entire Latin version, and save them in a text document_.
-
 #### PCTO Environmental Monitoring :telescope:
 
 A new addition to the school section is [PCTO Environmental Monitoring (:it:)](https://bortox.it/posts/pcto-monitoraggio-ambientale). The PCTO is a physics course in collaboration with the CNR on climate change and environmental monitoring using spectroscopy.
@@ -48,7 +44,7 @@ A new addition to the school section is [PCTO Environmental Monitoring (:it:)](h
 
 ## Eco-sustainability :deciduous_tree:
 
-A visit to bortox produces just **0.06** grams of CO<sub>2</sub> - cleaner than 96% of sites tested - and the server uses sustainable energy!
+A visit to bortox produces just **0.02** grams of CO<sub>2</sub> - cleaner than 98% of sites tested - and the server uses sustainable energy!
 
 <div id="wcb" class="carbonbadge"></div>
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>

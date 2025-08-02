@@ -7,6 +7,12 @@ showRecent: false
 showBreadcrumbs: false
 showVisitCount: false
 sharingLinks: false
+showDate: false
+showReadingtime: false
+showWordCount: false
+showEdit: false
+sharingLinks: false
+
 ---
 
 Help bortox stay ad-free and full of interesting content. Even a single **share** counts!

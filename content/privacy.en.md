@@ -2,16 +2,31 @@
 title: "Privacy Policy of bortox.it"
 description: "Privacy Policy of bortox.it, services and personal data collected on the website."
 date: 2022-06-11 20:00:00
+lastmod: 2025-08-02
 type: page
+showTableOfContents: false
+showAuthor: false
+showRecent: false
+showBreadcrumbs: false
+showVisitCount: false
+sharingLinks: false
+showDate: false
+showReadingtime: false
+showWordCount: false
+showEdit: false
+showPagination: false
+sharingLinks: false
 ---
 
 bortox protects the privacy of its users.
 
 bortox is not doing any profiling
 
+bortox is using services based in europe (domain, DNS, hosting, analytics)
+
 If you think that the way we process your personal data with bortox is infringing the law, you have the right to lodge a complaint with a supervisory authority.
 
-Server Location: USA (Fastly hosting with Github Pages)
+Server Location: Global CDN (Statichost, based on Hetzner)
 
 ## Third party services used on-site
 

@@ -7,6 +7,11 @@ showRecent: false
 showBreadcrumbs: false
 showVisitCount: false
 sharingLinks: false
+showDate: false
+showReadingtime: false
+showWordCount: false
+showEdit: false
+sharingLinks: false
 ---
 
 Compiti scolastici è un blog che contiene compiti ed appunti presi durante il liceo, resi **disponibili per tutti gli studenti senza alcuna pubblicità**.

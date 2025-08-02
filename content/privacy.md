@@ -2,17 +2,32 @@
 title: "Informativa sulla privacy di bortox.it"
 description: "Privacy Policy di bortox.it, servizi e dati personali raccolti sul sito."
 date: 2022-06-11 20:00:00
+lastmod: 2025-08-02
 showAuthor: false
 showEdit: false
+showTableOfContents: false
+showAuthor: false
+showRecent: false
+showBreadcrumbs: false
+showVisitCount: false
+sharingLinks: false
+showDate: false
+showReadingtime: false
+showWordCount: false
+showEdit: false
+showPagination: false
+sharingLinks: false
 ---
 
 bortox tutela la privacy dei propri utenti.
 
 bortox non effettua alcuna profilazione
 
+bortox utilizza solo servizi europei (dominio, analytics, DNS, hosting)
+
 Se ritenete che il modo in cui trattiamo i vostri dati personali con bortox violi la legge, avete il diritto di presentare un reclamo a un'autorità di controllo.
 
-Posizione del server: CDN Globale (Google Firebase)
+Posizione del server: CDN Globale (Statichost)
 
 ## Servizi di terze parti utilizzati in loco
 

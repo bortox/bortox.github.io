@@ -1,6 +1,7 @@
 ---
 title: "Informazioni su bortox.it"
 description: "How the site is divided, bortox.it's commitments to sustainability and visitor data privacy."
+lastmod: 2025-08-02
 date: 2022-07-16
 ---
 
@@ -33,19 +34,13 @@ La sezione scolastica contiene il sito [Compiti e appunti scolastici (:it:)](htt
 Se vuoi contribuire - codice, conoscenza o soldi - a _Compiti e appunti scolastici_ puoi vedere le opzioni disponibili su [contribuisci-cs](https://bortox.it/contribuisci-cs/).
 
 
-#### Trovaparadigmi
-
-[:mag: Trovaparadigmi GUI (:it:)](https://bortox.it/trovaparadigmi/) è un programma per Windows scritto in Python per compilare in modo semplice e veloce una lista completa dei paradigmi presenti in una versione di Latino.
-
-Ho scritto il programma inizialmente per me, poi ho apportato alcuni miglioramenti ed ho distribuito un file .exe ai miei compagni, con l'obiettivo di _fornire a tutti un’opzione più o meno precisa per trovare rapidamente i paradigmi di un’intera versione in latino, e salvarli in un documento di testo_.
-
 #### PCTO Monitoraggio Ambientale :telescope:
 
 Una nuova aggiunta alla sezione scolastica è invece [PCTO Monitoraggio Ambientale (:it:)]({{< ref "posts/pcto-monitoraggio-ambientale" >}}). Il PCTO è un percorso di Fisica in collaborazione con il CNR sul cambiamento climatico ed il monitoraggio dell'ambiente utilizzando la spettroscopia.
 
 ## Ecosostenibilità :deciduous_tree:
 
-Una visita a bortox produce appena **0.06** grammi di CO<sub>2</sub> - più leggero del 95% dei siti testati - ed il server dal quale viene servito il sito utilizza energia sostenibile!
+Una visita a bortox produce appena **0.02** grammi di CO<sub>2</sub> - più leggero del 98% dei siti testati - ed il server dal quale viene servito il sito utilizza energia sostenibile!
 
 <div id="wcb" class="carbonbadge"></div>
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>

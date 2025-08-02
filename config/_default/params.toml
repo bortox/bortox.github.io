@@ -11,7 +11,6 @@ autoSwitchAppearance = false
 
 enableSearch = true
 enableCodeCopy = true
-
 # mainSections = ["section1", "section2"]
 # robots = ""
 
@@ -22,8 +21,8 @@ enableCodeCopy = true
 
 
 [homepage]
-  layout = "page" # valid options: page, profile, custom
-  showRecent = true
+  layout = "[page]" # valid options: page, profile, custom
+  showRecent = false
 
 [article]
   sharingLinks = ["facebook", "twitter", "reddit", "email"]

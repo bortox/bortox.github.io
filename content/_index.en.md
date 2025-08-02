@@ -1,25 +1,45 @@
 ---
-title: Welcome into the cuckoo's nest"
+title: Andrea Bortolotti
 description: "Andrea Bortolotti's website containing blog and school homework pages."
 showTableOfContents: true
 ---
-{{< alert "bars" >}}
-The nest comprises **educational** and **personal** content: <a href="#educational-contents" >Scroll down</a>
-{{< /alert >}}
 
-![Image depicting web surfing](navigazione.jpg)
+Hello :wave: I am an *Energy Engineering* ⚙️ student planning to relocate to :denmark:.
 
-## Educational content
+I am passionate about building applications to solve practical problems. I am self taught in Python and full-stack web development. I manage also my own homelab - now a small chinese minipc - and selfhost on top of it. 
 
-:school: In High School, I shared [improved web versions of my notes]({{< ref "/compiti" >}}) to help fellow students. In Italian, the [site :it:](https://bortox.it/Compiti-scolastici/) - particularly the Latin section - has gained quite some views (>200k) and I also wrote a program, [*Latin Paradigm Finder* :it:](https://bortox.it/trovaparadigmi/) to extract verb paradigms from a latin text.
-
-## Personal content
-
-:people_hugging: I also keep a [:camera: personal collection of photos :it:](https://bortox.eu) as I enjoy taking pictures and editing them. Once in a while, I'll write something tech-related on my [:man_technologist: blog ]({{< ref "/article" >}}).
-
-Thank you visiting :clap: I hope *bortox.it* proves useful. 
-
-{{< button href="https://bortox.it/Compiti-scolastici/" target="_blank" >}} Compiti Scolastici{{< /button >}}
-{{< button href="https://bortox.it/en/article" target="_blank" >}}Blog{{< /button >}}{{< button href="https://bortox.eu/" target="_blank" >}}
-Galleria Foto
+{{% comment %}}
+{{< button href="https://bortox.eu/" target="_blank" >}}
+Download the CV
 {{< /button >}}
+ {{% /comment %}}
+## Projects
+
+### Compiti Scolastici
+
+[Web portal](https://bortox.it/Compiti-scolastici/) developed and managed independtly to freely distribute high quality school notes to italian students. Started as a single github repo for chemistry homework, regularly updated for all notes, now it counts almost **500 000 views** :tada:. The project is entirely based in Europe (domain, DNS, analytics, hosting) and does not track or profit off users. Sustainability is also a main focus: by employing modern data compression techniques and sustainable hosting, the website places on the [top 6% for CO2 emissions](https://www.websitecarbon.com/website/bortox-it/). You can read more about it [here]({{< ref "/about-website/#eco-sustainability-deciduous_tree" >}})
+
+
+
+### Dicotomia Luminosa
+
+Together with my friend we designed a poster raising awareness about gambling addiction for the artwork competition among students organised by Progetto Prize. We collaborated effectively at all stages of the poster creation, from the shooting to the essay describing the work. At the end, we placed II in our category. 
+
+### Other
+
+- **Latin Paradigm Finder**, Python desktop application with an interactive GUI designed to automate the verb analysis of latin texts list (Personal Project)
+- [**Photography Digital Garden**](https://fotografia.bortox.it/): Website showcasing the history of photography and popular works (Group project)
+
+## Photography
+
+Since elementary school i fiddled with portable cameras. First Nintendo DS and old Nokias, then compact, bridge, reflex and now mirrorless cameras. I like taking portraits but for privacy reasons don't publish them, so you'll find [architecture, abstract, nature photography on bortox.eu](https://bortox.eu).
+
+
+
+## Contact
+
+Interested in collaborating or have an opportunity to share? Feel free to send me an email at bortox on this domain. 
+
+{{< button href="https://bortox.it/en/article" target="_blank" >}}Blog{{< /button >}}{{< button href="https://bortox.eu/" target="_blank" >}}
+Photos{{< /button >}}{{< button href="https://bortox.it/en/compiti" target="_blank" >}}
+School notes{{< /button >}}

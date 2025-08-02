@@ -2,7 +2,18 @@
 title : You are offline. Check your internet connection.
 description : Offline
 date: 2022-06-21
+showTableOfContents: false
+showAuthor: false
+showRecent: false
+showBreadcrumbs: false
 showVisitCount: false
+sharingLinks: false
+showDate: false
+showReadingtime: false
+showWordCount: false
+showEdit: false
+showPagination: false
+sharingLinks: false
 ---
 
 * :mobile_phone_off: You are offline. Check the connection.
@@ -26,6 +37,5 @@ Every time you visit a webpage on bortox.it, a _service worker_ copies temporari
 * Go to <a target="_blank" href="https://bortox.eu/"> the collection of photos 📷</a>
 * Go to [the blog (:it:,:uk:)]({{< ref "/article" >}})
 * Go to <a target="_blank" href="https://bortox.it/Compiti-scolastici/">Compiti e appunti scolastici (🇮🇹)</a>
-* Go to <a target="_blank" href="https://bortox.it/trovaparadigmi/">🔍 Trovaparadigmi GUI (🇮🇹)</a>
 
 Enjoy your offline surfing!

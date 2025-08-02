@@ -11,7 +11,7 @@ tags:
 tipo: appunti
 title: Cesare Beccaria, breve analisi illuminista dei diritti e delle pene
 ---
-Cesare Beccaria è uno degli illuminsti che ha portato ad un cambiamento nel diritto e nella giustizia italiana. Scrive il saggio “Dei diritti e delle pene” dove analizza limiti e modifiche da apportare al sistema giuridico, con due argomenti da abolire:
+Cesare Beccaria è uno degli illuministi che ha portato ad un cambiamento nel diritto e nella giustizia italiana. Scrive il saggio “Dei diritti e delle pene” dove analizza limiti e modifiche da apportare al sistema giuridico, con due argomenti da abolire:
 
 * Pena di morte
 * Tortura
