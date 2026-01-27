@@ -5,20 +5,16 @@ cover: "navigazione.jpg"
 showTableOfContents: true
 ---
 
-Ciao :wave: Sono uno studente di Ingegneria Energetica ⚙️ appassionato di Linux, self-hosting, diritto alla privacy. Durante la pandemia ho iniziato a scrivere questo sito web, che è cresciuto organicamente nel tempo.  
+{{< redirect-to-en >}}
 
-## Progetti
+Ciao :wave: Sono uno studente di Ingegneria Elettronica appassionato di Linux, self-hosting, diritto alla privacy. Durante la pandemia ho iniziato a scrivere questo sito web, che è cresciuto organicamente nel tempo.  
+
+## Progetti online
 
 
 ### Compiti scolastici
 
 Un portale web che ho sviluppato e gestito in autonomia per fornire appunti scolastici gratuiti agli studenti italiani. Iniziato come repo singola su appunti di chimica - su cui ho anche preso 4 per averli consegnati come url e non documento google :sob: - il progetto si è esteso a quasi tutte le materie delle superiori. Ad oggi si contano quasi :tada: **500 000 visite totali**. Il <a target="_blank" href="https://bortox.it/Compiti-scolastici/"> vecchio sito </a> conserva l'interfaccia originale realizzata autonomamente da cima a fondo. Il progetto [pone attenzione alla sostenibilita e alla privacy]({{< ref "/about-website/#ecosostenibilità-deciduous_tree" >}})
-
-### Dicotomia Luminosa
-
-Poster che ho realizzato con un mio amico su una campagna rivolta agli studenti delle superiori nella regiona Toscana, organizzata dal Progetto Prize al fine di **sensibilizzare sul gioco d'azzardo**. Abbiamo collaborato dall'idea iniziale alla scrittura dell'interpretazione ed ottenuto il II posto nella nostra categoria. {{% comment %}}
-Io mi sono comprato delle scarpe da corsa che ho usato per qualche anno :shoes:.
-{{%/ comment %}}
 
 ### Altri progetti
 

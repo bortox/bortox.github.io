@@ -11,7 +11,6 @@ showDate: false
 showReadingtime: false
 showWordCount: false
 showEdit: false
-sharingLinks: false
 
 ---
 

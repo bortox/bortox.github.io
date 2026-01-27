@@ -14,7 +14,7 @@ copyright = "Contenuto sotto licenza: [ :link: CC BY-NC-ND 4.0](https://creative
 [params.author]
   name = "Andrea Bortolotti"
   image = "cuculo.jpg"
-  headline = "Studente di Ingegneria Energetica ⚙️ :radioactive:"
+  headline = "EE Student in Denmark"
   bio = "I nostri successi e i nostri fallimenti sono tra loro inscindibili, proprio come la materia e l'energia. Se vengono separati, l'uomo muore."
   links = [
      { email = "mailto:contact@bortox.it" },

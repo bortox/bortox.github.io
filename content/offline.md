@@ -13,7 +13,6 @@ showReadingtime: false
 showWordCount: false
 showEdit: false
 showPagination: false
-sharingLinks: false
 ---
 
 * :mobile_phone_off: Sei offline. Controlla la tua connessione ad internet.

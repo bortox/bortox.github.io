@@ -15,7 +15,6 @@ showReadingtime: false
 showWordCount: false
 showEdit: false
 showPagination: false
-sharingLinks: false
 ---
 
 bortox protects the privacy of its users.

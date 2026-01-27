@@ -1,0 +1,25 @@
+{{ if .Page.IsTranslated }}
+  {{ range .Page.Translations }}
+    {{ if eq .Language.Lang "en" }}
+      <script>
+        (function() {
+          if (navigator.languages && Array.isArray(navigator.languages)) {
+            var langs = navigator.languages;
+            var enIndex = -1;
+            var itIndex = -1;
+            for (var i = 0; i < langs.length; i++) {
+              var l = langs[i].toLowerCase();
+              if (l.indexOf('en') === 0 && enIndex === -1) enIndex = i;
+              if (l.indexOf('it') === 0 && itIndex === -1) itIndex = i;
+            }
+            // Se l'inglese è presente ed è preferito all'italiano
+            if (enIndex !== -1 && (itIndex === -1 || enIndex < itIndex)) {
+              // Hugo inietta qui il Permalink corretto della pagina inglese
+              window.location.replace("{{ .Permalink }}");
+            }
+          }
+        })();
+      </script>
+    {{ end }}
+  {{ end }}
+{{ end }}

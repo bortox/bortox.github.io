@@ -3,7 +3,6 @@ title: "Informativa sulla privacy di bortox.it"
 description: "Privacy Policy di bortox.it, servizi e dati personali raccolti sul sito."
 date: 2022-06-11 20:00:00
 lastmod: 2025-08-02
-showAuthor: false
 showEdit: false
 showTableOfContents: false
 showAuthor: false
@@ -14,9 +13,7 @@ sharingLinks: false
 showDate: false
 showReadingtime: false
 showWordCount: false
-showEdit: false
 showPagination: false
-sharingLinks: false
 ---
 
 bortox tutela la privacy dei propri utenti.
