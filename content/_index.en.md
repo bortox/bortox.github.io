@@ -6,10 +6,8 @@ showTableOfContents: true
 
 Hello :wave: I am an Electronics Engineering :zap: student at SDU. I am passionate about building applications to solve practical problems. 
 
-{{% comment %}}
 {{< button href="https://work.bortox.eu/" target="_blank" >}}
-Check out the interactive CV{{< /button >}}
- {{% /comment %}}
+Check out the interactive CV Operating System{{< /button >}}
 
 ## Projects
 
