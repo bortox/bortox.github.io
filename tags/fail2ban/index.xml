@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fail2ban on :it: Andrea Bortolotti | Bortox 🇪🇺</title><link>https://bortox.it/tags/fail2ban/</link><description>Recent content in Fail2ban on :it: Andrea Bortolotti | Bortox 🇪🇺</description><generator>Hugo</generator><language>it</language><copyright>Contenuto sotto licenza: [ :link: CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0)</copyright><lastBuildDate>Mon, 28 Feb 2022 20:21:02 +0000</lastBuildDate><atom:link href="https://bortox.it/tags/fail2ban/index.xml" rel="self" type="application/rss+xml"/><item><title>Snippet di codice per la gestione di Fail2Ban</title><link>https://bortox.it/article/snippet-fail2ban/</link><pubDate>Mon, 28 Feb 2022 20:21:02 +0000</pubDate><guid>https://bortox.it/article/snippet-fail2ban/</guid><description>&lt;p>Breve guida all&amp;rsquo;uso di Fail2Ban, appunti personali con diversi snippet. Argomenti trattati in breve:&lt;/p>
-&lt;ul>
-&lt;li>Come creare filtri e jail Fail2Ban per i tentativi d&amp;rsquo;accesso ad un&amp;rsquo;applicazione web come Wallabag&lt;/li>
-&lt;li>Come configurare una jail per gli IP recidivi&lt;/li>
-&lt;li>Come ricevere un messaggio via telegram quando un IP viene bannato&lt;/li>
-&lt;li>Come modificare le impostazioni predefinite&lt;/li>
-&lt;/ul></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fail2ban on :it: Andrea Bortolotti | Bortox 🇪🇺</title><link>https://bortox.it/tags/fail2ban/</link><description>Recent content in Fail2ban on :it: Andrea Bortolotti | Bortox 🇪🇺</description><generator>Hugo</generator><language>it</language><copyright>Contenuto sotto licenza: [ :link: CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0)</copyright><lastBuildDate>Mon, 28 Feb 2022 20:21:02 +0000</lastBuildDate><atom:link href="https://bortox.it/tags/fail2ban/index.xml" rel="self" type="application/rss+xml"/><item><title>Snippet di codice per la gestione di Fail2Ban</title><link>https://bortox.it/article/snippet-fail2ban/</link><pubDate>Mon, 28 Feb 2022 20:21:02 +0000</pubDate><guid>https://bortox.it/article/snippet-fail2ban/</guid><description>&lt;p&gt;Breve guida all&amp;rsquo;uso di Fail2Ban, appunti personali con diversi snippet. Argomenti trattati in breve:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Come creare filtri e jail Fail2Ban per i tentativi d&amp;rsquo;accesso ad un&amp;rsquo;applicazione web come Wallabag&lt;/li&gt;
+&lt;li&gt;Come configurare una jail per gli IP recidivi&lt;/li&gt;
+&lt;li&gt;Come ricevere un messaggio via telegram quando un IP viene bannato&lt;/li&gt;
+&lt;li&gt;Come modificare le impostazioni predefinite&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

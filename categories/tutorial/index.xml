@@ -1,22 +1,161 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorial on :it: Andrea Bortolotti | Bortox 🇪🇺</title><link>https://bortox.it/categories/tutorial/</link><description>Recent content in Tutorial on :it: Andrea Bortolotti | Bortox 🇪🇺</description><generator>Hugo</generator><language>it</language><copyright>Contenuto sotto licenza: [ :link: CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0)</copyright><lastBuildDate>Mon, 22 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bortox.it/categories/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>Risolvere errore in fastboot boot partition is smaller than boot image mentre si installa DivestOS sul Fairphone 3</title><link>https://bortox.it/article/fix-fastboot-error-divestos-fairphone-3/</link><pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate><guid>https://bortox.it/article/fix-fastboot-error-divestos-fairphone-3/</guid><description>Seguendo le istruzioni sul sito ufficiale di DivestOS, dopo aver riavviato il bootloader sbloccato, si dovrebbe procedere come segue
-Se fastboot.zip è disponibile: $ fastboot update divested-version-date-dos-device-fastboot.zip Se è disponibile il file recovery.img: $ fastboot flash recovery divested-version-date-dos-device-recovery.img
-Ho scaricato entrambi i file per installare DivestOS nel modo che utilizza fastboot, ma con il mio Fairphone 3 non ha funzionato.
-Quando provo a fare fastboot update divested-19.1-20220808-dos-FP3-fastboot.zip succede questo
--------------------------------------------- Bootloader Version.</description></item><item><title>Comprimere e ottimizzare immagini png con pngquant</title><link>https://bortox.it/article/optimize-png-pngquant/</link><pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate><guid>https://bortox.it/article/optimize-png-pngquant/</guid><description>Navigando su F-droid - uno store di app open-source - ho scoperto l&amp;rsquo;app Atomize. Tale app ha lo scopo di ridurre la taglia di un&amp;rsquo;immagine in formato png, spesso fino al 70%.
-Nel mio caso, utilizzando qualche screenshot o scan scaricata, la riduzione spesso raggiunge il 50% con perdite irrisorie (non si nota) nella qualità dell&amp;rsquo;immagine.
-Mi ha stupito, dunque ho aperto la schermata About app dove ho scoperto che l&amp;rsquo;app è semplicemente un front-end del binario open-source pngquant.</description></item><item><title>Convertire le immagini di un blog Jekyll in avif e webp con jekyll picture tag</title><link>https://bortox.it/article/jekyll-blog-webp-avif-images/</link><pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate><guid>https://bortox.it/article/jekyll-blog-webp-avif-images/</guid><description>Ho un blog con oltre 100 articoli, principalmente Compiti scolastici, dove ho convertito le immagini anche nei formati recenti .avif e .webp.
-Perché convertire le immagini in formati moderni? #Perché l&amp;rsquo;ho fatto? Principalmente per tre ragioni:
-Il punteggio di alcune pagine con molte immagini su PageSpeed a volte era minore di 90/100, mentre normalmente la media è di 99/100. Dopo aver abilitato la conversione webp sul mio blog Hugo ho notato una velocità di caricamento migliore e dei risparmi sulla banda e sulla taglia delle immagini.</description></item><item><title>Trasferire una cartella tra due computer linux sulla stessa rete locale con wget e http.server</title><link>https://bortox.it/article/trasferire-cartella-webserver/</link><pubDate>Sun, 01 May 2022 17:21:00 +0000</pubDate><guid>https://bortox.it/article/trasferire-cartella-webserver/</guid><description>Comandi necessari #Lista dei comandi necessari per trasferire file tra due computer disponibile subito qui sotto. Continuando l&amp;rsquo;articolo si trova una spiegazione più approfondita sull&amp;rsquo;intera procedura e su ogni parametro utilizzato di wget.
-Upload ip -a #Trova ip computer di upload python -m http.sever #Avvia un server http che espone i file nella directory corrente Download wget -np -r -l inf -R &amp;#34;index.html*&amp;#34; IP_UPLOAD:8000/Immagini # Usa per IP_UPLOAD l&amp;#39;ip trovato con ip -a Introduzione #Nei giorni scorsi avevo bisogno di trasferire la mia cartella della musica (~10GB) dal fisso al portatile e non ho trovato nessuna chiavetta attorno.</description></item><item><title>Snippet di codice per la gestione di Fail2Ban</title><link>https://bortox.it/article/snippet-fail2ban/</link><pubDate>Mon, 28 Feb 2022 20:21:02 +0000</pubDate><guid>https://bortox.it/article/snippet-fail2ban/</guid><description>&lt;p>Breve guida all&amp;rsquo;uso di Fail2Ban, appunti personali con diversi snippet. Argomenti trattati in breve:&lt;/p>
-&lt;ul>
-&lt;li>Come creare filtri e jail Fail2Ban per i tentativi d&amp;rsquo;accesso ad un&amp;rsquo;applicazione web come Wallabag&lt;/li>
-&lt;li>Come configurare una jail per gli IP recidivi&lt;/li>
-&lt;li>Come ricevere un messaggio via telegram quando un IP viene bannato&lt;/li>
-&lt;li>Come modificare le impostazioni predefinite&lt;/li>
-&lt;/ul></description></item><item><title>Creare un Discord Webhook ed inviare messaggi con Python</title><link>https://bortox.it/article/discord-webhook/</link><pubDate>Sat, 16 Oct 2021 14:47:00 +0000</pubDate><guid>https://bortox.it/article/discord-webhook/</guid><description>&lt;p>In questo articolo esporrò il metodo più veloce per creare uno webhook Discord, ossia un collegamento da sfruttare con Python per inviare messaggi in canali specifici di un server.&lt;/p></description></item><item><title>Schede laterali personalizzate su Firefox con Sidebery</title><link>https://bortox.it/article/schede-laterali-firefox-sidebery/</link><pubDate>Sun, 26 Sep 2021 22:00:00 +0000</pubDate><guid>https://bortox.it/article/schede-laterali-firefox-sidebery/</guid><description>&lt;p>Questo articolo è una semplice guida su come &lt;strong>abilitare le schede a lato dello schermo&lt;/strong> su Firefox, attraverso l&amp;rsquo;estensione Sidebery. Grazie a questo &lt;em>semplice accorgimento&lt;/em>, riuscirete a tenere aperte contemporaneamente oltre &lt;strong>cento schede&lt;/strong> ed il titolo di ognuna delle cento. Inoltre con Sidebery si possono anche &lt;strong>suddividere in categorie&lt;/strong> gruppi di schede, per esempio la categoria mail.&lt;/p></description></item><item><title>Installa Ruby e Jekyll su OpenSUSE Tumbleweed</title><link>https://bortox.it/article/ruby-open-suse/</link><pubDate>Sun, 26 Sep 2021 15:07:00 +0000</pubDate><guid>https://bortox.it/article/ruby-open-suse/</guid><description>&lt;p>OpenSuse è una distro che posso consigliare. Veloce e stabile, Europea ed anche facile da personalizzare grazie a YAST.&lt;/p>
-&lt;p>Nei primi giorni d&amp;rsquo;uso però ho incontrato un problema: &lt;strong>non riuscivo ad installare Jekyll, il programma scritto in Ruby&lt;/strong> che uso per compilare la maggior parte dei miei siti statici.&lt;/p></description></item><item><title>Cambiare DNS su Android 9+ e bloccare le pubblicità</title><link>https://bortox.it/article/come-bloccare-le-pubblicita-su-android-9/</link><pubDate>Tue, 31 Aug 2021 09:28:00 +0000</pubDate><guid>https://bortox.it/article/come-bloccare-le-pubblicita-su-android-9/</guid><description>&lt;p>In questo articolo sarà spiegata una semplice e sicura strategia per riuscire a bloccare la maggior parte delle pubblicità presenti nelle app e nella navigazione su internet con un dispositivo Android 9 o superiore attraverso il DNS privato.&lt;/p></description></item><item><title>Minare punti Twitch AFK con Twitch Channel Points Miner</title><link>https://bortox.it/article/twitch-points-scommettere-automaticamente/</link><pubDate>Mon, 23 Aug 2021 11:05:00 +0000</pubDate><guid>https://bortox.it/article/twitch-points-scommettere-automaticamente/</guid><description>&lt;p>Per questo semplice tutorial, useremo &lt;a href="https://github.com/Tkd-Alex/Twitch-Channel-Points-Miner-v2" target="_blank" rel="noreferrer">&lt;strong>Twitch-Channel-Points-Miner-v2&lt;/strong>&lt;/a>&lt;strong>,&lt;/strong> un semplice script che &lt;strong>guarderà una stream al posto tuo e guadagnerà punti canale&lt;/strong>.&lt;/p>
-&lt;p>Successivamente sarà trattato anche un &lt;strong>approfondimento&lt;/strong> sulle &lt;strong>strategie&lt;/strong> di scommessa nei &lt;strong>pronostici&lt;/strong>, utilizzate da questo programma.&lt;/p></description></item><item><title>Come usare gli shaders su MPV per migliorare anime vecchi con Anime4K</title><link>https://bortox.it/article/upscale-anime/</link><pubDate>Fri, 20 Aug 2021 21:00:00 +0000</pubDate><guid>https://bortox.it/article/upscale-anime/</guid><description>&lt;p>Per migliorare la qualità di anime come Neon Genesis Evangelion ed altri da 544p a (circa) 2K/4K, dovremo affidarci ad Anime4k,
-&lt;em>un insieme di algoritmi open-source di &lt;strong>upscaling&lt;/strong>/denoising di &lt;strong>anime&lt;/strong> in tempo reale di alta qualità
-che possono essere implementati in qualsiasi linguaggio di programmazione&lt;/em>.&lt;/p></description></item><item><title>Installare una stampante Samsung in meno di un minuto su Arch Linux</title><link>https://bortox.it/article/stampante-samsung-arch/</link><pubDate>Wed, 02 Jun 2021 17:00:00 +0000</pubDate><guid>https://bortox.it/article/stampante-samsung-arch/</guid><description>&lt;p>Ecco come utilizzare una stampante Samsung con una distro basata su Arch. Il tempo necessario per il procedimento è circa un minuto, poi potrete stampare con la vostra stampante, la quale sarà automaticamente rilevata dal sistema.&lt;/p></description></item><item><title>Pandas | Come creare e gestire tabelle con incertezze.</title><link>https://bortox.it/article/pandas/</link><pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate><guid>https://bortox.it/article/pandas/</guid><description>Tabella originale: # N° Pilone Cronometro 1 Cronometro 2 Cronometro 3 Tempo Medio 0 0 0 0 0s 1 5.44 5.30 5.56 (5.43±0.13)s 2 11.03 11.21 11.25 (11,63±0.11)s 3 16.63 16.64 16.65 (16.64±0.01)s 4 21.83 22.34 21.82 (22.09±0.26)s 5 27.80 27.35 27.28 (27.54±0.26)s Tabella dopo manipolazioni con Pandas: # Istante di Tempo Intervallo di Tempo Posizione Spostamento Velocità (0.0±0.0)s (0.0±0.0)s (0±0.0)m (0.0±0.0)m (nan±nan)m/s (5.43±0.13)s (5.43±0.13)s (1±0.01)m (1.0±0.01)m (0.18±0.01)m/s (11.14±0.11)s (5.71±0.24)s (2±0.</description></item><item><title>Come aggiungere Mathjax ad un sito Jekyll dinamicamente</title><link>https://bortox.it/article/inserire-mathjax-dinamicamente-in-un-blog-jekyll/</link><pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate><guid>https://bortox.it/article/inserire-mathjax-dinamicamente-in-un-blog-jekyll/</guid><description>1 ) Prepara le pagine #Siccome non vogliamo che lo script di Mathjax venga caricato - inutilmente - per ogni pagina,1 useremo la sintassi liquid per farlo caricare solo quando serve.
-Nei post in cui dovrai caricare Mathjax, aggiungi l&amp;rsquo; attributo math: 'yes' nel Front Matter.
-Questo attributo servirà per inserire un blocco if else con liquid nel file _/includes/head.html ( o nel tag head del file html di default per le tue pagine ) per caricare dinamicamente lo script di Mathjax.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorial on :it: Andrea Bortolotti | Bortox 🇪🇺</title><link>https://bortox.it/categories/tutorial/</link><description>Recent content in Tutorial on :it: Andrea Bortolotti | Bortox 🇪🇺</description><generator>Hugo</generator><language>it</language><copyright>Contenuto sotto licenza: [ :link: CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0)</copyright><lastBuildDate>Mon, 22 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bortox.it/categories/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>Risolvere errore in fastboot boot partition is smaller than boot image mentre si installa DivestOS sul Fairphone 3</title><link>https://bortox.it/article/fix-fastboot-error-divestos-fairphone-3/</link><pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate><guid>https://bortox.it/article/fix-fastboot-error-divestos-fairphone-3/</guid><description>&lt;p&gt;Seguendo le istruzioni sul sito ufficiale di DivestOS, dopo aver riavviato il bootloader sbloccato, si dovrebbe procedere come segue&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Se fastboot.zip è disponibile: $ fastboot update divested-version-date-dos-device-fastboot.zip
+Se è disponibile il file recovery.img: $ fastboot flash recovery divested-version-date-dos-device-recovery.img&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Ho scaricato entrambi i file per installare DivestOS nel modo che utilizza fastboot, ma con il mio Fairphone 3 non ha funzionato.&lt;/p&gt;
+&lt;p&gt;Quando provo a fare &lt;code&gt;fastboot update divested-19.1-20220808-dos-FP3-fastboot.zip&lt;/code&gt; succede questo&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;--------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Bootloader Version...: 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Baseband Version.....: 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Serial Number........: A123BCEF4567
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;--------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;extracting android-info.txt &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt; MB&lt;span class="o"&gt;)&lt;/span&gt; to RAM...
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Checking &lt;span class="s1"&gt;&amp;#39;product&amp;#39;&lt;/span&gt; OKAY &lt;span class="o"&gt;[&lt;/span&gt; 0.017s&lt;span class="o"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Setting current slot to &lt;span class="s1"&gt;&amp;#39;b&amp;#39;&lt;/span&gt; OKAY &lt;span class="o"&gt;[&lt;/span&gt; 0.020s&lt;span class="o"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;extracting boot.img &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;64&lt;/span&gt; MB&lt;span class="o"&gt;)&lt;/span&gt; to disk... took 0.901s
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;archive does not contain &lt;span class="s1"&gt;&amp;#39;boot.sig&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;fastboot: error: boot partition is smaller than boot image
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="come-risolvere-lerrore-in-fastboot-la-partizione-di-avvio-è-più-piccola-dellimmagine-di-avvio" class="relative group"&gt;Come risolvere l&amp;rsquo;errore in fastboot la partizione di avvio è più piccola dell&amp;rsquo;immagine di avvio &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#come-risolvere-lerrore-in-fastboot-la-partizione-di-avvio-%c3%a8-pi%c3%b9-piccola-dellimmagine-di-avvio" aria-label="Ancora"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Secondo &lt;a href="https://forum.f-droid.org/t/divestos-long-term-device-support-with-enhanced-privacy-and-security/10105/759" target="_blank" rel="noreferrer"&gt;la risposta dello sviluppatore di DivestOS in questo forum&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Comprimere e ottimizzare immagini png con pngquant</title><link>https://bortox.it/article/optimize-png-pngquant/</link><pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate><guid>https://bortox.it/article/optimize-png-pngquant/</guid><description>&lt;p&gt;Navigando su F-droid - uno store di app open-source - ho scoperto l&amp;rsquo;app Atomize. Tale app ha lo scopo di &lt;strong&gt;ridurre la taglia di un&amp;rsquo;immagine in formato png&lt;/strong&gt;, spesso fino al 70%.&lt;/p&gt;
+&lt;p&gt;Nel mio caso, utilizzando qualche screenshot o scan scaricata, la riduzione spesso raggiunge il 50% con perdite irrisorie (non si nota) nella qualità dell&amp;rsquo;immagine.&lt;/p&gt;
+&lt;p&gt;Mi ha stupito, dunque ho aperto la schermata &lt;em&gt;About app&lt;/em&gt; dove ho scoperto che l&amp;rsquo;app è semplicemente un front-end del binario open-source &lt;a href="https://pngquant.org/" target="_blank" rel="noreferrer"&gt;pngquant&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Convertire le immagini di un blog Jekyll in avif e webp con jekyll picture tag</title><link>https://bortox.it/article/jekyll-blog-webp-avif-images/</link><pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate><guid>https://bortox.it/article/jekyll-blog-webp-avif-images/</guid><description>&lt;p&gt;Ho un blog con oltre 100 articoli, principalmente &lt;a href="https://bortox.it/Compiti-scolastici" target="_blank" rel="noreferrer"&gt;Compiti scolastici&lt;/a&gt;, dove ho convertito le immagini anche nei formati recenti .avif e .webp.&lt;/p&gt;
+&lt;h2 id="perché-convertire-le-immagini-in-formati-moderni" class="relative group"&gt;Perché convertire le immagini in formati moderni? &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#perch%c3%a9-convertire-le-immagini-in-formati-moderni" aria-label="Ancora"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Perché l&amp;rsquo;ho fatto? Principalmente per tre ragioni:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Il punteggio di alcune pagine con molte immagini su PageSpeed a volte era minore di 90/100, mentre normalmente la media è di 99/100.&lt;/li&gt;
+&lt;li&gt;Dopo aver abilitato la conversione webp sul mio blog Hugo ho notato una velocità di caricamento migliore e dei risparmi sulla banda e sulla taglia delle immagini.&lt;/li&gt;
+&lt;li&gt;Questo articolo sulla &lt;a href="https://idlewords.com/talks/website_obesity.htm" target="_blank" rel="noreferrer"&gt;&lt;em&gt;crisi di obesità&lt;/em&gt; (:gb:)&lt;/a&gt; del web mi ha convinto a ridurre la taglia delle pagine di bortox e le immagini erano il problema più grande.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="come-convertire-le-immagini-in-webp-e-avif-su-jekyll" class="relative group"&gt;Come convertire le immagini in webp e avif su Jekyll &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#come-convertire-le-immagini-in-webp-e-avif-su-jekyll" aria-label="Ancora"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Oserei dire che su Jekyll abbiamo quasi &amp;ldquo;la pappa pronta&amp;rdquo; siccome arriva in nostro soccorso un eccellente plugin: &lt;strong&gt;Jekyll Picture Tag&lt;/strong&gt;, che abilita sia immagini responsive sia la conversione in formati più moderni.&lt;/p&gt;</description></item><item><title>Trasferire una cartella tra due computer linux sulla stessa rete locale con wget e http.server</title><link>https://bortox.it/article/trasferire-cartella-webserver/</link><pubDate>Sun, 01 May 2022 17:21:00 +0000</pubDate><guid>https://bortox.it/article/trasferire-cartella-webserver/</guid><description>&lt;h2 id="comandi-necessari" class="relative group"&gt;Comandi necessari &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#comandi-necessari" aria-label="Ancora"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Lista dei comandi necessari per trasferire file tra due computer disponibile subito qui sotto. Continuando l&amp;rsquo;articolo si trova una spiegazione più approfondita sull&amp;rsquo;intera procedura e su &lt;strong&gt;ogni parametro utilizzato&lt;/strong&gt; di wget.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Upload&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ip -a &lt;span class="c1"&gt;#Trova ip computer di upload&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;python -m http.sever &lt;span class="c1"&gt;#Avvia un server http che espone i file nella directory corrente&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Download&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;wget -np -r -l inf -R &lt;span class="s2"&gt;&amp;#34;index.html*&amp;#34;&lt;/span&gt; IP_UPLOAD:8000/Immagini &lt;span class="c1"&gt;# Usa per IP_UPLOAD l&amp;#39;ip trovato con ip -a&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="introduzione" class="relative group"&gt;Introduzione &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#introduzione" aria-label="Ancora"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Nei giorni scorsi avevo bisogno di trasferire la mia cartella della musica (~10GB) dal fisso al portatile e non ho trovato nessuna chiavetta attorno. Dunque ho pensato ad un modo veloce per trasferire i file sulla rete locale, entrambi i computer infatti sono connessi alla stessa rete wifi. Sul pc che invia i file ho utilizzato il server http di Python mentre sul ricevente wget per scaricare i file.&lt;/p&gt;</description></item><item><title>Snippet di codice per la gestione di Fail2Ban</title><link>https://bortox.it/article/snippet-fail2ban/</link><pubDate>Mon, 28 Feb 2022 20:21:02 +0000</pubDate><guid>https://bortox.it/article/snippet-fail2ban/</guid><description>&lt;p&gt;Breve guida all&amp;rsquo;uso di Fail2Ban, appunti personali con diversi snippet. Argomenti trattati in breve:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Come creare filtri e jail Fail2Ban per i tentativi d&amp;rsquo;accesso ad un&amp;rsquo;applicazione web come Wallabag&lt;/li&gt;
+&lt;li&gt;Come configurare una jail per gli IP recidivi&lt;/li&gt;
+&lt;li&gt;Come ricevere un messaggio via telegram quando un IP viene bannato&lt;/li&gt;
+&lt;li&gt;Come modificare le impostazioni predefinite&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Creare un Discord Webhook ed inviare messaggi con Python</title><link>https://bortox.it/article/discord-webhook/</link><pubDate>Sat, 16 Oct 2021 14:47:00 +0000</pubDate><guid>https://bortox.it/article/discord-webhook/</guid><description>&lt;p&gt;In questo articolo esporrò il metodo più veloce per creare uno webhook Discord, ossia un collegamento da sfruttare con Python per inviare messaggi in canali specifici di un server.&lt;/p&gt;</description></item><item><title>Schede laterali personalizzate su Firefox con Sidebery</title><link>https://bortox.it/article/schede-laterali-firefox-sidebery/</link><pubDate>Sun, 26 Sep 2021 22:00:00 +0000</pubDate><guid>https://bortox.it/article/schede-laterali-firefox-sidebery/</guid><description>&lt;p&gt;Questo articolo è una semplice guida su come &lt;strong&gt;abilitare le schede a lato dello schermo&lt;/strong&gt; su Firefox, attraverso l&amp;rsquo;estensione Sidebery. Grazie a questo &lt;em&gt;semplice accorgimento&lt;/em&gt;, riuscirete a tenere aperte contemporaneamente oltre &lt;strong&gt;cento schede&lt;/strong&gt; ed il titolo di ognuna delle cento. Inoltre con Sidebery si possono anche &lt;strong&gt;suddividere in categorie&lt;/strong&gt; gruppi di schede, per esempio la categoria mail.&lt;/p&gt;</description></item><item><title>Installa Ruby e Jekyll su OpenSUSE Tumbleweed</title><link>https://bortox.it/article/ruby-open-suse/</link><pubDate>Sun, 26 Sep 2021 15:07:00 +0000</pubDate><guid>https://bortox.it/article/ruby-open-suse/</guid><description>&lt;p&gt;OpenSuse è una distro che posso consigliare. Veloce e stabile, Europea ed anche facile da personalizzare grazie a YAST.&lt;/p&gt;
+&lt;p&gt;Nei primi giorni d&amp;rsquo;uso però ho incontrato un problema: &lt;strong&gt;non riuscivo ad installare Jekyll, il programma scritto in Ruby&lt;/strong&gt; che uso per compilare la maggior parte dei miei siti statici.&lt;/p&gt;</description></item><item><title>Cambiare DNS su Android 9+ e bloccare le pubblicità</title><link>https://bortox.it/article/come-bloccare-le-pubblicita-su-android-9/</link><pubDate>Tue, 31 Aug 2021 09:28:00 +0000</pubDate><guid>https://bortox.it/article/come-bloccare-le-pubblicita-su-android-9/</guid><description>&lt;p&gt;In questo articolo sarà spiegata una semplice e sicura strategia per riuscire a bloccare la maggior parte delle pubblicità presenti nelle app e nella navigazione su internet con un dispositivo Android 9 o superiore attraverso il DNS privato.&lt;/p&gt;</description></item><item><title>Minare punti Twitch AFK con Twitch Channel Points Miner</title><link>https://bortox.it/article/twitch-points-scommettere-automaticamente/</link><pubDate>Mon, 23 Aug 2021 11:05:00 +0000</pubDate><guid>https://bortox.it/article/twitch-points-scommettere-automaticamente/</guid><description>&lt;p&gt;Per questo semplice tutorial, useremo &lt;a href="https://github.com/Tkd-Alex/Twitch-Channel-Points-Miner-v2" target="_blank" rel="noreferrer"&gt;&lt;strong&gt;Twitch-Channel-Points-Miner-v2&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;,&lt;/strong&gt; un semplice script che &lt;strong&gt;guarderà una stream al posto tuo e guadagnerà punti canale&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Successivamente sarà trattato anche un &lt;strong&gt;approfondimento&lt;/strong&gt; sulle &lt;strong&gt;strategie&lt;/strong&gt; di scommessa nei &lt;strong&gt;pronostici&lt;/strong&gt;, utilizzate da questo programma.&lt;/p&gt;</description></item><item><title>Come usare gli shaders su MPV per migliorare anime vecchi con Anime4K</title><link>https://bortox.it/article/upscale-anime/</link><pubDate>Fri, 20 Aug 2021 21:00:00 +0000</pubDate><guid>https://bortox.it/article/upscale-anime/</guid><description>&lt;p&gt;Per migliorare la qualità di anime come Neon Genesis Evangelion ed altri da 544p a (circa) 2K/4K, dovremo affidarci ad Anime4k,
+&lt;em&gt;un insieme di algoritmi open-source di &lt;strong&gt;upscaling&lt;/strong&gt;/denoising di &lt;strong&gt;anime&lt;/strong&gt; in tempo reale di alta qualità
+che possono essere implementati in qualsiasi linguaggio di programmazione&lt;/em&gt;.&lt;/p&gt;</description></item><item><title>Installare una stampante Samsung in meno di un minuto su Arch Linux</title><link>https://bortox.it/article/stampante-samsung-arch/</link><pubDate>Wed, 02 Jun 2021 17:00:00 +0000</pubDate><guid>https://bortox.it/article/stampante-samsung-arch/</guid><description>&lt;p&gt;Ecco come utilizzare una stampante Samsung con una distro basata su Arch. Il tempo necessario per il procedimento è circa un minuto, poi potrete stampare con la vostra stampante, la quale sarà automaticamente rilevata dal sistema.&lt;/p&gt;</description></item><item><title>Pandas | Come creare e gestire tabelle con incertezze.</title><link>https://bortox.it/article/pandas/</link><pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate><guid>https://bortox.it/article/pandas/</guid><description>&lt;h3 id="tabella-originale" class="relative group"&gt;Tabella originale: &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tabella-originale" aria-label="Ancora"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;N° Pilone&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;Cronometro 1&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;Cronometro 2&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;Cronometro 3&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;Tempo Medio&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0s&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;5.44&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;5.30&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;5.56&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;(5.43±0.13)s&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;11.03&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;11.21&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;11.25&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;(11,63±0.11)s&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;16.63&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;16.64&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;16.65&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;(16.64±0.01)s&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;21.83&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;22.34&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;21.82&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;(22.09±0.26)s&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;27.80&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;27.35&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;27.28&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;(27.54±0.26)s&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="tabella-dopo-manipolazioni-con-pandas" class="relative group"&gt;Tabella dopo manipolazioni con Pandas: &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tabella-dopo-manipolazioni-con-pandas" aria-label="Ancora"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Istante di Tempo&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Intervallo di Tempo&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Posizione&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Spostamento&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Velocità&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;(0.0±0.0)s&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(0.0±0.0)s&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(0±0.0)m&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(0.0±0.0)m&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(nan±nan)m/s&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;(5.43±0.13)s&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(5.43±0.13)s&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(1±0.01)m&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(1.0±0.01)m&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(0.18±0.01)m/s&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;(11.14±0.11)s&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(5.71±0.24)s&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(2±0.01)m&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(1.0±0.02)m&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(0.18±0.01)m/s&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;(16.64±0.01)s&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(5.5±0.12)s&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(3±0.01)m&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(1.0±0.02)m&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(0.18±0.01)m/s&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;(22.08±0.26)s&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(5.44±0.27)s&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(4±0.01)m&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(1.0±0.02)m&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(0.18±0.01)m/s&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;(27.54±0.26)s&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(5.46±0.52)s&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(5±0.01)m&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(1.0±0.02)m&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(0.18±0.02)m/s&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="come-sono-state-generate-queste-tabelle" class="relative group"&gt;Come sono state generate queste tabelle &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#come-sono-state-generate-queste-tabelle" aria-label="Ancora"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;Per queste tabelle ho usato il modulo Pandas, utile nell&amp;rsquo; elaborazione di dati, scrivendo un codice in Python. Python è un linguaggio di programmazione semplice.&lt;/p&gt;</description></item><item><title>Come aggiungere Mathjax ad un sito Jekyll dinamicamente</title><link>https://bortox.it/article/inserire-mathjax-dinamicamente-in-un-blog-jekyll/</link><pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate><guid>https://bortox.it/article/inserire-mathjax-dinamicamente-in-un-blog-jekyll/</guid><description>&lt;h4 id="1--prepara-le-pagine" class="relative group"&gt;1 ) Prepara le pagine &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#1--prepara-le-pagine" aria-label="Ancora"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h4&gt;&lt;p&gt;Siccome non vogliamo che lo script di Mathjax venga caricato - inutilmente - per ogni pagina,&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt; useremo la sintassi liquid per farlo caricare solo quando serve.&lt;/p&gt;
+&lt;p&gt;Nei post in cui dovrai caricare Mathjax, aggiungi l&amp;rsquo; attributo &lt;code&gt;math: 'yes'&lt;/code&gt; nel &lt;a href="https://jekyllrb.com/docs/front-matter/" target="_blank" rel="noreferrer"&gt;Front Matter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Questo attributo servirà per inserire un blocco if else con liquid nel file &lt;code&gt;_/includes/head.html&lt;/code&gt; ( o nel tag head del file html di default per le tue pagine ) per caricare dinamicamente lo script di Mathjax.&lt;/p&gt;</description></item></channel></rss>
