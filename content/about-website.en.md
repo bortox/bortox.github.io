@@ -21,26 +21,20 @@ The **personal section** contains a [collection of :camera:](https://bortox.eu) 
 
 #### Blog 💻
 
-The [computer blog (:it:,:uk:)]({{< ref "/article" >}}) instead contains guides and notes to improve the experience of using various Linux 💻 and Android 📱 distros. I use Arch, btw_.
+The [computer blog (:it:,:uk:)]({{< ref "/article" >}}) instead contains guides and notes to improve the experience of using various Linux 💻 and Android 📱 distros. 
 
 ---
 ### :school_satchel: School
 
 #### Homework and school notes :memo:
 
-The school section contains the site [Compiti Scolastici (:it:)](https://bortox.it/Compiti-scolastici), a growing collection of all the notes I took in high school although I update it less lately because I have less time. 
-
-I'm migrating all the content from a previous custom jekyll theme to this one, so **the English content will be soon available** in the English version of bortox.it. 
-
+The school section contains the site [Compiti Scolastici (:it:)](https://bortox.it/Compiti-scolastici), a growing collection of all the notes I took in high school although I update it much less lately because I have less time. 
 
 The site can be found in Google results and contains over 100 posts. The most visited ones remain the Latin Versions, because - between you and me - who translates versions from Latin using only the vocabulary without even copying a little bit online?
+Honestly - now in 2026 is sad that people just use ChatGPT without even copying data.
+
 
 If you'd like to contribute - code, knowledge or money - to Compiti Scolastici you can see the options available at [contribute-cs](https://bortox.it/contribuisci-cs/)
-
-#### PCTO Environmental Monitoring :telescope:
-
-A new addition to the school section is [PCTO Environmental Monitoring (:it:)](https://bortox.it/posts/pcto-monitoraggio-ambientale). The PCTO is a physics course in collaboration with the CNR on climate change and environmental monitoring using spectroscopy.
-
 
 ## Eco-sustainability :deciduous_tree:
 

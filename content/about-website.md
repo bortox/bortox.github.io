@@ -29,14 +29,12 @@ Il [blog personale (:it:,:uk:)]({{< ref "/article" >}}) contiene appunti persona
 
 La sezione scolastica contiene il sito [Compiti e appunti scolastici (:it:)](https://bortox.it/Compiti-scolastici/), una raccolta in crescita di tutti gli appunti che ho preso alle superiori anche se ultimamente lo aggiorno meno perché ho meno tempo. Il sito si trova nei risultati di Google e contiene oltre 100 post. Le più visitate restano le Versioni di Latino, perché - detto fra noi - chi traduce dal Latino le versioni con il vocabolario senza mai copiarle online?
 
+> Andrea del futuro: Questi erano i bei tempi andati in cui ancora ChatGPT e tutto l'hype sugli LLM non esisteva. 
+
 ##### Contribuire a Compiti e Appunti Scolastici
 
 Se vuoi contribuire - codice, conoscenza o soldi - a _Compiti e appunti scolastici_ puoi vedere le opzioni disponibili su [contribuisci-cs](https://bortox.it/contribuisci-cs/).
 
-
-#### PCTO Monitoraggio Ambientale :telescope:
-
-Una nuova aggiunta alla sezione scolastica è invece [PCTO Monitoraggio Ambientale (:it:)]({{< ref "posts/pcto-monitoraggio-ambientale" >}}). Il PCTO è un percorso di Fisica in collaborazione con il CNR sul cambiamento climatico ed il monitoraggio dell'ambiente utilizzando la spettroscopia.
 
 ## Ecosostenibilità :deciduous_tree:
 
